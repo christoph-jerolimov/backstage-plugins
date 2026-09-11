@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terasky-backstage-plugin-app-module-global-signin-page
+  title: "@terasky/backstage-plugin-app-module-global-signin-page"
+  description: Configuration-driven sign-in page module for Backstage supporting all core authentication providers
+  tags:
+    - frontend-plugin-module
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: TeraSky-OSS/backstage-plugins
+    backstage.io/source-location: url:https://github.com/TeraSky-OSS/backstage-plugins/tree/HEAD/plugins/app-module-global-signin-page
+    backstage-plugins.io/role: frontend-plugin-module
+    backstage-plugins.io/package-version: 0.12.0
+  links:
+    - url: https://github.com/TeraSky-OSS/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://terasky.com
+      title: Homepage
+spec:
+  type: frontend-plugin-module
+  lifecycle: unknown
+  owner: terasky-oss

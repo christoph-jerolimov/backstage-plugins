@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-catalog-backend-module-apiiro-entity
+  title: "@backstage-community/plugin-catalog-backend-module-apiiro-entity-processor"
+  description: The apiiro-entity-processor backend module for the catalog plugin.
+  tags:
+    - backend-plugin-module
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/apiiro/plugins/catalog-backend-module-apiiro-entity-processor
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 1.1.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: backstage

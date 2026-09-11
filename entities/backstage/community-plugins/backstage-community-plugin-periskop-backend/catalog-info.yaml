@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-periskop-backend
+  title: "@backstage-community/plugin-periskop-backend"
+  description: Backend plugin that proxies requests to Periskop server APIs for the Periskop frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/periskop/plugins/periskop-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.22.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://periskop.io
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

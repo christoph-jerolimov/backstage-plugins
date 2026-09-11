@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: web-seven-backstage-module-openfga-permission-policy
+  title: "@web-seven/backstage-module-openfga-permission-policy"
+  description: The permission-policy backend module for the permission plugin.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: web-seven/backstage-plugins
+    backstage.io/source-location: url:https://github.com/web-seven/backstage-plugins/tree/HEAD/plugins/module-openfga-permission-policy
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.1.2
+  links:
+    - url: https://github.com/web-seven/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: web-seven

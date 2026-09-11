@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tssc-plugins-backstage-community-plugin-multi-source-security-2
+  title: "@tssc-plugins/backstage-community-plugin-multi-source-security-viewer-backend"
+  description: Backend plugin providing the API that aggregates multi-source security scan data for the frontend viewer plugin.
+  tags:
+    - backend-plugin
+    - repo-tssc-backstage-plugins
+  annotations:
+    github.com/project-slug: redhat-appstudio/tssc-backstage-plugins
+    backstage.io/source-location: url:https://github.com/redhat-appstudio/tssc-backstage-plugins/tree/HEAD/plugins/multi-source-security-viewer-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.2.0
+  links:
+    - url: https://github.com/redhat-appstudio/tssc-backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://red.ht/trusted
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: redhat-appstudio

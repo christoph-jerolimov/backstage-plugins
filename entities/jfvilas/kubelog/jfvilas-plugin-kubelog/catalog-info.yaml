@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jfvilas-plugin-kubelog
+  title: "@jfvilas/plugin-kubelog"
+  description: Frontend plugin for viewing Kubernetes logs in Backstage
+  tags:
+    - frontend-plugin
+    - repo-kubelog
+  annotations:
+    github.com/project-slug: jfvilas/kubelog
+    backstage.io/source-location: url:https://github.com/jfvilas/kubelog/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.11.7
+  links:
+    - url: https://github.com/jfvilas/kubelog
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: jfvilas

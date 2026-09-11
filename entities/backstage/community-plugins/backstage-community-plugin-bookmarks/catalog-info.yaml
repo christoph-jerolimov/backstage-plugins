@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-bookmarks
+  title: "@backstage-community/plugin-bookmarks"
+  description: A Backstage plugin that helps you view your favorite websites and services.
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/bookmarks/plugins/bookmarks
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.14.1
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

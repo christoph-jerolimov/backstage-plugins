@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pagerduty-backstage-plugin
+  title: "@pagerduty/backstage-plugin"
+  description: A Backstage plugin that integrates towards PagerDuty
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: PagerDuty/backstage-plugins
+    backstage.io/source-location: url:https://github.com/PagerDuty/backstage-plugins/tree/HEAD/plugins/backstage-plugin
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.21.0
+  links:
+    - url: https://github.com/PagerDuty/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://pagerduty.github.io/backstage-plugin-docs/index.html
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: pagerduty

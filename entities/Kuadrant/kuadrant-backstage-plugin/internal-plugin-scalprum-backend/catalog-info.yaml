@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: internal-plugin-scalprum-backend
+  title: "@internal/plugin-scalprum-backend"
+  description: Backend plugin providing access to the Scalprum manifest and assets of installed dynamic frontend plugins.
+  tags:
+    - backend-plugin
+    - repo-kuadrant-backstage-plugin
+  annotations:
+    github.com/project-slug: Kuadrant/kuadrant-backstage-plugin
+    backstage.io/source-location: url:https://github.com/Kuadrant/kuadrant-backstage-plugin/tree/HEAD/plugins/scalprum-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/Kuadrant/kuadrant-backstage-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: kuadrant

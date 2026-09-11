@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parsifal-m-backstage-plugin-opa-authz-react
+  title: "@parsifal-m/backstage-plugin-opa-authz-react"
+  description: A Backstage frontend plugin that allows you to use OPA for authorization in the Backstage frontend
+  tags:
+    - web-library
+    - repo-backstage-opa-plugins
+  annotations:
+    github.com/project-slug: Parsifal-M/backstage-opa-plugins
+    backstage.io/source-location: url:https://github.com/Parsifal-M/backstage-opa-plugins/tree/HEAD/plugins/backstage-plugin-opa-authz-react
+    backstage-plugins.io/role: web-library
+    backstage-plugins.io/package-version: 2.1.1
+  links:
+    - url: https://github.com/Parsifal-M/backstage-opa-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: web-library
+  lifecycle: unknown
+  owner: parsifal-m

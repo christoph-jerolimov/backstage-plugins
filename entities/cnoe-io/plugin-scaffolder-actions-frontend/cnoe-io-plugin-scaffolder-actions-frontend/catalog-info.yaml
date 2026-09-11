@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cnoe-io-plugin-scaffolder-actions-frontend
+  title: "@cnoe-io/plugin-scaffolder-actions-frontend"
+  description: Frontend plugin adding a scaffolder field extension for picking a configured Kubernetes cluster and optionally its user credentials in templates.
+  tags:
+    - frontend-plugin
+    - repo-plugin-scaffolder-actions-frontend
+  annotations:
+    github.com/project-slug: cnoe-io/plugin-scaffolder-actions-frontend
+    backstage.io/source-location: url:https://github.com/cnoe-io/plugin-scaffolder-actions-frontend/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.1
+  links:
+    - url: https://github.com/cnoe-io/plugin-scaffolder-actions-frontend
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: cnoe-io

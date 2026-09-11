@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-algolia-node
+  title: backstage-plugin-algolia-node
+  description: Node library of shared modules used by the Algolia search backend for Backstage.
+  tags:
+    - node-library
+    - repo-backstage-algolia
+  annotations:
+    github.com/project-slug: modethirteen/backstage-algolia
+    backstage.io/source-location: url:https://github.com/modethirteen/backstage-algolia/tree/HEAD/plugins/backstage-plugin-algolia-node
+    backstage-plugins.io/role: node-library
+    backstage-plugins.io/package-version: 0.1.3
+  links:
+    - url: https://github.com/modethirteen/backstage-algolia
+      title: GitHub repository
+      icon: github
+spec:
+  type: node-library
+  lifecycle: unknown
+  owner: modethirteen

@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: k-phoen-backstage-plugin-announcements
+  title: "@k-phoen/backstage-plugin-announcements"
+  description: Frontend plugin that lists, displays, and manages announcements within Backstage, including a homepage widget.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-announcements
+  annotations:
+    github.com/project-slug: K-Phoen/backstage-plugin-announcements
+    backstage.io/source-location: url:https://github.com/K-Phoen/backstage-plugin-announcements/tree/HEAD/plugins/announcements
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/note: "Superseded: this plugin was migrated into backstage/community-plugins as @backstage-community/plugin-announcements."
+    backstage-plugins.io/package-version: 0.2.0
+  links:
+    - url: https://github.com/K-Phoen/backstage-plugin-announcements
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: k-phoen

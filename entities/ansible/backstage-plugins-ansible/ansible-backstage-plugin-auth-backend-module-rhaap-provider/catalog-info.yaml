@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible-backstage-plugin-auth-backend-module-rhaap-provider
+  title: "@ansible/backstage-plugin-auth-backend-module-rhaap-provider"
+  description: The rhaap-provider backend module for the auth plugin.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins-ansible
+  annotations:
+    github.com/project-slug: ansible/backstage-plugins-ansible
+    backstage.io/source-location: url:https://github.com/ansible/backstage-plugins-ansible/tree/HEAD/plugins/auth-backend-module-rhaap-provider
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 2.2.7
+  links:
+    - url: https://github.com/ansible/backstage-plugins-ansible
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: ansible

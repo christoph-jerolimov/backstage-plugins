@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: axis-backstage-plugin-readme-backend
+  title: "@axis-backstage/plugin-readme-backend"
+  description: Backend plugin that retrieves README files from an entity's source location for the Readme frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: AxisCommunications/backstage-plugins
+    backstage.io/source-location: url:https://github.com/AxisCommunications/backstage-plugins/tree/HEAD/plugins/readme-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.16.6
+  links:
+    - url: https://github.com/AxisCommunications/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: axiscommunications

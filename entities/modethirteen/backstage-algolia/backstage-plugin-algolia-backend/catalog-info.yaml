@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-algolia-backend
+  title: backstage-plugin-algolia-backend
+  description: Backend plugin with document collators, object builders, a proxy service, and an indexer for sending data to an Algolia search index.
+  tags:
+    - backend-plugin
+    - repo-backstage-algolia
+  annotations:
+    github.com/project-slug: modethirteen/backstage-algolia
+    backstage.io/source-location: url:https://github.com/modethirteen/backstage-algolia/tree/HEAD/plugins/backstage-plugin-algolia-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.7
+  links:
+    - url: https://github.com/modethirteen/backstage-algolia
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: modethirteen

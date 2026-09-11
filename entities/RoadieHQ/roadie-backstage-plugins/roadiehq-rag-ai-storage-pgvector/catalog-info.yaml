@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadiehq-rag-ai-storage-pgvector
+  title: "@roadiehq/rag-ai-storage-pgvector"
+  description: Backend plugin module that stores RAG AI embedding vectors in a PostgreSQL database.
+  tags:
+    - backend-plugin-module
+    - repo-roadie-backstage-plugins
+  annotations:
+    github.com/project-slug: RoadieHQ/roadie-backstage-plugins
+    backstage.io/source-location: url:https://github.com/RoadieHQ/roadie-backstage-plugins/tree/HEAD/plugins/backend/rag-ai-storage-pgvector
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 3.0.1
+  links:
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: roadiehq

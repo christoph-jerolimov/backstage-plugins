@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-topology
+  title: "@backstage-community/plugin-topology"
+  description: Frontend plugin that visualizes Kubernetes workloads (Deployments, Jobs, DaemonSets, StatefulSets, CronJobs, Pods, VMs) for a service.
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/topology/plugins/topology
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 3.0.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: seatgeek-backstage-plugin-entity-scaffolder-content
+  title: "@seatgeek/backstage-plugin-entity-scaffolder-content"
+  description: Frontend plugin that runs Software Templates from an entity page, auto-populating fields from that entity.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: seatgeek/backstage-plugins
+    backstage.io/source-location: url:https://github.com/seatgeek/backstage-plugins/tree/HEAD/plugins/entity-scaffolder-content
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.0.0-semantically-released
+  links:
+    - url: https://github.com/seatgeek/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: seatgeek

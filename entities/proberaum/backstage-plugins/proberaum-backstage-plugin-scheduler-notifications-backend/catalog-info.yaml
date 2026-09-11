@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: proberaum-backstage-plugin-scheduler-notifications-backend
+  title: "@proberaum/backstage-plugin-scheduler-notifications-backend"
+  description: Backend plugin that sends scheduled notifications within Backstage.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: proberaum/backstage-plugins
+    backstage.io/source-location: url:https://github.com/proberaum/backstage-plugins/tree/HEAD/workspaces/scheduler-notifications/plugins/scheduler-notifications-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.4.0
+  links:
+    - url: https://github.com/proberaum/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: proberaum

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-auth-backend-module-pingfederate-pro
+  title: "@backstage-community/plugin-auth-backend-module-pingfederate-provider"
+  description: The PingFederate provider backend module for the auth plugin.
+  tags:
+    - backend-plugin-module
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/pingidentity/plugins/auth-backend-module-pingfederate-provider
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.4.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: backstage

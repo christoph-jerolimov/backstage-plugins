@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: weaveworksoss-backstage-plugin-flux
+  title: "@weaveworksoss/backstage-plugin-flux"
+  description: Frontend plugin providing cards and pages showing Flux CD resources (Kustomizations, HelmReleases, sources, runtime state) for Kubernetes entities.
+  tags:
+    - frontend-plugin
+    - repo-weaveworks-backstage
+  annotations:
+    github.com/project-slug: weaveworks/weaveworks-backstage
+    backstage.io/source-location: url:https://github.com/weaveworks/weaveworks-backstage/tree/HEAD/plugins/backstage-plugin-flux
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/weaveworks/weaveworks-backstage
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: weaveworks

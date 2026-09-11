@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dapr-backstage-plugin-dapr
+  title: "@dapr/backstage-plugin-dapr"
+  description: Frontend plugin scaffold for integrating Dapr (Distributed Application Runtime) information into Backstage.
+  tags:
+    - frontend-plugin
+    - repo-dapr-backstage
+  annotations:
+    github.com/project-slug: dapr-sandbox/dapr-backstage
+    backstage.io/source-location: url:https://github.com/dapr-sandbox/dapr-backstage/tree/HEAD/plugins/dapr
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.2
+  links:
+    - url: https://github.com/dapr-sandbox/dapr-backstage
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/dapr-sandbox/dapr-backstage/blob/main/plugins/dapr/README.md
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: dapr-sandbox

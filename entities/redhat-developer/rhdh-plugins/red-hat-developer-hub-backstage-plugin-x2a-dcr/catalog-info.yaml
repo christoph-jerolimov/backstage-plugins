@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: red-hat-developer-hub-backstage-plugin-x2a-dcr
+  title: "@red-hat-developer-hub/backstage-plugin-x2a-dcr"
+  description: Legacy-frontend plugin providing the OAuth2 consent page for the Dynamic Client Registration (DCR) auth flow in RHDH 1.9.
+  tags:
+    - frontend-plugin
+    - repo-rhdh-plugins
+  annotations:
+    github.com/project-slug: redhat-developer/rhdh-plugins
+    backstage.io/source-location: url:https://github.com/redhat-developer/rhdh-plugins/tree/HEAD/workspaces/x2a/plugins/x2a-dcr
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.0.0
+  links:
+    - url: https://github.com/redhat-developer/rhdh-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: redhat-developer

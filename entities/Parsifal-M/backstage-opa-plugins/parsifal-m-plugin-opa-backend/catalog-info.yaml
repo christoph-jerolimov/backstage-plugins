@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parsifal-m-plugin-opa-backend
+  title: "@parsifal-m/plugin-opa-backend"
+  description: The opa backend plugin responsible for interacting with the OPA server for validation and authorisation requests
+  tags:
+    - backend-plugin
+    - repo-backstage-opa-plugins
+  annotations:
+    github.com/project-slug: Parsifal-M/backstage-opa-plugins
+    backstage.io/source-location: url:https://github.com/Parsifal-M/backstage-opa-plugins/tree/HEAD/plugins/backstage-opa-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 3.0.0
+  links:
+    - url: https://github.com/Parsifal-M/backstage-opa-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: parsifal-m

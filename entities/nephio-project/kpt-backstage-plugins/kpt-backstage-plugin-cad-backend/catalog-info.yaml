@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kpt-backstage-plugin-cad-backend
+  title: "@kpt/backstage-plugin-cad-backend"
+  description: Backend plugin providing the API and Kubernetes/Porch integration for the Configuration as Data frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-kpt-backstage-plugins
+  annotations:
+    github.com/project-slug: nephio-project/kpt-backstage-plugins
+    backstage.io/source-location: url:https://github.com/nephio-project/kpt-backstage-plugins/tree/HEAD/plugins/cad-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/nephio-project/kpt-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: nephio-project

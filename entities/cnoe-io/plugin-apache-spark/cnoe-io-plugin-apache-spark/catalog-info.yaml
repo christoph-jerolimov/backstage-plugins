@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cnoe-io-plugin-apache-spark
+  title: "@cnoe-io/plugin-apache-spark"
+  description: Frontend plugin that displays Apache Spark applications running in Kubernetes on Backstage entity pages.
+  tags:
+    - frontend-plugin
+    - repo-plugin-apache-spark
+  annotations:
+    github.com/project-slug: cnoe-io/plugin-apache-spark
+    backstage.io/source-location: url:https://github.com/cnoe-io/plugin-apache-spark/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.1
+  links:
+    - url: https://github.com/cnoe-io/plugin-apache-spark
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: cnoe-io

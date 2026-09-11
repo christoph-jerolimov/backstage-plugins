@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-quay
+  title: "@backstage-community/plugin-quay"
+  description: Frontend plugin that displays container image information from a Quay registry within Backstage.
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/quay/plugins/quay
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.38.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

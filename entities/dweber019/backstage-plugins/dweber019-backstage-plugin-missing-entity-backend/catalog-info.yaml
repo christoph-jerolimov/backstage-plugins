@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dweber019-backstage-plugin-missing-entity-backend
+  title: "@dweber019/backstage-plugin-missing-entity-backend"
+  description: Backend plugin that scans the catalog for entities with missing related entities and processes them on a schedule.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: dweber019/backstage-plugins
+    backstage.io/source-location: url:https://github.com/dweber019/backstage-plugins/tree/HEAD/plugins/missing-entity-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.2
+  links:
+    - url: https://github.com/dweber019/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: dweber019

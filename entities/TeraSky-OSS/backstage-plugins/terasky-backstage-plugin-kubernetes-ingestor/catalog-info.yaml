@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terasky-backstage-plugin-kubernetes-ingestor
+  title: "@terasky/backstage-plugin-kubernetes-ingestor"
+  description: Backend catalog entity provider that ingests Kubernetes resources, Crossplane claims, and XRDs into the Backstage catalog.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: TeraSky-OSS/backstage-plugins
+    backstage.io/source-location: url:https://github.com/TeraSky-OSS/backstage-plugins/tree/HEAD/plugins/kubernetes-ingestor
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 4.1.0
+  links:
+    - url: https://github.com/TeraSky-OSS/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://terasky.com
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: terasky-oss

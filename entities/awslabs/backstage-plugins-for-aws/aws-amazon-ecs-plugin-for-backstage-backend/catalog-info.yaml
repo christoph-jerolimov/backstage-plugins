@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aws-amazon-ecs-plugin-for-backstage-backend
+  title: "@aws/amazon-ecs-plugin-for-backstage-backend"
+  description: Backend plugin providing Amazon ECS data to Backstage.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins-for-aws
+  annotations:
+    github.com/project-slug: awslabs/backstage-plugins-for-aws
+    backstage.io/source-location: url:https://github.com/awslabs/backstage-plugins-for-aws/tree/HEAD/plugins/ecs/backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.10.0
+  links:
+    - url: https://github.com/awslabs/backstage-plugins-for-aws
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: awslabs

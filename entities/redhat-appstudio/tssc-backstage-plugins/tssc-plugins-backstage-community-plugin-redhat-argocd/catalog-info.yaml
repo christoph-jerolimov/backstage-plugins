@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tssc-plugins-backstage-community-plugin-redhat-argocd
+  title: "@tssc-plugins/backstage-community-plugin-redhat-argocd"
+  description: Frontend plugin, a Red Hat-maintained fork of the ArgoCD plugin, that displays ArgoCD deployment information for catalog entities.
+  tags:
+    - frontend-plugin
+    - repo-tssc-backstage-plugins
+  annotations:
+    github.com/project-slug: redhat-appstudio/tssc-backstage-plugins
+    backstage.io/source-location: url:https://github.com/redhat-appstudio/tssc-backstage-plugins/tree/HEAD/plugins/redhat-argocd
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 2.3.0
+  links:
+    - url: https://github.com/redhat-appstudio/tssc-backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://red.ht/trusted
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: redhat-appstudio

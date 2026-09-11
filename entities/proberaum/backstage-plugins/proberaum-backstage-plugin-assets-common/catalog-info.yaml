@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: proberaum-backstage-plugin-assets-common
+  title: "@proberaum/backstage-plugin-assets-common"
+  description: Common functionalities for the assets plugin
+  tags:
+    - common-library
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: proberaum/backstage-plugins
+    backstage.io/source-location: url:https://github.com/proberaum/backstage-plugins/tree/HEAD/workspaces/assets/plugins/assets-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 0.7.0
+  links:
+    - url: https://github.com/proberaum/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: proberaum

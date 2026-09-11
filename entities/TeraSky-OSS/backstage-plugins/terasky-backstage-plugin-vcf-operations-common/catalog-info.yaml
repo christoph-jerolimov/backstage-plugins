@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terasky-backstage-plugin-vcf-operations-common
+  title: "@terasky/backstage-plugin-vcf-operations-common"
+  description: Common functionalities for the VCF Operations plugins
+  tags:
+    - common-library
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: TeraSky-OSS/backstage-plugins
+    backstage.io/source-location: url:https://github.com/TeraSky-OSS/backstage-plugins/tree/HEAD/plugins/vcf-operations-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 0.1.17
+  links:
+    - url: https://github.com/TeraSky-OSS/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://terasky.com
+      title: Homepage
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: terasky-oss

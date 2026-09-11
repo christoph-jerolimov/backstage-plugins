@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aws-aws-core-plugin-for-backstage-react
+  title: "@aws/aws-core-plugin-for-backstage-react"
+  description: Web library for the AWS plugins for Backstage
+  tags:
+    - web-library
+    - repo-backstage-plugins-for-aws
+  annotations:
+    github.com/project-slug: awslabs/backstage-plugins-for-aws
+    backstage.io/source-location: url:https://github.com/awslabs/backstage-plugins-for-aws/tree/HEAD/plugins/core/react
+    backstage-plugins.io/role: web-library
+    backstage-plugins.io/package-version: 0.8.0
+  links:
+    - url: https://github.com/awslabs/backstage-plugins-for-aws
+      title: GitHub repository
+      icon: github
+spec:
+  type: web-library
+  lifecycle: unknown
+  owner: awslabs

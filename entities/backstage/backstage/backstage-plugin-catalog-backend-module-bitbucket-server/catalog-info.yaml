@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-catalog-backend-module-bitbucket-server
+  title: "@backstage/plugin-catalog-backend-module-bitbucket-server"
+  description: Backend module extending the catalog-backend plugin with entity discovery for Bitbucket Server.
+  tags:
+    - backend-plugin-module
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/catalog-backend-module-bitbucket-server
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.5.15-next.1
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: backstage

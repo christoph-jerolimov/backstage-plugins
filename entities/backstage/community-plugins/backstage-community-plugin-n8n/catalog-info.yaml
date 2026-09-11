@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-n8n
+  title: "@backstage-community/plugin-n8n"
+  description: A Backstage frontend plugin for n8n workflow automation
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/n8n/plugins/n8n
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.4.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

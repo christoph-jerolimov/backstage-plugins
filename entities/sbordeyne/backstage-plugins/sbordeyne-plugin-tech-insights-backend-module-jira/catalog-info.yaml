@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sbordeyne-plugin-tech-insights-backend-module-jira
+  title: "@sbordeyne/plugin-tech-insights-backend-module-jira"
+  description: Tech Insights fact retriever for Jira metrics.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: sbordeyne/backstage-plugins
+    backstage.io/source-location: url:https://github.com/sbordeyne/backstage-plugins/tree/HEAD/plugins/tech-insights-backend-module-jira
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/sbordeyne/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://sbordeyne.github.io/backstage-plugins/plugins/tech-insights-jira/
+      title: Homepage
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: sbordeyne

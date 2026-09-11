@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-auth-backend
+  title: "@backstage/plugin-auth-backend"
+  description: A Backstage backend plugin that handles authentication
+  tags:
+    - backend-plugin
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/auth-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.30.1-next.2
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-multi-source-security-viewer-backend
+  title: "@backstage-community/plugin-multi-source-security-viewer-backend"
+  description: Backend module that registers RBAC permissions for the multi-source-security-viewer frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/multi-source-security-viewer/plugins/multi-source-security-viewer-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.7.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

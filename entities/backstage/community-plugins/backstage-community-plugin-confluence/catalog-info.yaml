@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-confluence
+  title: "@backstage-community/plugin-confluence"
+  description: Frontend plugin rendering Confluence documents as search result items in Backstage search.
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/confluence/plugins/confluence
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.14.1
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

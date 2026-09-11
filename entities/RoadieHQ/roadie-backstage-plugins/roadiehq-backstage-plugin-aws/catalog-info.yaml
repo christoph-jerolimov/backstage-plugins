@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadiehq-backstage-plugin-aws
+  title: "@roadiehq/backstage-plugin-aws"
+  description: Frontend plugin that adds AWS S3 bucket, Lambda function, and IAM user cards to entity pages.
+  tags:
+    - frontend-plugin
+    - repo-roadie-backstage-plugins
+  annotations:
+    github.com/project-slug: RoadieHQ/roadie-backstage-plugins
+    backstage.io/source-location: url:https://github.com/RoadieHQ/roadie-backstage-plugins/tree/HEAD/plugins/frontend/backstage-plugin-aws
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.3.0
+  links:
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://roadie.io/backstage/plugins/aws/
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: roadiehq

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-argocd
+  title: "@backstage-community/plugin-argocd"
+  description: Frontend plugin that displays ArgoCD application and Argo Rollouts status on entity pages.
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/argocd/plugins/argocd
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 3.1.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: buildkite-backstage-plugin-buildkite
+  title: "@buildkite/backstage-plugin-buildkite"
+  description: A Backstage plugin which integrates with Buildkite pipelines
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin
+  annotations:
+    github.com/project-slug: buildkite/backstage-plugin
+    backstage.io/source-location: url:https://github.com/buildkite/backstage-plugin/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.4.0
+  links:
+    - url: https://github.com/buildkite/backstage-plugin
+      title: GitHub repository
+      icon: github
+    - url: https://buildkite.com
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: buildkite

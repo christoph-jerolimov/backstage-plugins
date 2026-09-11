@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-notifications-backend-2
+  title: backstage-plugin-notifications-backend
+  description: Backend plugin that provides the API for storing and delivering Backstage notifications.
+  tags:
+    - backend-plugin
+    - repo-kuadrant-backstage-plugin
+  annotations:
+    github.com/project-slug: Kuadrant/kuadrant-backstage-plugin
+    backstage.io/source-location: url:https://github.com/Kuadrant/kuadrant-backstage-plugin/tree/HEAD/dynamic-plugins/wrappers/backstage-plugin-notifications-backend-dynamic
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.6.3
+  links:
+    - url: https://github.com/Kuadrant/kuadrant-backstage-plugin
+      title: GitHub repository
+      icon: github
+    - url: https://red.ht/rhdh
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: kuadrant

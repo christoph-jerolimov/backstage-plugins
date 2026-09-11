@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jquad-group-backstage-plugin-tekton-pipelines-plugin
+  title: "@jquad-group/backstage-plugin-tekton-pipelines-plugin"
+  description: Frontend plugin that displays Tekton Pipelines information within Backstage.
+  tags:
+    - frontend-plugin
+    - repo-backstage-jquad
+  annotations:
+    github.com/project-slug: jquad-group/backstage-jquad
+    backstage.io/source-location: url:https://github.com/jquad-group/backstage-jquad/tree/HEAD/plugins/tekton-pipelines
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.1.0-beta.4
+  links:
+    - url: https://github.com/jquad-group/backstage-jquad
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: jquad-group

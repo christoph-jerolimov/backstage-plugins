@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hashicorp-plugin-hcp-consul
+  title: "@hashicorp/plugin-hcp-consul"
+  description: "This is a frontend plugin for viewing Hashicorp Cloud Platform(HCP) consul overview and service instances of a services. This plugin has a corresponding backend plugin required to call the HCP consul's API: @hashicorp/plugin-hcp-consul-backend."
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-hcp-consul
+  annotations:
+    github.com/project-slug: hashicorp-forge/backstage-plugin-hcp-consul
+    backstage.io/source-location: url:https://github.com/hashicorp-forge/backstage-plugin-hcp-consul/tree/HEAD/plugins/hcp-consul
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/hashicorp-forge/backstage-plugin-hcp-consul
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/hashicorp-forge/backstage-plugin-hcp-consul#readme
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: hashicorp-forge

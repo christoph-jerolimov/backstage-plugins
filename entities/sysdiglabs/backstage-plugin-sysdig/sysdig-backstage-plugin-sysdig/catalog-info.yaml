@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sysdig-backstage-plugin-sysdig
+  title: "@sysdig/backstage-plugin-sysdig"
+  description: Frontend plugin displaying Sysdig Secure vulnerability and posture reports for catalog services.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-sysdig
+  annotations:
+    github.com/project-slug: sysdiglabs/backstage-plugin-sysdig
+    backstage.io/source-location: url:https://github.com/sysdiglabs/backstage-plugin-sysdig/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.5.0
+  links:
+    - url: https://github.com/sysdiglabs/backstage-plugin-sysdig
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: sysdiglabs

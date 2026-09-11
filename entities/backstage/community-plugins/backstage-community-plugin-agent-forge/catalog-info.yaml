@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-agent-forge
+  title: "@backstage-community/plugin-agent-forge"
+  description: Frontend plugin providing a chat interface to CAIPE multi-agent AI systems such as ArgoCD, PagerDuty, GitHub, and Kubernetes agents.
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/agent-forge/plugins/agent-forge
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.4.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

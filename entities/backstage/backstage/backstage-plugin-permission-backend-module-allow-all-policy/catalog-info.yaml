@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-permission-backend-module-allow-all-policy
+  title: "@backstage/plugin-permission-backend-module-allow-all-policy"
+  description: Allow all policy backend module for the permission plugin.
+  tags:
+    - backend-plugin-module
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/permission-backend-module-policy-allow-all
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.2.23-next.1
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: backstage

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: veecode-platform-backstage-plugin-kong-service-manager-common
+  title: "@veecode-platform/backstage-plugin-kong-service-manager-common"
+  description: Common functionalities for the kong-service-manager plugin
+  tags:
+    - common-library
+    - repo-platform-backstage-plugins
+  annotations:
+    github.com/project-slug: veecode-platform/platform-backstage-plugins
+    backstage.io/source-location: url:https://github.com/veecode-platform/platform-backstage-plugins/tree/HEAD/plugins/kong-service-manager-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 0.5.3
+  links:
+    - url: https://github.com/veecode-platform/platform-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: veecode-platform

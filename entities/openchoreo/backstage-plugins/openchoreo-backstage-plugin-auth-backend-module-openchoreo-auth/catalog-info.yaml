@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: openchoreo-backstage-plugin-auth-backend-module-openchoreo-auth
+  title: "@openchoreo/backstage-plugin-auth-backend-module-openchoreo-auth"
+  description: OpenChoreo authentication backend module for Backstage. Works with any OIDC-compliant IDP configured in OpenChoreo.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: openchoreo/backstage-plugins
+    backstage.io/source-location: url:https://github.com/openchoreo/backstage-plugins/tree/HEAD/plugins/auth-backend-module-openchoreo-auth
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 1.2.0
+  links:
+    - url: https://github.com/openchoreo/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: openchoreo

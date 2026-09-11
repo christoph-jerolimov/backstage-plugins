@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-apiiro
+  title: "@backstage-community/plugin-apiiro"
+  description: Frontend plugin that shows Apiiro application security risk data and metrics on entity pages.
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/apiiro/plugins/apiiro
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.1.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

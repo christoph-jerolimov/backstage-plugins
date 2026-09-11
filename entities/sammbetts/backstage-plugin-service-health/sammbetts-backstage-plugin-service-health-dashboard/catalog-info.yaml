@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sammbetts-backstage-plugin-service-health-dashboard
+  title: "@sammbetts/backstage-plugin-service-health-dashboard"
+  description: Frontend plugin displaying third-party service status and active incidents, including a dashboard page and homepage overview card.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-service-health
+  annotations:
+    github.com/project-slug: sammbetts/backstage-plugin-service-health
+    backstage.io/source-location: url:https://github.com/sammbetts/backstage-plugin-service-health/tree/HEAD/plugins/service-health-dashboard
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.13
+  links:
+    - url: https://github.com/sammbetts/backstage-plugin-service-health
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: sammbetts

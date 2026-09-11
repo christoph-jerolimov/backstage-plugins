@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bestsellerit-backstage-plugin-harbor
+  title: "@bestsellerit/backstage-plugin-harbor"
+  description: Frontend plugin that displays Docker image information from a Harbor container registry on entity pages.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-harbor
+  annotations:
+    github.com/project-slug: container-registry/backstage-plugin-harbor
+    backstage.io/source-location: url:https://github.com/container-registry/backstage-plugin-harbor/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: ${CIRCLE_TAG}
+  links:
+    - url: https://github.com/container-registry/backstage-plugin-harbor
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: container-registry

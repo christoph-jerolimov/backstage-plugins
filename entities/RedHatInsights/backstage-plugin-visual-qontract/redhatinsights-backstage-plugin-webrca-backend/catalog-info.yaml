@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: redhatinsights-backstage-plugin-webrca-backend
+  title: "@redhatinsights/backstage-plugin-webrca-backend"
+  description: Backend plugin providing API endpoints for the WebRCA frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugin-visual-qontract
+  annotations:
+    github.com/project-slug: RedHatInsights/backstage-plugin-visual-qontract
+    backstage.io/source-location: url:https://github.com/RedHatInsights/backstage-plugin-visual-qontract/tree/HEAD/plugins/webrca-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 1.2.2
+  links:
+    - url: https://github.com/RedHatInsights/backstage-plugin-visual-qontract
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: redhatinsights

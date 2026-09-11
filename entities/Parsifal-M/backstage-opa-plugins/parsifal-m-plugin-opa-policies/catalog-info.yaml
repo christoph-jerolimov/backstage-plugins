@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parsifal-m-plugin-opa-policies
+  title: "@parsifal-m/plugin-opa-policies"
+  description: Frontend plugin that fetches and displays the OPA policy file associated with a catalog entity.
+  tags:
+    - frontend-plugin
+    - repo-backstage-opa-plugins
+  annotations:
+    github.com/project-slug: Parsifal-M/backstage-opa-plugins
+    backstage.io/source-location: url:https://github.com/Parsifal-M/backstage-opa-plugins/tree/HEAD/plugins/backstage-opa-policies
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.3.0
+  links:
+    - url: https://github.com/Parsifal-M/backstage-opa-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: parsifal-m

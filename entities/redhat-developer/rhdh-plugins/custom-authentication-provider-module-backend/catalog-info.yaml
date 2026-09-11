@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: custom-authentication-provider-module-backend
+  title: custom-authentication-provider-module-backend
+  description: Dev-only backend plugin implementing a custom authentication provider, intended for testing rather than production use.
+  tags:
+    - backend-plugin
+    - repo-rhdh-plugins
+  annotations:
+    github.com/project-slug: redhat-developer/rhdh-plugins
+    backstage.io/source-location: url:https://github.com/redhat-developer/rhdh-plugins/tree/HEAD/workspaces/orchestrator/plugins/custom-authentication-provider-module-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.0.1
+  links:
+    - url: https://github.com/redhat-developer/rhdh-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: redhat-developer

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: proberaum-backstage-plugin-config-viewer-backend
+  title: "@proberaum/backstage-plugin-config-viewer-backend"
+  description: Backend plugin that serves configuration data to the config-viewer frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: proberaum/backstage-plugins
+    backstage.io/source-location: url:https://github.com/proberaum/backstage-plugins/tree/HEAD/workspaces/config-viewer/plugins/config-viewer-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.13.0
+  links:
+    - url: https://github.com/proberaum/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: proberaum

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kpt-backstage-plugin-cad
+  title: "@kpt/backstage-plugin-cad"
+  description: Frontend plugin providing a WYSIWYG Configuration as Data GUI for managing GitOps packages via kpt and Porch.
+  tags:
+    - frontend-plugin
+    - repo-kpt-backstage-plugins
+  annotations:
+    github.com/project-slug: nephio-project/kpt-backstage-plugins
+    backstage.io/source-location: url:https://github.com/nephio-project/kpt-backstage-plugins/tree/HEAD/plugins/cad
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.4.0
+  links:
+    - url: https://github.com/nephio-project/kpt-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: nephio-project

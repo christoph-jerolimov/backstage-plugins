@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-cicd-statistics-module-gitlab
+  title: "@backstage-community/plugin-cicd-statistics-module-gitlab"
+  description: CI/CD Statistics plugin module; Gitlab CICD
+  tags:
+    - frontend-plugin-module
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/cicd-statistics/plugins/cicd-statistics-module-gitlab
+    backstage-plugins.io/role: frontend-plugin-module
+    backstage-plugins.io/package-version: 0.20.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: frontend-plugin-module
+  lifecycle: unknown
+  owner: backstage

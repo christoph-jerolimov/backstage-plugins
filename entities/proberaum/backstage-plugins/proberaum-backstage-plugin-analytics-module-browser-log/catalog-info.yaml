@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: proberaum-backstage-plugin-analytics-module-browser-log
+  title: "@proberaum/backstage-plugin-analytics-module-browser-log"
+  description: Frontend module implementing a Backstage Analytics API provider that logs analytics events to the browser console.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: proberaum/backstage-plugins
+    backstage.io/source-location: url:https://github.com/proberaum/backstage-plugins/tree/HEAD/workspaces/analytics-viewer/plugins/analytics-module-browser-log
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.7.0
+  links:
+    - url: https://github.com/proberaum/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: proberaum

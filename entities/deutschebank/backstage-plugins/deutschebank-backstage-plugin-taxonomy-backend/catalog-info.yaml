@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: deutschebank-backstage-plugin-taxonomy-backend
+  title: "@deutschebank/backstage-plugin-taxonomy-backend"
+  description: Backend plugin that serves taxonomy data used to classify Backstage catalog entities.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: deutschebank/backstage-plugins
+    backstage.io/source-location: url:https://github.com/deutschebank/backstage-plugins/tree/HEAD/plugins/taxonomy-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 1.0.0
+  links:
+    - url: https://github.com/deutschebank/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: deutschebank

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: trimm-plugin-changelog
+  title: "@trimm/plugin-changelog"
+  description: Frontend plugin that shows changelog information, linked from a direct markdown file, on entity overview pages.
+  tags:
+    - frontend-plugin
+    - repo-plugin-changelog
+  annotations:
+    github.com/project-slug: TRIMM/plugin-changelog
+    backstage.io/source-location: url:https://github.com/TRIMM/plugin-changelog/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.2
+  links:
+    - url: https://github.com/TRIMM/plugin-changelog
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: trimm

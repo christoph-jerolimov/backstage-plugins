@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dynamic-plugins-utils
+  title: dynamic-plugins-utils
+  description: CLI/dev-tooling package with utilities for building and exporting this repository's dynamic Backstage plugins.
+  tags:
+    - cli
+    - repo-kuadrant-backstage-plugin
+  annotations:
+    github.com/project-slug: Kuadrant/kuadrant-backstage-plugin
+    backstage.io/source-location: url:https://github.com/Kuadrant/kuadrant-backstage-plugin/tree/HEAD/dynamic-plugins/_utils
+    backstage-plugins.io/role: cli
+    backstage-plugins.io/package-version: 0.0.0
+  links:
+    - url: https://github.com/Kuadrant/kuadrant-backstage-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: cli
+  lifecycle: unknown
+  owner: kuadrant

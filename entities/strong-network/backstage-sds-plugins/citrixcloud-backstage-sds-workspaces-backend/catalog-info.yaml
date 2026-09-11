@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: citrixcloud-backstage-sds-workspaces-backend
+  title: "@citrixcloud/backstage-sds-workspaces-backend"
+  description: Backend plugin that bridges Backstage with the Citrix Secure Developer Spaces (SDS) Workspaces platform API.
+  tags:
+    - backend-plugin
+    - repo-backstage-sds-plugins
+  annotations:
+    github.com/project-slug: strong-network/backstage-sds-plugins
+    backstage.io/source-location: url:https://github.com/strong-network/backstage-sds-plugins/tree/HEAD/plugins/sds-workspaces-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.7
+  links:
+    - url: https://github.com/strong-network/backstage-sds-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: strong-network

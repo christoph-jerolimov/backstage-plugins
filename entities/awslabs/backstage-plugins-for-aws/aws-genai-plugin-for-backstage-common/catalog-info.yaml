@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aws-genai-plugin-for-backstage-common
+  title: "@aws/genai-plugin-for-backstage-common"
+  description: Common functionality for the GenAI AWS plugins for Backstage
+  tags:
+    - common-library
+    - repo-backstage-plugins-for-aws
+  annotations:
+    github.com/project-slug: awslabs/backstage-plugins-for-aws
+    backstage.io/source-location: url:https://github.com/awslabs/backstage-plugins-for-aws/tree/HEAD/plugins/genai/common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 0.6.0
+  links:
+    - url: https://github.com/awslabs/backstage-plugins-for-aws
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: awslabs

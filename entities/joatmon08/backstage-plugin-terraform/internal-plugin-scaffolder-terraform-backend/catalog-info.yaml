@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: internal-plugin-scaffolder-terraform-backend
+  title: "@internal/plugin-scaffolder-terraform-backend"
+  description: Backend scaffolder module adding a custom action to create Terraform Cloud/Enterprise workspaces from Backstage templates.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugin-terraform
+  annotations:
+    github.com/project-slug: joatmon08/backstage-plugin-terraform
+    backstage.io/source-location: url:https://github.com/joatmon08/backstage-plugin-terraform/tree/HEAD/plugins/scaffolder-terraform-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/joatmon08/backstage-plugin-terraform
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: joatmon08

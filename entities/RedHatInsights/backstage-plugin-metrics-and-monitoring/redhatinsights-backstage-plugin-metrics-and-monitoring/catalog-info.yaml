@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: redhatinsights-backstage-plugin-metrics-and-monitoring
+  title: "@redhatinsights/backstage-plugin-metrics-and-monitoring"
+  description: Frontend plugin scaffolded with the Backstage CLI intended to display metrics and monitoring information.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-metrics-and-monitoring
+  annotations:
+    github.com/project-slug: RedHatInsights/backstage-plugin-metrics-and-monitoring
+    backstage.io/source-location: url:https://github.com/RedHatInsights/backstage-plugin-metrics-and-monitoring/tree/HEAD/plugins/metrics-and-monitoring
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.1.2
+  links:
+    - url: https://github.com/RedHatInsights/backstage-plugin-metrics-and-monitoring
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: redhatinsights

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aws-genai-plugin-for-backstage
+  title: "@aws/genai-plugin-for-backstage"
+  description: Frontend package for the GenAI AWS plugins for Backstage
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins-for-aws
+  annotations:
+    github.com/project-slug: awslabs/backstage-plugins-for-aws
+    backstage.io/source-location: url:https://github.com/awslabs/backstage-plugins-for-aws/tree/HEAD/plugins/genai/frontend
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.6.0
+  links:
+    - url: https://github.com/awslabs/backstage-plugins-for-aws
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: awslabs

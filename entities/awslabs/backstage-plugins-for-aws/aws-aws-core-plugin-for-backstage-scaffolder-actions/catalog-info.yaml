@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aws-aws-core-plugin-for-backstage-scaffolder-actions
+  title: "@aws/aws-core-plugin-for-backstage-scaffolder-actions"
+  description: Scaffolder actions related to the AWS core plugin for Backstage
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins-for-aws
+  annotations:
+    github.com/project-slug: awslabs/backstage-plugins-for-aws
+    backstage.io/source-location: url:https://github.com/awslabs/backstage-plugins-for-aws/tree/HEAD/plugins/core/scaffolder-actions
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.7.0
+  links:
+    - url: https://github.com/awslabs/backstage-plugins-for-aws
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: awslabs

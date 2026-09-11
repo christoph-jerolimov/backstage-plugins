@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: citrixcloud-backstage-sds-workspaces
+  title: "@citrixcloud/backstage-sds-workspaces"
+  description: Frontend plugin that displays and manages Citrix Secure Developer Spaces (SDS) Workspaces via entity cards and tabs.
+  tags:
+    - frontend-plugin
+    - repo-backstage-sds-plugins
+  annotations:
+    github.com/project-slug: strong-network/backstage-sds-plugins
+    backstage.io/source-location: url:https://github.com/strong-network/backstage-sds-plugins/tree/HEAD/plugins/sds-workspaces
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.6
+  links:
+    - url: https://github.com/strong-network/backstage-sds-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: strong-network

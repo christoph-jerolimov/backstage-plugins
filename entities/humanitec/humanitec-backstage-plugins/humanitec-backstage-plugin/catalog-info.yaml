@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: humanitec-backstage-plugin
+  title: "@humanitec/backstage-plugin"
+  description: Frontend plugin that shows Humanitec environments, workloads, and resources on a catalog entity page (Humanitec v1 only, unmaintained).
+  tags:
+    - frontend-plugin
+    - repo-humanitec-backstage-plugins
+  annotations:
+    github.com/project-slug: humanitec/humanitec-backstage-plugins
+    backstage.io/source-location: url:https://github.com/humanitec/humanitec-backstage-plugins/tree/HEAD/plugins/humanitec
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.9.7
+  links:
+    - url: https://github.com/humanitec/humanitec-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: humanitec

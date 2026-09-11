@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-catalog-backend-module-pingidentity
+  title: "@backstage-community/plugin-catalog-backend-module-pingidentity"
+  description: The PingOne backend module for the catalog plugin. Ingests organization data (users and groups) from Ping Identity's cloud offering.
+  tags:
+    - backend-plugin-module
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/pingidentity/plugins/catalog-backend-module-pingidentity
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.15.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: backstage

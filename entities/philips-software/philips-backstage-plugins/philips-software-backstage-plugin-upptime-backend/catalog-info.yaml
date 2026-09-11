@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: philips-software-backstage-plugin-upptime-backend
+  title: "@philips-software/backstage-plugin-upptime-backend"
+  description: Backend plugin that serves Upptime uptime and status data for Backstage entities.
+  tags:
+    - backend-plugin
+    - repo-philips-backstage-plugins
+  annotations:
+    github.com/project-slug: philips-software/philips-backstage-plugins
+    backstage.io/source-location: url:https://github.com/philips-software/philips-backstage-plugins/tree/HEAD/workspaces/upptime/plugins/upptime-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 2.6.3
+  links:
+    - url: https://github.com/philips-software/philips-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: philips-software

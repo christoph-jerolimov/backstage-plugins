@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: globallogicuki-backstage-plugin-unleash
+  title: "@globallogicuki/backstage-plugin-unleash"
+  description: Backstage frontend plugin for viewing and managing Unleash feature flags on catalog entities
+  tags:
+    - frontend-plugin
+    - repo-globallogic-backstage-plugins
+  annotations:
+    github.com/project-slug: globallogicuki/globallogic-backstage-plugins
+    backstage.io/source-location: url:https://github.com/globallogicuki/globallogic-backstage-plugins/tree/HEAD/plugins/unleash
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.4.0
+  links:
+    - url: https://github.com/globallogicuki/globallogic-backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/globallogicuki/globallogic-backstage-plugins/tree/main/plugins/unleash
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: globallogicuki

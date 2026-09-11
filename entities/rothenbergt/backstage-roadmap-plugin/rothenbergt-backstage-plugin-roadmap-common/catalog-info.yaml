@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rothenbergt-backstage-plugin-roadmap-common
+  title: "@rothenbergt/backstage-plugin-roadmap-common"
+  description: Common functionalities for the roadmap plugin
+  tags:
+    - common-library
+    - repo-backstage-roadmap-plugin
+  annotations:
+    github.com/project-slug: rothenbergt/backstage-roadmap-plugin
+    backstage.io/source-location: url:https://github.com/rothenbergt/backstage-roadmap-plugin/tree/HEAD/plugins/roadmap-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 1.0.0
+  links:
+    - url: https://github.com/rothenbergt/backstage-roadmap-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: rothenbergt

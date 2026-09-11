@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: workm8-backstage-docker-plugin
+  title: "@workm8/backstage-docker-plugin"
+  description: Frontend plugin that displays Docker Hub image tags for a component via an annotated repository and a proxied API.
+  tags:
+    - frontend-plugin
+    - repo-backstage-docker-plugin
+  annotations:
+    github.com/project-slug: Work-m8/backstage-docker-plugin
+    backstage.io/source-location: url:https://github.com/Work-m8/backstage-docker-plugin/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.0.0
+  links:
+    - url: https://github.com/Work-m8/backstage-docker-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: work-m8

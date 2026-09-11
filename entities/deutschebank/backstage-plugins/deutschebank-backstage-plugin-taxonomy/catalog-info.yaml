@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: deutschebank-backstage-plugin-taxonomy
+  title: "@deutschebank/backstage-plugin-taxonomy"
+  description: Frontend plugin that displays catalog entities classified against one or more taxonomies, with scaffolder pickers.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: deutschebank/backstage-plugins
+    backstage.io/source-location: url:https://github.com/deutschebank/backstage-plugins/tree/HEAD/plugins/taxonomy
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.0.0
+  links:
+    - url: https://github.com/deutschebank/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: deutschebank

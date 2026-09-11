@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: opslevel-backstage-maturity
+  title: "@opslevel/backstage-maturity"
+  description: The official OpsLevel front-end Backstage plugin for displaying catalog and service maturity details.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin
+  annotations:
+    github.com/project-slug: OpsLevel/backstage-plugin
+    backstage.io/source-location: url:https://github.com/OpsLevel/backstage-plugin/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 3.0.1
+  links:
+    - url: https://github.com/OpsLevel/backstage-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: opslevel

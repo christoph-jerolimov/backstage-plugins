@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parsifal-m-backstage-plugin-opa-node
+  title: "@parsifal-m/backstage-plugin-opa-node"
+  description: Provides a Node.js service for integrating Open Policy Agent (OPA) with Backstage backend modules and plugins.
+  tags:
+    - node-library
+    - repo-backstage-opa-plugins
+  annotations:
+    github.com/project-slug: Parsifal-M/backstage-opa-plugins
+    backstage.io/source-location: url:https://github.com/Parsifal-M/backstage-opa-plugins/tree/HEAD/plugins/opa-node
+    backstage-plugins.io/role: node-library
+    backstage-plugins.io/package-version: 0.2.0
+  links:
+    - url: https://github.com/Parsifal-M/backstage-opa-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: node-library
+  lifecycle: unknown
+  owner: parsifal-m

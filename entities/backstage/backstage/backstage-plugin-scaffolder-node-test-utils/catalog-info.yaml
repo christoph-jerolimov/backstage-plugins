@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-scaffolder-node-test-utils
+  title: "@backstage/plugin-scaffolder-node-test-utils"
+  description: Node library of test utilities for developing and testing scaffolder features.
+  tags:
+    - node-library
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/scaffolder-node-test-utils
+    backstage-plugins.io/role: node-library
+    backstage-plugins.io/package-version: 0.3.15-next.1
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+spec:
+  type: node-library
+  lifecycle: unknown
+  owner: backstage

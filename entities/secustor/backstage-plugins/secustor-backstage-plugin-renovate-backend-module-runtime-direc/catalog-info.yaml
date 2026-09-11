@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: secustor-backstage-plugin-renovate-backend-module-runtime-direc
+  title: "@secustor/backstage-plugin-renovate-backend-module-runtime-direct"
+  description: The runtime-direct backend module for the renovate plugin.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: secustor/backstage-plugins
+    backstage.io/source-location: url:https://github.com/secustor/backstage-plugins/tree/HEAD/plugins/renovate-backend-module-runtime-direct
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 4.1.0
+  links:
+    - url: https://github.com/secustor/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: secustor

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: axis-backstage-plugin-jira-dashboard-common
+  title: "@axis-backstage/plugin-jira-dashboard-common"
+  description: Common functionalities for the jira-dashboard plugin
+  tags:
+    - common-library
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: AxisCommunications/backstage-plugins
+    backstage.io/source-location: url:https://github.com/AxisCommunications/backstage-plugins/tree/HEAD/plugins/jira-dashboard-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 1.15.4
+  links:
+    - url: https://github.com/AxisCommunications/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: axiscommunications

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: k-phoen-backstage-plugin-confluence
+  title: "@k-phoen/backstage-plugin-confluence"
+  description: Frontend plugin that integrates Confluence documents into Backstage's search engine and displays Confluence search results.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-confluence
+  annotations:
+    github.com/project-slug: K-Phoen/backstage-plugin-confluence
+    backstage.io/source-location: url:https://github.com/K-Phoen/backstage-plugin-confluence/tree/HEAD/plugins/search-confluence
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.0.15
+  links:
+    - url: https://github.com/K-Phoen/backstage-plugin-confluence
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: k-phoen

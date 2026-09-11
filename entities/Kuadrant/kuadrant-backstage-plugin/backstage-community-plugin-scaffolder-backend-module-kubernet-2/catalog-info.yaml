@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-scaffolder-backend-module-kubernet-2
+  title: backstage-community-plugin-scaffolder-backend-module-kubernetes
+  description: Scaffolder backend module that adds Kubernetes-related actions to software templates.
+  tags:
+    - backend-plugin-module
+    - repo-kuadrant-backstage-plugin
+  annotations:
+    github.com/project-slug: Kuadrant/kuadrant-backstage-plugin
+    backstage.io/source-location: url:https://github.com/Kuadrant/kuadrant-backstage-plugin/tree/HEAD/dynamic-plugins/wrappers/backstage-community-plugin-scaffolder-backend-module-kubernetes-dynamic
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 2.17.1
+  links:
+    - url: https://github.com/Kuadrant/kuadrant-backstage-plugin
+      title: GitHub repository
+      icon: github
+    - url: https://red.ht/rhdh
+      title: Homepage
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: kuadrant

@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-catalog-backend
+  title: "@backstage/plugin-catalog-backend"
+  description: The Backstage backend plugin that provides the Backstage catalog
+  tags:
+    - backend-plugin
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/catalog-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 4.0.0-next.1
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

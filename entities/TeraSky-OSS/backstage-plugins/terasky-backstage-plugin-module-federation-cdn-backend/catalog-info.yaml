@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terasky-backstage-plugin-module-federation-cdn-backend
+  title: "@terasky/backstage-plugin-module-federation-cdn-backend"
+  description: Backend plugin that loads dynamic frontend plugins directly from a CDN via Module Federation without local plugin files.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: TeraSky-OSS/backstage-plugins
+    backstage.io/source-location: url:https://github.com/TeraSky-OSS/backstage-plugins/tree/HEAD/plugins/module-federation-cdn-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.4.0
+  links:
+    - url: https://github.com/TeraSky-OSS/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://terasky.com
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: terasky-oss

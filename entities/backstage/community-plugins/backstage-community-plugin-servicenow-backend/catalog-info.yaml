@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-servicenow-backend
+  title: "@backstage-community/plugin-servicenow-backend"
+  description: Backend plugin that connects to a ServiceNow instance and returns incident data for catalog entities.
+  tags:
+    - backend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/servicenow/plugins/servicenow-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 1.14.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

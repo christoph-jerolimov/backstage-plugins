@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible-plugin-backstage-self-service
+  title: "@ansible/plugin-backstage-self-service"
+  description: Frontend plugin providing a self-service catalog page for Red Hat Ansible Automation Platform, paired with related auth, catalog, and scaffolder backend modules.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins-ansible
+  annotations:
+    github.com/project-slug: ansible/backstage-plugins-ansible
+    backstage.io/source-location: url:https://github.com/ansible/backstage-plugins-ansible/tree/HEAD/plugins/self-service
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 2.2.7
+  links:
+    - url: https://github.com/ansible/backstage-plugins-ansible
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: ansible

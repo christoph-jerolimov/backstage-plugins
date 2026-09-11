@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: redhatinsights-backstage-plugin-security-frontend
+  title: "@redhatinsights/backstage-plugin-security-frontend"
+  description: Frontend plugin scaffolded via the Backstage CLI providing a security-related page in the Backstage app.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-security
+  annotations:
+    github.com/project-slug: RedHatInsights/backstage-plugin-security
+    backstage.io/source-location: url:https://github.com/RedHatInsights/backstage-plugin-security/tree/HEAD/plugins/security-frontend
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.4
+  links:
+    - url: https://github.com/RedHatInsights/backstage-plugin-security
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: redhatinsights

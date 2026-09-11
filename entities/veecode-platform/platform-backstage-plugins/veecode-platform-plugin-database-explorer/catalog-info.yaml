@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: veecode-platform-plugin-database-explorer
+  title: "@veecode-platform/plugin-database-explorer"
+  description: Frontend plugin listing Database catalog entities and showing per-database overview data, requiring the veecode-platform-common plugin.
+  tags:
+    - frontend-plugin
+    - repo-platform-backstage-plugins
+  annotations:
+    github.com/project-slug: veecode-platform/platform-backstage-plugins
+    backstage.io/source-location: url:https://github.com/veecode-platform/platform-backstage-plugins/tree/HEAD/plugins/database-explorer
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.4.0
+  links:
+    - url: https://github.com/veecode-platform/platform-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: veecode-platform

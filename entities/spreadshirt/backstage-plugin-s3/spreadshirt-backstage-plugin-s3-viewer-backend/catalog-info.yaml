@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spreadshirt-backstage-plugin-s3-viewer-backend
+  title: "@spreadshirt/backstage-plugin-s3-viewer-backend"
+  description: Backend plugin that connects to AWS S3 instances, fetches bucket and object data, and enforces access permissions for the S3 Viewer frontend.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugin-s3
+  annotations:
+    github.com/project-slug: spreadshirt/backstage-plugin-s3
+    backstage.io/source-location: url:https://github.com/spreadshirt/backstage-plugin-s3/tree/HEAD/plugins/s3-viewer-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.16.0
+  links:
+    - url: https://github.com/spreadshirt/backstage-plugin-s3
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: spreadshirt

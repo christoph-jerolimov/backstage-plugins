@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-app-module-user-settings
+  title: "@backstage/plugin-app-module-user-settings"
+  description: Registers user-settings features into the app.
+  tags:
+    - frontend-plugin-module
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/app-module-user-settings
+    backstage-plugins.io/role: frontend-plugin-module
+    backstage-plugins.io/package-version: 0.1.2-next.1
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin-module
+  lifecycle: unknown
+  owner: backstage

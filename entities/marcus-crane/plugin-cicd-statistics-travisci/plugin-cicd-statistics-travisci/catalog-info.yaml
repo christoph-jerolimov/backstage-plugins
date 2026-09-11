@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: plugin-cicd-statistics-travisci
+  title: plugin-cicd-statistics-travisci
+  description: Example, incomplete Travis CI provider implementation for the Backstage CI/CD statistics plugin, rendering builds without wired-up filtering.
+  tags:
+    - frontend-plugin
+    - repo-plugin-cicd-statistics-travisci
+  annotations:
+    github.com/project-slug: marcus-crane/plugin-cicd-statistics-travisci
+    backstage.io/source-location: url:https://github.com/marcus-crane/plugin-cicd-statistics-travisci/tree/HEAD/packages/app
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/note: Reference/demo only, explicitly marked by the author as not a valid, installable plugin.
+  links:
+    - url: https://github.com/marcus-crane/plugin-cicd-statistics-travisci
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: marcus-crane

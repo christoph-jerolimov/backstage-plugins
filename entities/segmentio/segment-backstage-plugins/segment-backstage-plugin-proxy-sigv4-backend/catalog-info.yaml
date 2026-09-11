@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: segment-backstage-plugin-proxy-sigv4-backend
+  title: "@segment/backstage-plugin-proxy-sigv4-backend"
+  description: Backstage backend plugin that configures endpoints for signing and proxying HTTP requests with AWS SigV4
+  tags:
+    - backend-plugin
+    - repo-segment-backstage-plugins
+  annotations:
+    github.com/project-slug: segmentio/segment-backstage-plugins
+    backstage.io/source-location: url:https://github.com/segmentio/segment-backstage-plugins/tree/HEAD/plugins/proxy-sigv4-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.6.0
+  links:
+    - url: https://github.com/segmentio/segment-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: segmentio

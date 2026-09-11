@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: headlamp-k8s-backstage-plugin-headlamp
+  title: "@headlamp-k8s/backstage-plugin-headlamp"
+  description: Frontend plugin embedding the Headlamp Kubernetes UI in Backstage via an iframe, standalone or backend-integrated.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin
+  annotations:
+    github.com/project-slug: headlamp-k8s/backstage-plugin
+    backstage.io/source-location: url:https://github.com/headlamp-k8s/backstage-plugin/tree/HEAD/headlamp
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.0-beta-3
+  links:
+    - url: https://github.com/headlamp-k8s/backstage-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: headlamp-k8s

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: coderrob-backstage-plugin-scaffolder-backend-module-webex
+  title: "@coderrob/backstage-plugin-scaffolder-backend-module-webex"
+  description: A Webex scaffolding module for @backstage/plugin-scaffolder-backend
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugin-scaffolder-backend-module-webex
+  annotations:
+    github.com/project-slug: Coderrob/backstage-plugin-scaffolder-backend-module-webex
+    backstage.io/source-location: url:https://github.com/Coderrob/backstage-plugin-scaffolder-backend-module-webex/tree/HEAD
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 1.1.0
+  links:
+    - url: https://github.com/Coderrob/backstage-plugin-scaffolder-backend-module-webex
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: coderrob

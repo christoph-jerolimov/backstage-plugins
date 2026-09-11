@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: knative-extensions-plugin-knative-event-mesh-backend
+  title: "@knative-extensions/plugin-knative-event-mesh-backend"
+  description: Backend plugin (Event Mesh) for viewing and managing Knative Eventing resources.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: knative-extensions/backstage-plugins
+    backstage.io/source-location: url:https://github.com/knative-extensions/backstage-plugins/tree/HEAD/backstage/plugins/knative-event-mesh-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.0.0-nightly
+  links:
+    - url: https://github.com/knative-extensions/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: knative-extensions

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: harnessio-backstage-plugin-fme-feature-flags
+  title: "@harnessio/backstage-plugin-fme-feature-flags"
+  description: Frontend plugin that displays Harness FME (Split.io) feature flags, supporting both migrated and non-migrated environments.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: harness/backstage-plugins
+    backstage.io/source-location: url:https://github.com/harness/backstage-plugins/tree/HEAD/plugins/harness-fme-feature-flags
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.4.0
+  links:
+    - url: https://github.com/harness/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: harness

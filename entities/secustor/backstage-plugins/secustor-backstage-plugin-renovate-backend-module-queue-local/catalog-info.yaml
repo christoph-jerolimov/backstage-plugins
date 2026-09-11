@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: secustor-backstage-plugin-renovate-backend-module-queue-local
+  title: "@secustor/backstage-plugin-renovate-backend-module-queue-local"
+  description: The queue-local backend module for the renovate plugin.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: secustor/backstage-plugins
+    backstage.io/source-location: url:https://github.com/secustor/backstage-plugins/tree/HEAD/plugins/renovate-backend-module-queue-local
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.5.0
+  links:
+    - url: https://github.com/secustor/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: secustor

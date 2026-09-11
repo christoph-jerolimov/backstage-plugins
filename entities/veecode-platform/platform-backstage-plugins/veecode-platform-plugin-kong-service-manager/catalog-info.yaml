@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: veecode-platform-plugin-kong-service-manager
+  title: "@veecode-platform/plugin-kong-service-manager"
+  description: Frontend plugin for viewing and managing Kong API gateway services, routes, and plugins from a Backstage component.
+  tags:
+    - frontend-plugin
+    - repo-platform-backstage-plugins
+  annotations:
+    github.com/project-slug: veecode-platform/platform-backstage-plugins
+    backstage.io/source-location: url:https://github.com/veecode-platform/platform-backstage-plugins/tree/HEAD/plugins/kong-service-manager
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 2.1.3
+  links:
+    - url: https://github.com/veecode-platform/platform-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: veecode-platform

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: digitalist-open-cloud-backstage-plugin-harbor
+  title: "@digitalist-open-cloud/backstage-plugin-harbor"
+  description: Frontend plugin that displays Docker image information from the Harbor container registry for Backstage catalog entities.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-harbor
+  annotations:
+    github.com/project-slug: Digitalist-Open-Cloud/Backstage-Plugin-Harbor
+    backstage.io/source-location: url:https://github.com/Digitalist-Open-Cloud/Backstage-Plugin-Harbor/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.9.0
+  links:
+    - url: https://github.com/Digitalist-Open-Cloud/Backstage-Plugin-Harbor
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: digitalist-open-cloud

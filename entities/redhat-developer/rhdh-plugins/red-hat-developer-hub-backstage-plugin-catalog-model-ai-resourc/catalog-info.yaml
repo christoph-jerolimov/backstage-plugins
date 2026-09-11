@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: red-hat-developer-hub-backstage-plugin-catalog-model-ai-resourc
+  title: "@red-hat-developer-hub/backstage-plugin-catalog-model-ai-resource-agent"
+  description: "Catalog model types and validator for AiResource agent entities (spec.type: agent)."
+  tags:
+    - common-library
+    - repo-rhdh-plugins
+  annotations:
+    github.com/project-slug: redhat-developer/rhdh-plugins
+    backstage.io/source-location: url:https://github.com/redhat-developer/rhdh-plugins/tree/HEAD/workspaces/ai-integrations/plugins/catalog-model-ai-resource-agent
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 0.3.1
+  links:
+    - url: https://github.com/redhat-developer/rhdh-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: redhat-developer

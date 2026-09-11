@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: axis-backstage-plugin-jira-dashboard-backend
+  title: "@axis-backstage/plugin-jira-dashboard-backend"
+  description: Backend plugin that queries the Atlassian Jira REST API for issue and project information for the Jira Dashboard frontend.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: AxisCommunications/backstage-plugins
+    backstage.io/source-location: url:https://github.com/AxisCommunications/backstage-plugins/tree/HEAD/plugins/jira-dashboard-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 6.1.6
+  links:
+    - url: https://github.com/AxisCommunications/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: axiscommunications

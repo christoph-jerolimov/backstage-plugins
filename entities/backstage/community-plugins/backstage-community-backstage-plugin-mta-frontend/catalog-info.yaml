@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-backstage-plugin-mta-frontend
+  title: "@backstage-community/backstage-plugin-mta-frontend"
+  description: Frontend plugin, generated from the Backstage CLI template, for the MTA (Migration Toolkit for Applications) integration.
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/mta/plugins/mta-frontend
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.4.2
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

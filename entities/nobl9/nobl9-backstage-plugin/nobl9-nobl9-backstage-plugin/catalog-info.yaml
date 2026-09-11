@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nobl9-nobl9-backstage-plugin
+  title: "@nobl9/nobl9-backstage-plugin"
+  description: Frontend plugin that displays Nobl9 SLO metrics such as burn rate and remaining error budget on entity pages.
+  tags:
+    - frontend-plugin
+    - repo-nobl9-backstage-plugin
+  annotations:
+    github.com/project-slug: nobl9/nobl9-backstage-plugin
+    backstage.io/source-location: url:https://github.com/nobl9/nobl9-backstage-plugin/tree/HEAD/plugins/nobl9-plugin
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.3.1
+  links:
+    - url: https://github.com/nobl9/nobl9-backstage-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: nobl9

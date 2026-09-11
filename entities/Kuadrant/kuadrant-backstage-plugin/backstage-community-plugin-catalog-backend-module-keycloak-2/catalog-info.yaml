@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-catalog-backend-module-keycloak-2
+  title: backstage-community-plugin-catalog-backend-module-keycloak
+  description: Catalog backend module that imports users and groups from Keycloak into the Backstage catalog.
+  tags:
+    - backend-plugin-module
+    - repo-kuadrant-backstage-plugin
+  annotations:
+    github.com/project-slug: Kuadrant/kuadrant-backstage-plugin
+    backstage.io/source-location: url:https://github.com/Kuadrant/kuadrant-backstage-plugin/tree/HEAD/dynamic-plugins/wrappers/backstage-community-plugin-catalog-backend-module-keycloak-dynamic
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 3.19.2
+  links:
+    - url: https://github.com/Kuadrant/kuadrant-backstage-plugin
+      title: GitHub repository
+      icon: github
+    - url: https://red.ht/rhdh
+      title: Homepage
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: kuadrant

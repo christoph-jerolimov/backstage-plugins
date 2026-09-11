@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-techdocs-module-addons-contrib-2
+  title: backstage-plugin-techdocs-module-addons-contrib
+  description: Frontend module that adds community-contributed addons to the TechDocs reader.
+  tags:
+    - frontend-plugin-module
+    - repo-kuadrant-backstage-plugin
+  annotations:
+    github.com/project-slug: Kuadrant/kuadrant-backstage-plugin
+    backstage.io/source-location: url:https://github.com/Kuadrant/kuadrant-backstage-plugin/tree/HEAD/dynamic-plugins/wrappers/backstage-plugin-techdocs-module-addons-contrib
+    backstage-plugins.io/role: frontend-plugin-module
+    backstage-plugins.io/package-version: 1.1.34
+  links:
+    - url: https://github.com/Kuadrant/kuadrant-backstage-plugin
+      title: GitHub repository
+      icon: github
+    - url: https://red.ht/rhdh
+      title: Homepage
+spec:
+  type: frontend-plugin-module
+  lifecycle: unknown
+  owner: kuadrant

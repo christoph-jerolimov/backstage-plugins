@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: redhatinsights-backstage-plugin-webrca-frontend
+  title: "@redhatinsights/backstage-plugin-webrca-frontend"
+  description: Frontend plugin for viewing WebRCA (Red Hat root cause analysis) data in Backstage.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-visual-qontract
+  annotations:
+    github.com/project-slug: RedHatInsights/backstage-plugin-visual-qontract
+    backstage.io/source-location: url:https://github.com/RedHatInsights/backstage-plugin-visual-qontract/tree/HEAD/plugins/webrca-frontend
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.2.2
+  links:
+    - url: https://github.com/RedHatInsights/backstage-plugin-visual-qontract
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: redhatinsights

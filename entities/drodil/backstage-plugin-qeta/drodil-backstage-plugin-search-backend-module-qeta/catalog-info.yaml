@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: drodil-backstage-plugin-search-backend-module-qeta
+  title: "@drodil/backstage-plugin-search-backend-module-qeta"
+  description: The qeta backend module for the search plugin.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugin-qeta
+  annotations:
+    github.com/project-slug: drodil/backstage-plugin-qeta
+    backstage.io/source-location: url:https://github.com/drodil/backstage-plugin-qeta/tree/HEAD/plugins/search-backend-module-qeta
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 4.0.5
+  links:
+    - url: https://github.com/drodil/backstage-plugin-qeta
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: drodil

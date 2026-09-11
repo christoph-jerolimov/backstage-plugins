@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aws-aws-config-catalog-module-for-backstage
+  title: "@aws/aws-config-catalog-module-for-backstage"
+  description: The aws-config backend module for the catalog plugin.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins-for-aws
+  annotations:
+    github.com/project-slug: awslabs/backstage-plugins-for-aws
+    backstage.io/source-location: url:https://github.com/awslabs/backstage-plugins-for-aws/tree/HEAD/plugins/core/catalog-config
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.4.0
+  links:
+    - url: https://github.com/awslabs/backstage-plugins-for-aws
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: awslabs

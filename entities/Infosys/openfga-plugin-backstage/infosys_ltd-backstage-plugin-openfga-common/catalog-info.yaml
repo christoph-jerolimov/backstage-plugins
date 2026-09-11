@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: infosys_ltd-backstage-plugin-openfga-common
+  title: "@infosys_ltd/backstage-plugin-openfga-common"
+  description: Common functionalities for the openfga plugin
+  tags:
+    - common-library
+    - repo-openfga-plugin-backstage
+  annotations:
+    github.com/project-slug: Infosys/openfga-plugin-backstage
+    backstage.io/source-location: url:https://github.com/Infosys/openfga-plugin-backstage/tree/HEAD/plugins/openfga-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 1.1.1
+  links:
+    - url: https://github.com/Infosys/openfga-plugin-backstage
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: infosys

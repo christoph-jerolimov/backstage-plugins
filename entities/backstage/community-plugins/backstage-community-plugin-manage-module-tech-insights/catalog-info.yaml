@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-manage-module-tech-insights
+  title: "@backstage-community/plugin-manage-module-tech-insights"
+  description: Manage plugin - Tech Insights module
+  tags:
+    - frontend-plugin-module
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/manage/plugins/manage-module-tech-insights
+    backstage-plugins.io/role: frontend-plugin-module
+    backstage-plugins.io/package-version: 0.8.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: frontend-plugin-module
+  lifecycle: unknown
+  owner: backstage

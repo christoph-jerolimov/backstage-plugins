@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-apiiro-backend
+  title: "@backstage-community/plugin-apiiro-backend"
+  description: Backend plugin providing server-side API communication with the Apiiro platform for the Apiiro frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/apiiro/plugins/apiiro-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 1.1.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

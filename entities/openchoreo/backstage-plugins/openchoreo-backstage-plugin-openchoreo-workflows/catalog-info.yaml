@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: openchoreo-backstage-plugin-openchoreo-workflows
+  title: "@openchoreo/backstage-plugin-openchoreo-workflows"
+  description: Frontend plugin for viewing OpenChoreo generic workflow runs, requiring the OpenChoreo core plugin.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: openchoreo/backstage-plugins
+    backstage.io/source-location: url:https://github.com/openchoreo/backstage-plugins/tree/HEAD/plugins/openchoreo-workflows
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.2.0
+  links:
+    - url: https://github.com/openchoreo/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: openchoreo

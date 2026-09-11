@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terasky-backstage-plugin-crossplane-resources-backend
+  title: "@terasky/backstage-plugin-crossplane-resources-backend"
+  description: Backend plugin providing Crossplane integration, permission enforcement, and API endpoints backing the Crossplane resources frontend.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: TeraSky-OSS/backstage-plugins
+    backstage.io/source-location: url:https://github.com/TeraSky-OSS/backstage-plugins/tree/HEAD/plugins/crossplane-resources-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 1.19.0
+  links:
+    - url: https://github.com/TeraSky-OSS/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://terasky.com
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: terasky-oss

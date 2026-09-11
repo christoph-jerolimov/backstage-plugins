@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-aws-cloudformation-plugin
+  title: backstage-aws-cloudformation-plugin
+  description: Backstage plugin for using AWS CloudFormation as source location
+  tags:
+    - frontend-plugin
+    - repo-backstage-aws-cloudformation-plugin
+  annotations:
+    github.com/project-slug: purple-technology/backstage-aws-cloudformation-plugin
+    backstage.io/source-location: url:https://github.com/purple-technology/backstage-aws-cloudformation-plugin/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 2.0.10
+  links:
+    - url: https://github.com/purple-technology/backstage-aws-cloudformation-plugin
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/purple-technology/backstage-aws-cloudformation-plugin#readme
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: purple-technology

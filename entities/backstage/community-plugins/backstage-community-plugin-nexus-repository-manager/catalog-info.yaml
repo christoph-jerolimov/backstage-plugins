@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-nexus-repository-manager
+  title: "@backstage-community/plugin-nexus-repository-manager"
+  description: Frontend plugin that displays build artifact information from a Sonatype Nexus Repository Manager server on entity pages.
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/nexus-repository-manager/plugins/nexus-repository-manager
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.27.1
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: redhatinsights-backstage-plugin-kafka-info
+  title: "@redhatinsights/backstage-plugin-kafka-info"
+  description: Frontend plugin that displays Kafka consumer group lag information on entity pages using a Prometheus metric via a backend proxy.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-kafka-info
+  annotations:
+    github.com/project-slug: RedHatInsights/backstage-plugin-kafka-info
+    backstage.io/source-location: url:https://github.com/RedHatInsights/backstage-plugin-kafka-info/tree/HEAD/plugins/kafka-info
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.5.3
+  links:
+    - url: https://github.com/RedHatInsights/backstage-plugin-kafka-info
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: redhatinsights

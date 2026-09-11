@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kuadrant-kuadrant-backstage-plugin-backend
+  title: "@kuadrant/kuadrant-backstage-plugin-backend"
+  description: Backend plugin providing API endpoints for the Kuadrant frontend plugin to manage API products, keys, and policies.
+  tags:
+    - backend-plugin
+    - repo-kuadrant-backstage-plugin
+  annotations:
+    github.com/project-slug: Kuadrant/kuadrant-backstage-plugin
+    backstage.io/source-location: url:https://github.com/Kuadrant/kuadrant-backstage-plugin/tree/HEAD/plugins/kuadrant-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.0.2-dev
+  links:
+    - url: https://github.com/Kuadrant/kuadrant-backstage-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: kuadrant

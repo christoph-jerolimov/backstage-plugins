@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rsc-labs-backstage-highlights-plugin-backend
+  title: "@rsc-labs/backstage-highlights-plugin-backend"
+  description: Backend plugin supplying GitHub and GitLab entity data for the Highlights frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-backstage-highlights-plugin
+  annotations:
+    github.com/project-slug: RSC-Labs/backstage-highlights-plugin
+    backstage.io/source-location: url:https://github.com/RSC-Labs/backstage-highlights-plugin/tree/HEAD/plugins/backstage-highlights-plugin-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.3.0
+  links:
+    - url: https://github.com/RSC-Labs/backstage-highlights-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: rsc-labs

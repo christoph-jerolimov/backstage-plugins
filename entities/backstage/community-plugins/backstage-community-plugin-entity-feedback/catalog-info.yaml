@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-entity-feedback
+  title: "@backstage-community/plugin-entity-feedback"
+  description: Frontend plugin letting users rate and give feedback on catalog entities via star or like/dislike ratings, with aggregated views for owners.
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/entity-feedback/plugins/entity-feedback
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.22.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

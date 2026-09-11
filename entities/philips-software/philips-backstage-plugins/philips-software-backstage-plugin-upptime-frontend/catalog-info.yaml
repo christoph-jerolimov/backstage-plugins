@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: philips-software-backstage-plugin-upptime-frontend
+  title: "@philips-software/backstage-plugin-upptime-frontend"
+  description: Frontend plugin that displays Upptime uptime and response statistics on entity pages.
+  tags:
+    - frontend-plugin
+    - repo-philips-backstage-plugins
+  annotations:
+    github.com/project-slug: philips-software/philips-backstage-plugins
+    backstage.io/source-location: url:https://github.com/philips-software/philips-backstage-plugins/tree/HEAD/workspaces/upptime/plugins/upptime-frontend
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 2.6.0
+  links:
+    - url: https://github.com/philips-software/philips-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: philips-software

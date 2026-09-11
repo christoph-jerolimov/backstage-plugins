@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-auth-backend-module-microsoft-provider
+  title: "@backstage/plugin-auth-backend-module-microsoft-provider"
+  description: The microsoft-provider backend module for the auth plugin.
+  tags:
+    - backend-plugin-module
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/auth-backend-module-microsoft-provider
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.3.19-next.0
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: backstage

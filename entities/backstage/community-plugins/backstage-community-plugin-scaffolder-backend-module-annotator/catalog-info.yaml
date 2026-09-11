@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-scaffolder-backend-module-annotator
+  title: "@backstage-community/plugin-scaffolder-backend-module-annotator"
+  description: The annotator module for @backstage/plugin-scaffolder-backend
+  tags:
+    - backend-plugin-module
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/scaffolder-backend-module-annotator/plugins/scaffolder-backend-module-annotator
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 2.20.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: backstage

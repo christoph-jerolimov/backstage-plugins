@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: globallogicuki-backstage-plugin-terraform-backend
+  title: "@globallogicuki/backstage-plugin-terraform-backend"
+  description: Backstage backend plugin proxying the Terraform Cloud/Enterprise API for the terraform frontend plugin
+  tags:
+    - backend-plugin
+    - repo-globallogic-backstage-plugins
+  annotations:
+    github.com/project-slug: globallogicuki/globallogic-backstage-plugins
+    backstage.io/source-location: url:https://github.com/globallogicuki/globallogic-backstage-plugins/tree/HEAD/plugins/terraform-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.12.0
+  links:
+    - url: https://github.com/globallogicuki/globallogic-backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/globallogicuki/globallogic-backstage-plugins/tree/main/plugins/terraform-backend
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: globallogicuki

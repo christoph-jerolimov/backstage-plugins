@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: web-seven-backstage-backend-plugin-openfga
+  title: "@web-seven/backstage-backend-plugin-openfga"
+  description: Backend plugin, scaffolded with the Backstage CLI, that integrates OpenFGA authorization with Backstage.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: web-seven/backstage-plugins
+    backstage.io/source-location: url:https://github.com/web-seven/backstage-plugins/tree/HEAD/plugins/backend-plugin-openfga
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.2
+  links:
+    - url: https://github.com/web-seven/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: web-seven

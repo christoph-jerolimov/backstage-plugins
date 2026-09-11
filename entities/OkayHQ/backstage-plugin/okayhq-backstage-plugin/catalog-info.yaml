@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: okayhq-backstage-plugin
+  title: "@okayhq/backstage-plugin"
+  description: Frontend plugin that embeds Okay team analytics dashboards, including DORA metrics, on team and service pages in Backstage.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin
+  annotations:
+    github.com/project-slug: OkayHQ/backstage-plugin
+    backstage.io/source-location: url:https://github.com/OkayHQ/backstage-plugin/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.0.2
+  links:
+    - url: https://github.com/OkayHQ/backstage-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: okayhq

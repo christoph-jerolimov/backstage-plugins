@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-scaffolder-backend-module-bitbucket-cloud
+  title: "@backstage/plugin-scaffolder-backend-module-bitbucket-cloud"
+  description: The Bitbucket Cloud module for @backstage/plugin-scaffolder-backend
+  tags:
+    - backend-plugin-module
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/scaffolder-backend-module-bitbucket-cloud
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.3.11-next.2
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: backstage

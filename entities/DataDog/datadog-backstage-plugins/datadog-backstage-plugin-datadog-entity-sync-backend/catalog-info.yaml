@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: datadog-backstage-plugin-datadog-entity-sync-backend
+  title: "@datadog/backstage-plugin-datadog-entity-sync-backend"
+  description: Backend that syncs catalog entities from Backstage into a Datadog service catalog on a configurable schedule.
+  tags:
+    - backend-plugin
+    - repo-datadog-backstage-plugins
+  annotations:
+    github.com/project-slug: DataDog/datadog-backstage-plugins
+    backstage.io/source-location: url:https://github.com/DataDog/datadog-backstage-plugins/tree/HEAD/plugins/datadog-entity-sync-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 1.1.5
+  links:
+    - url: https://github.com/DataDog/datadog-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: datadog

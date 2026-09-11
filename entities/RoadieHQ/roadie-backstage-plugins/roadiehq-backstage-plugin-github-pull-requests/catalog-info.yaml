@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadiehq-backstage-plugin-github-pull-requests
+  title: "@roadiehq/backstage-plugin-github-pull-requests"
+  description: Frontend plugin that lists GitHub pull requests and related statistics for a repository on entity and home pages.
+  tags:
+    - frontend-plugin
+    - repo-roadie-backstage-plugins
+  annotations:
+    github.com/project-slug: RoadieHQ/roadie-backstage-plugins
+    backstage.io/source-location: url:https://github.com/RoadieHQ/roadie-backstage-plugins/tree/HEAD/plugins/frontend/backstage-plugin-github-pull-requests
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 3.7.1
+  links:
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://roadie.io/backstage/plugins/github-pull-requests/
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: roadiehq

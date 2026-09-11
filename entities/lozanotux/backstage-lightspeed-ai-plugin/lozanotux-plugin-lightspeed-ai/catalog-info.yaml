@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: lozanotux-plugin-lightspeed-ai
+  title: "@lozanotux/plugin-lightspeed-ai"
+  description: Frontend plugin, generated from the Backstage CLI template, for Lightspeed AI integration.
+  tags:
+    - frontend-plugin
+    - repo-backstage-lightspeed-ai-plugin
+  annotations:
+    github.com/project-slug: lozanotux/backstage-lightspeed-ai-plugin
+    backstage.io/source-location: url:https://github.com/lozanotux/backstage-lightspeed-ai-plugin/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/lozanotux/backstage-lightspeed-ai-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: lozanotux

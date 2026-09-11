@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-jaeger
+  title: "@backstage-community/plugin-jaeger"
+  description: Frontend plugin showing a Jaeger distributed tracing card on service entity pages.
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/jaeger/plugins/jaeger
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.18.1
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

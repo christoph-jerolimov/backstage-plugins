@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadiehq-backstage-plugin-argo-cd-backend
+  title: "@roadiehq/backstage-plugin-argo-cd-backend"
+  description: Backend plugin that connects Backstage to one or more ArgoCD instances to fetch application deployment data.
+  tags:
+    - backend-plugin
+    - repo-roadie-backstage-plugins
+  annotations:
+    github.com/project-slug: RoadieHQ/roadie-backstage-plugins
+    backstage.io/source-location: url:https://github.com/RoadieHQ/roadie-backstage-plugins/tree/HEAD/plugins/backend/backstage-plugin-argo-cd-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 4.8.0
+  links:
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: roadiehq

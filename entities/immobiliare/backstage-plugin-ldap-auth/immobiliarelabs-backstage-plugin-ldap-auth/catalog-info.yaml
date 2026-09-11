@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: immobiliarelabs-backstage-plugin-ldap-auth
+  title: "@immobiliarelabs/backstage-plugin-ldap-auth"
+  description: Backstage LDAP Authentication plugin, this packages adds frontend login page and token management sibling of @immobiliarelabs/backstage-plugin-ldap-auth-backend
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-ldap-auth
+  annotations:
+    github.com/project-slug: immobiliare/backstage-plugin-ldap-auth
+    backstage.io/source-location: url:https://github.com/immobiliare/backstage-plugin-ldap-auth/tree/HEAD/packages/ldap-auth
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 5.2.0
+  links:
+    - url: https://github.com/immobiliare/backstage-plugin-ldap-auth
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: immobiliare

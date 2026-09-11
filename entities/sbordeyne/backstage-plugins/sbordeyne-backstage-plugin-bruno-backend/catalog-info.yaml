@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sbordeyne-backstage-plugin-bruno-backend
+  title: "@sbordeyne/backstage-plugin-bruno-backend"
+  description: Backstage backend plugin syncing Bruno collection run reports from GitHub artifacts, S3 and Google Cloud Storage into the Backstage database.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: sbordeyne/backstage-plugins
+    backstage.io/source-location: url:https://github.com/sbordeyne/backstage-plugins/tree/HEAD/plugins/bruno-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/sbordeyne/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://sbordeyne.github.io/backstage-plugins/plugins/bruno/
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: sbordeyne

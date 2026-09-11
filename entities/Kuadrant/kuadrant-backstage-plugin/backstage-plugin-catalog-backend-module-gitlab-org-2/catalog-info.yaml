@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-catalog-backend-module-gitlab-org-2
+  title: backstage-plugin-catalog-backend-module-gitlab-org
+  description: Catalog backend module that imports users and groups from a GitLab organization or instance.
+  tags:
+    - backend-plugin-module
+    - repo-kuadrant-backstage-plugin
+  annotations:
+    github.com/project-slug: Kuadrant/kuadrant-backstage-plugin
+    backstage.io/source-location: url:https://github.com/Kuadrant/kuadrant-backstage-plugin/tree/HEAD/dynamic-plugins/wrappers/backstage-plugin-catalog-backend-module-gitlab-org-dynamic
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.2.19
+  links:
+    - url: https://github.com/Kuadrant/kuadrant-backstage-plugin
+      title: GitHub repository
+      icon: github
+    - url: https://red.ht/rhdh
+      title: Homepage
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: kuadrant

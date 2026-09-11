@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-app
+  title: "@backstage/plugin-app"
+  description: Frontend plugin providing the foundational new-frontend-system application that other Backstage frontend features attach to.
+  tags:
+    - frontend-plugin
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/app
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.5.3-next.1
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

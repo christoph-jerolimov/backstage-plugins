@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hpatoio-backstage-plugin-language-info
+  title: "@hpatoio/backstage-plugin-language-info"
+  description: Meta package pointing to the language-info card and processor plugins for extracting language version info.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-language-info
+  annotations:
+    github.com/project-slug: hpatoio/backstage-plugin-language-info
+    backstage.io/source-location: url:https://github.com/hpatoio/backstage-plugin-language-info/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.0.0
+  links:
+    - url: https://github.com/hpatoio/backstage-plugin-language-info
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: hpatoio

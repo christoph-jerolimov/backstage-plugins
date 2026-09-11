@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadiehq-scaffolder-backend-argocd
+  title: "@roadiehq/scaffolder-backend-argocd"
+  description: Scaffolder backend module adding an action to create resources via the Argo CD API.
+  tags:
+    - backend-plugin-module
+    - repo-roadie-backstage-plugins
+  annotations:
+    github.com/project-slug: RoadieHQ/roadie-backstage-plugins
+    backstage.io/source-location: url:https://github.com/RoadieHQ/roadie-backstage-plugins/tree/HEAD/plugins/scaffolder-actions/scaffolder-backend-argocd
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 1.8.1
+  links:
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: roadiehq

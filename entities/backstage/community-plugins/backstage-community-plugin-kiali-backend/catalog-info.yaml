@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-kiali-backend
+  title: "@backstage-community/plugin-kiali-backend"
+  description: Backend plugin that interfaces with the Kiali API control plane and serves service mesh data to the Kiali frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/kiali/plugins/kiali-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 1.29.3
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

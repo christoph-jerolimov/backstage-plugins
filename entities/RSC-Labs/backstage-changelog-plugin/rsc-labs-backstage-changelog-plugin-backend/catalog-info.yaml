@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rsc-labs-backstage-changelog-plugin-backend
+  title: "@rsc-labs/backstage-changelog-plugin-backend"
+  description: Backend plugin that reads and parses changelog files for the changelog frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-backstage-changelog-plugin
+  annotations:
+    github.com/project-slug: RSC-Labs/backstage-changelog-plugin
+    backstage.io/source-location: url:https://github.com/RSC-Labs/backstage-changelog-plugin/tree/HEAD/plugins/backstage-changelog-plugin-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.4.0
+  links:
+    - url: https://github.com/RSC-Labs/backstage-changelog-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: rsc-labs

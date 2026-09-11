@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-announcements-node
+  title: "@backstage-community/plugin-announcements-node"
+  description: Node.js library for the announcements plugin
+  tags:
+    - node-library
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/announcements/plugins/announcements-node
+    backstage-plugins.io/role: node-library
+    backstage-plugins.io/package-version: 0.22.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: node-library
+  lifecycle: unknown
+  owner: backstage

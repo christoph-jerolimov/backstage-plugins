@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: immobiliarelabs-backstage-plugin-gitlab-backend
+  title: "@immobiliarelabs/backstage-plugin-gitlab-backend"
+  description: Backend plugin that fetches data from GitLab for the companion frontend GitLab plugin.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugin-gitlab
+  annotations:
+    github.com/project-slug: immobiliare/backstage-plugin-gitlab
+    backstage.io/source-location: url:https://github.com/immobiliare/backstage-plugin-gitlab/tree/HEAD/packages/gitlab-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 7.0.1
+  links:
+    - url: https://github.com/immobiliare/backstage-plugin-gitlab
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: immobiliare

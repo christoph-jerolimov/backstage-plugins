@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: procore-oss-backstage-plugin-announcements
+  title: "@procore-oss/backstage-plugin-announcements"
+  description: Deprecated frontend plugin for displaying and managing announcements; superseded by @backstage-community/plugin-announcements.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-announcements
+  annotations:
+    github.com/project-slug: procore-oss/backstage-plugin-announcements
+    backstage.io/source-location: url:https://github.com/procore-oss/backstage-plugin-announcements/tree/HEAD/plugins/announcements
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.0.0
+  links:
+    - url: https://github.com/procore-oss/backstage-plugin-announcements
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: procore-oss

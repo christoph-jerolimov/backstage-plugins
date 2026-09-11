@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-gateway-backend
+  title: "@backstage/plugin-gateway-backend"
+  description: Backend plugin that routes frontend requests to the appropriate backend plugin across split multi-deployment Backstage installations.
+  tags:
+    - backend-plugin
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/gateway-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 1.1.9-next.0
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

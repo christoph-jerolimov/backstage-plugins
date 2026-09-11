@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-rbac-backend
+  title: "@backstage-community/plugin-rbac-backend"
+  description: Backend plugin that integrates the Backstage permission framework to provide role-based access control.
+  tags:
+    - backend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/rbac/plugins/rbac-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 8.1.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-blackduck
+  title: backstage-plugin-blackduck
+  description: Frontend plugin displaying BlackDuck vulnerability and risk profile data on catalog entity pages.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: deepan10/backstage-plugins
+    backstage.io/source-location: url:https://github.com/deepan10/backstage-plugins/tree/HEAD/plugins/blackduck
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.2.1
+  links:
+    - url: https://github.com/deepan10/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: deepan10

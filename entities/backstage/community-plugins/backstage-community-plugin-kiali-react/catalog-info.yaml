@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-kiali-react
+  title: "@backstage-community/plugin-kiali-react"
+  description: Web library for the kiali plugin
+  tags:
+    - web-library
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/kiali/plugins/kiali-react
+    backstage-plugins.io/role: web-library
+    backstage-plugins.io/package-version: 0.7.4
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: web-library
+  lifecycle: unknown
+  owner: backstage

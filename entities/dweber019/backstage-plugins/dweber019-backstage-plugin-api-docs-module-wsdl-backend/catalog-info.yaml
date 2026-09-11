@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dweber019-backstage-plugin-api-docs-module-wsdl-backend
+  title: "@dweber019/backstage-plugin-api-docs-module-wsdl-backend"
+  description: Additional functionalities for the api-docs plugin that renders the output of WSDL
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: dweber019/backstage-plugins
+    backstage.io/source-location: url:https://github.com/dweber019/backstage-plugins/tree/HEAD/plugins/api-docs-module-wsdl-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 1.1.2
+  links:
+    - url: https://github.com/dweber019/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/dweber019/backstage-plugins/tree/main/plugins/api-docs-module-wsdl
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: dweber019

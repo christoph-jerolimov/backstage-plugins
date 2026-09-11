@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-scaffolder-backend-module-copier
+  title: "@backstage/plugin-scaffolder-backend-module-copier"
+  description: A module for the scaffolder backend that lets you template projects using copier
+  tags:
+    - backend-plugin-module
+    - repo-scaffolder-backend-module-copier
+  annotations:
+    github.com/project-slug: telia-oss/scaffolder-backend-module-copier
+    backstage.io/source-location: url:https://github.com/telia-oss/scaffolder-backend-module-copier/tree/HEAD
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.2.13
+  links:
+    - url: https://github.com/telia-oss/scaffolder-backend-module-copier
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: telia-oss

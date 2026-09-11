@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-jaeger-common
+  title: "@backstage-community/plugin-jaeger-common"
+  description: Common functionalities for the jaeger plugin
+  tags:
+    - common-library
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/jaeger/plugins/jaeger-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 0.18.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: backstage

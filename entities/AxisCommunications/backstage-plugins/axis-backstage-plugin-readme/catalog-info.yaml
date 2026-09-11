@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: axis-backstage-plugin-readme
+  title: "@axis-backstage/plugin-readme"
+  description: Frontend plugin that displays an entity's README file on its catalog entity page, supporting multiple SCM integrations and file formats.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: AxisCommunications/backstage-plugins
+    backstage.io/source-location: url:https://github.com/AxisCommunications/backstage-plugins/tree/HEAD/plugins/readme
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.19.4
+  links:
+    - url: https://github.com/AxisCommunications/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: axiscommunications

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible-plugin-scaffolder-backend-module-backstage-rhaap
+  title: "@ansible/plugin-scaffolder-backend-module-backstage-rhaap"
+  description: The ansible backend module for the backstage scaffolder plugin.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins-ansible
+  annotations:
+    github.com/project-slug: ansible/backstage-plugins-ansible
+    backstage.io/source-location: url:https://github.com/ansible/backstage-plugins-ansible/tree/HEAD/plugins/scaffolder-backend-module-backstage-rhaap
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 2.2.7
+  links:
+    - url: https://github.com/ansible/backstage-plugins-ansible
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: ansible

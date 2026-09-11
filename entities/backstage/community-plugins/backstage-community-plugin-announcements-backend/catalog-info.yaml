@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-announcements-backend
+  title: "@backstage-community/plugin-announcements-backend"
+  description: Backend plugin providing REST APIs and storage for announcements, categories, and tags, with search and notification integrations.
+  tags:
+    - backend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/announcements/plugins/announcements-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.28.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

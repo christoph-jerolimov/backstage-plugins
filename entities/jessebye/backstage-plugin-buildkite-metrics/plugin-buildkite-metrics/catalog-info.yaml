@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: plugin-buildkite-metrics
+  title: plugin-buildkite-metrics
+  description: Frontend plugin that adds a card displaying Buildkite pipeline metrics to a Backstage entity page.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-buildkite-metrics
+  annotations:
+    github.com/project-slug: jessebye/backstage-plugin-buildkite-metrics
+    backstage.io/source-location: url:https://github.com/jessebye/backstage-plugin-buildkite-metrics/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/jessebye/backstage-plugin-buildkite-metrics
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: jessebye

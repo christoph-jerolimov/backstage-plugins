@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sammbetts-backstage-plugin-status-page
+  title: "@sammbetts/backstage-plugin-status-page"
+  description: A backstage plugin for showing third party status and incidents
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-status-page
+  annotations:
+    github.com/project-slug: sammbetts/backstage-plugin-status-page
+    backstage.io/source-location: url:https://github.com/sammbetts/backstage-plugin-status-page/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.2.0
+  links:
+    - url: https://github.com/sammbetts/backstage-plugin-status-page
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: sammbetts

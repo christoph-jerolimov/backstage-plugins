@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-rbac-2
+  title: backstage-community-plugin-rbac
+  description: Frontend plugin for viewing and managing role-based access control (RBAC) roles and permissions.
+  tags:
+    - frontend-plugin
+    - repo-kuadrant-backstage-plugin
+  annotations:
+    github.com/project-slug: Kuadrant/kuadrant-backstage-plugin
+    backstage.io/source-location: url:https://github.com/Kuadrant/kuadrant-backstage-plugin/tree/HEAD/dynamic-plugins/wrappers/backstage-community-plugin-rbac
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.52.4
+  links:
+    - url: https://github.com/Kuadrant/kuadrant-backstage-plugin
+      title: GitHub repository
+      icon: github
+    - url: https://red.ht/rhdh
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: kuadrant

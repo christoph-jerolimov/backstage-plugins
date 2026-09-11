@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kyverno-backstage-plugin-policy-reporter-common
+  title: "@kyverno/backstage-plugin-policy-reporter-common"
+  description: Common functionalities for the policy-reporter plugin
+  tags:
+    - common-library
+    - repo-backstage-policy-reporter-plugin
+  annotations:
+    github.com/project-slug: kyverno/backstage-policy-reporter-plugin
+    backstage.io/source-location: url:https://github.com/kyverno/backstage-policy-reporter-plugin/tree/HEAD/plugins/policy-reporter-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 2.5.0
+  links:
+    - url: https://github.com/kyverno/backstage-policy-reporter-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: kyverno

@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-search-common
+  title: "@backstage/plugin-search-common"
+  description: Common functionalities for Search, to be shared between various search-enabled plugins
+  tags:
+    - common-library
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/search-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 1.2.25-next.0
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: backstage

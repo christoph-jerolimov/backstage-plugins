@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: red-hat-developer-hub-backstage-plugin-analytics-module-adopt-2
+  title: "@red-hat-developer-hub/backstage-plugin-analytics-module-adoption-insights"
+  description: Frontend analytics module implementing the Backstage Analytics API to batch and send adoption insight events to the backend.
+  tags:
+    - frontend-plugin-module
+    - repo-rhdh-plugins
+  annotations:
+    github.com/project-slug: redhat-developer/rhdh-plugins
+    backstage.io/source-location: url:https://github.com/redhat-developer/rhdh-plugins/tree/HEAD/workspaces/adoption-insights/plugins/analytics-module-adoption-insights
+    backstage-plugins.io/role: frontend-plugin-module
+    backstage-plugins.io/package-version: 1.0.1
+  links:
+    - url: https://github.com/redhat-developer/rhdh-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin-module
+  lifecycle: unknown
+  owner: redhat-developer

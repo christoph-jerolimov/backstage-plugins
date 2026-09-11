@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadiehq-scaffolder-backend-module-http-request-2
+  title: roadiehq-scaffolder-backend-module-http-request
+  description: Backend scaffolder module that adds a scaffolder action for making HTTP requests from software templates.
+  tags:
+    - backend-plugin-module
+    - repo-kuadrant-backstage-plugin
+  annotations:
+    github.com/project-slug: Kuadrant/kuadrant-backstage-plugin
+    backstage.io/source-location: url:https://github.com/Kuadrant/kuadrant-backstage-plugin/tree/HEAD/dynamic-plugins/wrappers/roadiehq-scaffolder-backend-module-http-request-dynamic
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 5.6.0
+  links:
+    - url: https://github.com/Kuadrant/kuadrant-backstage-plugin
+      title: GitHub repository
+      icon: github
+    - url: https://red.ht/rhdh
+      title: Homepage
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: kuadrant

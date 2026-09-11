@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-user-settings-common
+  title: "@backstage/plugin-user-settings-common"
+  description: Common functionalities for the user-settings plugin
+  tags:
+    - common-library
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/user-settings-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: backstage

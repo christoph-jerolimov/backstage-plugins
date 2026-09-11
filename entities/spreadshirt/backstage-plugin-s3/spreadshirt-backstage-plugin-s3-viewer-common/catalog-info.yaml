@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spreadshirt-backstage-plugin-s3-viewer-common
+  title: "@spreadshirt/backstage-plugin-s3-viewer-common"
+  description: Common functionalities for the s3-viewer plugin
+  tags:
+    - common-library
+    - repo-backstage-plugin-s3
+  annotations:
+    github.com/project-slug: spreadshirt/backstage-plugin-s3
+    backstage.io/source-location: url:https://github.com/spreadshirt/backstage-plugin-s3/tree/HEAD/plugins/s3-viewer-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 0.8.0
+  links:
+    - url: https://github.com/spreadshirt/backstage-plugin-s3
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: spreadshirt

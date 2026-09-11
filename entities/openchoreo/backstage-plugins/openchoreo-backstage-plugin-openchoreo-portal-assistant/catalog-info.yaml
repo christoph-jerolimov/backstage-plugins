@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: openchoreo-backstage-plugin-openchoreo-portal-assistant
+  title: "@openchoreo/backstage-plugin-openchoreo-portal-assistant"
+  description: Internal frontend plugin providing the Perch AI assistant chat drawer and contextual launchers on OpenChoreo component pages.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: openchoreo/backstage-plugins
+    backstage.io/source-location: url:https://github.com/openchoreo/backstage-plugins/tree/HEAD/plugins/openchoreo-portal-assistant
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.2.0
+  links:
+    - url: https://github.com/openchoreo/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: openchoreo

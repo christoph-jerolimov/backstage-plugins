@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-mcp-actions-backend
+  title: "@backstage/plugin-mcp-actions-backend"
+  description: Backend plugin that exposes registered Backstage actions as MCP (Model Context Protocol) tools for AI clients to discover and invoke.
+  tags:
+    - backend-plugin
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/mcp-actions-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.2.2-next.1
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

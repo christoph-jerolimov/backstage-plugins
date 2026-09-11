@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-tech-insights-react
+  title: "@backstage-community/plugin-tech-insights-react"
+  description: Web library for the tech-insights plugin
+  tags:
+    - web-library
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/tech-insights/plugins/tech-insights-react
+    backstage-plugins.io/role: web-library
+    backstage-plugins.io/package-version: 1.7.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: web-library
+  lifecycle: unknown
+  owner: backstage

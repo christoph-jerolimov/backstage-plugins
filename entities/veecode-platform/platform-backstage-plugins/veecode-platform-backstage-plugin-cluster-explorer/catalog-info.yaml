@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: veecode-platform-backstage-plugin-cluster-explorer
+  title: "@veecode-platform/backstage-plugin-cluster-explorer"
+  description: Frontend plugin listing Kubernetes Cluster catalog entities and showing per-cluster overview data, requiring the veecode-platform-common plugin.
+  tags:
+    - frontend-plugin
+    - repo-platform-backstage-plugins
+  annotations:
+    github.com/project-slug: veecode-platform/platform-backstage-plugins
+    backstage.io/source-location: url:https://github.com/veecode-platform/platform-backstage-plugins/tree/HEAD/plugins/cluster-explorer
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.4.0
+  links:
+    - url: https://github.com/veecode-platform/platform-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: veecode-platform

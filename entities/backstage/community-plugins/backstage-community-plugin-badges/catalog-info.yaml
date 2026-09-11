@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-badges
+  title: "@backstage-community/plugin-badges"
+  description: A Backstage plugin that generates README badges for your entities
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/badges/plugins/badges
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.24.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

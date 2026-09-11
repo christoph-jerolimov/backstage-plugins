@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadiehq-rag-ai-backend
+  title: "@roadiehq/rag-ai-backend"
+  description: Backend plugin that provides a configurable Retrieval Augmented Generation (RAG) AI backend for the Backstage catalog.
+  tags:
+    - backend-plugin
+    - repo-roadie-backstage-plugins
+  annotations:
+    github.com/project-slug: RoadieHQ/roadie-backstage-plugins
+    backstage.io/source-location: url:https://github.com/RoadieHQ/roadie-backstage-plugins/tree/HEAD/plugins/backend/rag-ai-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 3.0.1
+  links:
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: roadiehq

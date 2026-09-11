@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-topology-2
+  title: backstage-community-plugin-topology
+  description: Frontend plugin that visualizes Kubernetes workloads such as Deployments, Jobs, and Pods for a service.
+  tags:
+    - frontend-plugin
+    - repo-kuadrant-backstage-plugin
+  annotations:
+    github.com/project-slug: Kuadrant/kuadrant-backstage-plugin
+    backstage.io/source-location: url:https://github.com/Kuadrant/kuadrant-backstage-plugin/tree/HEAD/dynamic-plugins/wrappers/backstage-community-plugin-topology
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 2.12.3
+  links:
+    - url: https://github.com/Kuadrant/kuadrant-backstage-plugin
+      title: GitHub repository
+      icon: github
+    - url: https://red.ht/rhdh
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: kuadrant

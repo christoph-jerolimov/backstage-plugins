@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: red-hat-developer-hub-backstage-plugin-augment-backend
+  title: "@red-hat-developer-hub/backstage-plugin-augment-backend"
+  description: Backend plugin for Augment - configurable AI assistant with RAG, tool calling, and safety guardrails
+  tags:
+    - backend-plugin
+    - repo-rhdh-plugins
+  annotations:
+    github.com/project-slug: redhat-developer/rhdh-plugins
+    backstage.io/source-location: url:https://github.com/redhat-developer/rhdh-plugins/tree/HEAD/workspaces/augment/plugins/augment-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/redhat-developer/rhdh-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: redhat-developer

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: redhatinsights-backstage-plugin-security-backend-dynamic
+  title: "@redhatinsights/backstage-plugin-security-backend-dynamic"
+  description: Backend plugin scaffolded via the Backstage CLI that exposes a security-related health API endpoint, packaged for dynamic loading.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugin-security
+  annotations:
+    github.com/project-slug: RedHatInsights/backstage-plugin-security
+    backstage.io/source-location: url:https://github.com/RedHatInsights/backstage-plugin-security/tree/HEAD/plugins/security-backend/dist-dynamic
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.4
+  links:
+    - url: https://github.com/RedHatInsights/backstage-plugin-security
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: redhatinsights

@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-fairwinds-insights-backend
+  title: "@backstage-community/plugin-fairwinds-insights-backend"
+  description: Backend plugin proxying the Fairwinds Insights API and resolving entities to app-groups for the frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/fairwinds-insights/plugins/fairwinds-insights-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.5.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

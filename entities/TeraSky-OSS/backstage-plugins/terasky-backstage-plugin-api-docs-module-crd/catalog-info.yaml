@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terasky-backstage-plugin-api-docs-module-crd
+  title: "@terasky/backstage-plugin-api-docs-module-crd"
+  description: Additional functionalities for the api-docs plugin that renders Kubernetes CRDs
+  tags:
+    - frontend-plugin-module
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: TeraSky-OSS/backstage-plugins
+    backstage.io/source-location: url:https://github.com/TeraSky-OSS/backstage-plugins/tree/HEAD/plugins/api-docs-module-crd
+    backstage-plugins.io/role: frontend-plugin-module
+    backstage-plugins.io/package-version: 0.8.0
+  links:
+    - url: https://github.com/TeraSky-OSS/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://terasky.com
+      title: Homepage
+spec:
+  type: frontend-plugin-module
+  lifecycle: unknown
+  owner: terasky-oss

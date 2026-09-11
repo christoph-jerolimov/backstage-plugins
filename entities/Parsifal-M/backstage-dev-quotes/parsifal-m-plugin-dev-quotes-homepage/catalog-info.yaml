@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parsifal-m-plugin-dev-quotes-homepage
+  title: "@parsifal-m/plugin-dev-quotes-homepage"
+  description: A backstage plugin to render a developer themed quote
+  tags:
+    - frontend-plugin
+    - repo-backstage-dev-quotes
+  annotations:
+    github.com/project-slug: Parsifal-M/backstage-dev-quotes
+    backstage.io/source-location: url:https://github.com/Parsifal-M/backstage-dev-quotes/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 4.0.0
+  links:
+    - url: https://github.com/Parsifal-M/backstage-dev-quotes
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: parsifal-m

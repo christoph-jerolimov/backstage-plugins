@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible-plugin-backstage-rhaap
+  title: "@ansible/plugin-backstage-rhaap"
+  description: Frontend plugin that adds an Ansible sidebar page for Red Hat Ansible Automation Platform integration.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins-ansible
+  annotations:
+    github.com/project-slug: ansible/backstage-plugins-ansible
+    backstage.io/source-location: url:https://github.com/ansible/backstage-plugins-ansible/tree/HEAD/plugins/backstage-rhaap
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 2.2.7
+  links:
+    - url: https://github.com/ansible/backstage-plugins-ansible
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: ansible

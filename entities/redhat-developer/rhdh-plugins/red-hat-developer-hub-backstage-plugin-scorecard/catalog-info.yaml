@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: red-hat-developer-hub-backstage-plugin-scorecard
+  title: "@red-hat-developer-hub/backstage-plugin-scorecard"
+  description: Frontend plugin that visualizes configurable KPI scorecards on entity pages and the homepage, backed by the Scorecard backend.
+  tags:
+    - frontend-plugin
+    - repo-rhdh-plugins
+  annotations:
+    github.com/project-slug: redhat-developer/rhdh-plugins
+    backstage.io/source-location: url:https://github.com/redhat-developer/rhdh-plugins/tree/HEAD/workspaces/scorecard/plugins/scorecard
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 4.2.0
+  links:
+    - url: https://github.com/redhat-developer/rhdh-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: redhat-developer

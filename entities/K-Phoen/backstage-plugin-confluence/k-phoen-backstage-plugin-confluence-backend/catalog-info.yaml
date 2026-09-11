@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: k-phoen-backstage-plugin-confluence-backend
+  title: "@k-phoen/backstage-plugin-confluence-backend"
+  description: Backend plugin that indexes Confluence documents into Backstage's search engine via a scheduled collator.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugin-confluence
+  annotations:
+    github.com/project-slug: K-Phoen/backstage-plugin-confluence
+    backstage.io/source-location: url:https://github.com/K-Phoen/backstage-plugin-confluence/tree/HEAD/plugins/search-confluence-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.0.14
+  links:
+    - url: https://github.com/K-Phoen/backstage-plugin-confluence
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: k-phoen

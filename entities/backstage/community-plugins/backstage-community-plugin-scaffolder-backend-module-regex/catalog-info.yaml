@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-scaffolder-backend-module-regex
+  title: "@backstage-community/plugin-scaffolder-backend-module-regex"
+  description: The regex custom actions
+  tags:
+    - backend-plugin-module
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/scaffolder-backend-module-regex/plugins/regex-actions
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 2.18.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: backstage

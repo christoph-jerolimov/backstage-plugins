@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-kafka
+  title: "@backstage-community/plugin-kafka"
+  description: A Backstage plugin that integrates towards Kafka
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/kafka/plugins/kafka
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.12.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-api-docs-module-protoc-gen-doc
+  title: "@backstage/plugin-api-docs-module-protoc-gen-doc"
+  description: Additional functionalities for the api-docs plugin that renders the output of the protoc-gen-doc
+  tags:
+    - frontend-plugin-module
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/api-docs-module-protoc-gen-doc
+    backstage-plugins.io/role: frontend-plugin-module
+    backstage-plugins.io/package-version: 0.1.11
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: frontend-plugin-module
+  lifecycle: unknown
+  owner: backstage

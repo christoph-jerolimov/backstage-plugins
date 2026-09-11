@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadiehq-backstage-plugin-aws-auth
+  title: "@roadiehq/backstage-plugin-aws-auth"
+  description: Backend plugin that generates temporary AWS credentials so the frontend can make authenticated requests to AWS services.
+  tags:
+    - backend-plugin
+    - repo-roadie-backstage-plugins
+  annotations:
+    github.com/project-slug: RoadieHQ/roadie-backstage-plugins
+    backstage.io/source-location: url:https://github.com/RoadieHQ/roadie-backstage-plugins/tree/HEAD/plugins/backend/backstage-plugin-aws-auth
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.7.0
+  links:
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: roadiehq

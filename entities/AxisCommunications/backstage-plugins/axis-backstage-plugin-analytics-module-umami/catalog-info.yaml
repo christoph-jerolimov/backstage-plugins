@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: axis-backstage-plugin-analytics-module-umami
+  title: "@axis-backstage/plugin-analytics-module-umami"
+  description: Frontend plugin implementing Backstage's AnalyticsAPI to send usage events to the Umami open-source analytics platform.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: AxisCommunications/backstage-plugins
+    backstage.io/source-location: url:https://github.com/AxisCommunications/backstage-plugins/tree/HEAD/plugins/analytics-module-umami
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.11.5
+  links:
+    - url: https://github.com/AxisCommunications/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: axiscommunications

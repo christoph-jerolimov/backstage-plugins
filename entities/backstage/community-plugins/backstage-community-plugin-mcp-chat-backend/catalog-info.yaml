@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-mcp-chat-backend
+  title: "@backstage-community/plugin-mcp-chat-backend"
+  description: Backend that adds an AI chat interface to Backstage, connecting to multiple AI providers and MCP servers for natural-language interaction.
+  tags:
+    - backend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/mcp-chat/plugins/mcp-chat-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.14.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/mcp-chat/plugins/mcp-chat-backend
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

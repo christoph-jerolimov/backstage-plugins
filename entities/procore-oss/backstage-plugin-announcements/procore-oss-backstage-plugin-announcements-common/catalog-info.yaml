@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: procore-oss-backstage-plugin-announcements-common
+  title: "@procore-oss/backstage-plugin-announcements-common"
+  description: Common functionalities for the announcements plugin
+  tags:
+    - common-library
+    - repo-backstage-plugin-announcements
+  annotations:
+    github.com/project-slug: procore-oss/backstage-plugin-announcements
+    backstage.io/source-location: url:https://github.com/procore-oss/backstage-plugin-announcements/tree/HEAD/plugins/announcements-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 1.0.0
+  links:
+    - url: https://github.com/procore-oss/backstage-plugin-announcements
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: procore-oss

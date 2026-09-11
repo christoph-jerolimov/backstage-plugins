@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: devexcom-plugin-search-opensearch
+  title: "@devexcom/plugin-search-opensearch"
+  description: Modern OpenSearch-powered search interface for Backstage with facets, highlighting, and enhanced UX
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: devexcom/backstage-plugins
+    backstage.io/source-location: url:https://github.com/devexcom/backstage-plugins/tree/HEAD/workspaces/search-opensearch
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/devexcom/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: devexcom

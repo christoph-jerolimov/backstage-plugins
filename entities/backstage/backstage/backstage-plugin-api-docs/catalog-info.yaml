@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-api-docs
+  title: "@backstage/plugin-api-docs"
+  description: A Backstage plugin that helps represent API entities in the frontend
+  tags:
+    - frontend-plugin
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/api-docs
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.14.5-next.2
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage
