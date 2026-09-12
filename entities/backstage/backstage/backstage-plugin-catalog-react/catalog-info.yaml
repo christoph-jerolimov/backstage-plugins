@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-catalog-react
+  title: "@backstage/plugin-catalog-react"
+  description: A frontend library that helps other Backstage plugins interact with the catalog
+  tags:
+    - web-library
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/catalog-react
+    backstage-plugins.io/role: web-library
+    backstage-plugins.io/package-version: 3.2.3-next.2
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: web-library
+  lifecycle: unknown
+  owner: backstage

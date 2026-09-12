@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: secustor-backstage-plugin-scaffolder-backend-module-filter-util
+  title: "@secustor/backstage-plugin-scaffolder-backend-module-filter-utilities"
+  description: The filter-utilities module for @backstage/plugin-scaffolder-backend
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: secustor/backstage-plugins
+    backstage.io/source-location: url:https://github.com/secustor/backstage-plugins/tree/HEAD/plugins/scaffolder-backend-module-filter-utilities
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.4.0
+  links:
+    - url: https://github.com/secustor/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: secustor

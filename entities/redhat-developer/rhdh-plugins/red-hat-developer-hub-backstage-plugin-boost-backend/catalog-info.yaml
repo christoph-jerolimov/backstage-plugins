@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: red-hat-developer-hub-backstage-plugin-boost-backend
+  title: "@red-hat-developer-hub/backstage-plugin-boost-backend"
+  description: Backend plugin for the boost AI platform
+  tags:
+    - backend-plugin
+    - repo-rhdh-plugins
+  annotations:
+    github.com/project-slug: redhat-developer/rhdh-plugins
+    backstage.io/source-location: url:https://github.com/redhat-developer/rhdh-plugins/tree/HEAD/workspaces/boost/plugins/boost-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.8.2
+  links:
+    - url: https://github.com/redhat-developer/rhdh-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://red.ht/rhdh
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: redhat-developer

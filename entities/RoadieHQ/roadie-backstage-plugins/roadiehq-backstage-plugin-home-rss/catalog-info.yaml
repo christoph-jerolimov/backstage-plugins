@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadiehq-backstage-plugin-home-rss
+  title: "@roadiehq/backstage-plugin-home-rss"
+  description: Frontend homepage component that fetches and renders an RSS feed.
+  tags:
+    - frontend-plugin
+    - repo-roadie-backstage-plugins
+  annotations:
+    github.com/project-slug: RoadieHQ/roadie-backstage-plugins
+    backstage.io/source-location: url:https://github.com/RoadieHQ/roadie-backstage-plugins/tree/HEAD/plugins/home/backstage-plugin-home-rss
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.5.1
+  links:
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: roadiehq

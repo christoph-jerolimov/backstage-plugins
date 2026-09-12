@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-entity-feedback-backend
+  title: "@backstage-community/plugin-entity-feedback-backend"
+  description: Backend API storing entity feedback ratings and notifying entity owners of responses via Backstage Notifications.
+  tags:
+    - backend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/entity-feedback/plugins/entity-feedback-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.24.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

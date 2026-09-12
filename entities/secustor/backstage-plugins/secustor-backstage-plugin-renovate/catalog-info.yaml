@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: secustor-backstage-plugin-renovate
+  title: "@secustor/backstage-plugin-renovate"
+  description: Frontend plugin that displays Renovate dependency reports and extracted dependency data, with an overview and per-entity view.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: secustor/backstage-plugins
+    backstage.io/source-location: url:https://github.com/secustor/backstage-plugins/tree/HEAD/plugins/renovate
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.21.0
+  links:
+    - url: https://github.com/secustor/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: secustor

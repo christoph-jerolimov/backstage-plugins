@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kyverno-backstage-plugin-policy-reporter-backend
+  title: "@kyverno/backstage-plugin-policy-reporter-backend"
+  description: Backend plugin that integrates Policy Reporter with Backstage to serve Kyverno policy report data to the frontend.
+  tags:
+    - backend-plugin
+    - repo-backstage-policy-reporter-plugin
+  annotations:
+    github.com/project-slug: kyverno/backstage-policy-reporter-plugin
+    backstage.io/source-location: url:https://github.com/kyverno/backstage-policy-reporter-plugin/tree/HEAD/plugins/policy-reporter-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 2.6.0
+  links:
+    - url: https://github.com/kyverno/backstage-policy-reporter-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: kyverno

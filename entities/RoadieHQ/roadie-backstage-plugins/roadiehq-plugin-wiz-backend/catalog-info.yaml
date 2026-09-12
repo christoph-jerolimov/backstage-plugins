@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadiehq-plugin-wiz-backend
+  title: "@roadiehq/plugin-wiz-backend"
+  description: Backend plugin that retrieves Wiz API access tokens used by the Wiz frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-roadie-backstage-plugins
+  annotations:
+    github.com/project-slug: RoadieHQ/roadie-backstage-plugins
+    backstage.io/source-location: url:https://github.com/RoadieHQ/roadie-backstage-plugins/tree/HEAD/plugins/backend/wiz-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 2.2.0
+  links:
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: roadiehq

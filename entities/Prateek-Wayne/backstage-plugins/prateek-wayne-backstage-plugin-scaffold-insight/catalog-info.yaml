@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: prateek-wayne-backstage-plugin-scaffold-insight
+  title: "@prateek-wayne/backstage-plugin-scaffold-insight"
+  description: Frontend plugin that shows scaffolder template analytics, including template efficiency-boost metadata.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: Prateek-Wayne/backstage-plugins
+    backstage.io/source-location: url:https://github.com/Prateek-Wayne/backstage-plugins/tree/HEAD/plugins/scaffold-insight
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.1
+  links:
+    - url: https://github.com/Prateek-Wayne/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: prateek-wayne

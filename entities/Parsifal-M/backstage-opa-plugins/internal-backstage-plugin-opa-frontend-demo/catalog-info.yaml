@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: internal-backstage-plugin-opa-frontend-demo
+  title: "@internal/backstage-plugin-opa-frontend-demo"
+  description: Frontend demo plugin showing how the RequireOpaAuthz component controls UI visibility using OPA authorization decisions.
+  tags:
+    - frontend-plugin
+    - repo-backstage-opa-plugins
+  annotations:
+    github.com/project-slug: Parsifal-M/backstage-opa-plugins
+    backstage.io/source-location: url:https://github.com/Parsifal-M/backstage-opa-plugins/tree/HEAD/plugins/opa-demo-frontend
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.1
+  links:
+    - url: https://github.com/Parsifal-M/backstage-opa-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: parsifal-m

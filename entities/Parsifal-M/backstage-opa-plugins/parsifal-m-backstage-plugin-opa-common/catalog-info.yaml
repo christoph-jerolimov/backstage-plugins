@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parsifal-m-backstage-plugin-opa-common
+  title: "@parsifal-m/backstage-plugin-opa-common"
+  description: Common types and functionality for the OPA plugins
+  tags:
+    - common-library
+    - repo-backstage-opa-plugins
+  annotations:
+    github.com/project-slug: Parsifal-M/backstage-opa-plugins
+    backstage.io/source-location: url:https://github.com/Parsifal-M/backstage-opa-plugins/tree/HEAD/plugins/opa-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 0.1.2
+  links:
+    - url: https://github.com/Parsifal-M/backstage-opa-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: parsifal-m

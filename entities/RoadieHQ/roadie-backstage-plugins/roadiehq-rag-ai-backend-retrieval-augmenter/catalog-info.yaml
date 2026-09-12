@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadiehq-rag-ai-backend-retrieval-augmenter
+  title: "@roadiehq/rag-ai-backend-retrieval-augmenter"
+  description: Backend plugin module providing default retrieval pipeline logic for indexing and augmenting RAG AI queries.
+  tags:
+    - backend-plugin-module
+    - repo-roadie-backstage-plugins
+  annotations:
+    github.com/project-slug: RoadieHQ/roadie-backstage-plugins
+    backstage.io/source-location: url:https://github.com/RoadieHQ/roadie-backstage-plugins/tree/HEAD/plugins/backend/rag-ai-backend-retrieval-augmenter
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 2.0.2
+  links:
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: roadiehq

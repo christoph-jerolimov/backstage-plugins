@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: plusultra-plugin-scaffolder-dotnet-backend
+  title: "@plusultra/plugin-scaffolder-dotnet-backend"
+  description: Scaffolder backend module adding dotnet:new, dotnet:template:install, and dotnet:build actions for .NET project templates.
+  tags:
+    - backend-plugin-module
+    - repo-plusultra-dotnet-backstage-plugins
+  annotations:
+    github.com/project-slug: alefcarlos/plusultra-dotnet-backstage-plugins
+    backstage.io/source-location: url:https://github.com/alefcarlos/plusultra-dotnet-backstage-plugins/tree/HEAD/plugins/plugin-scaffolder-dotnet-backend
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 1.1.2
+  links:
+    - url: https://github.com/alefcarlos/plusultra-dotnet-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: alefcarlos

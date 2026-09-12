@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spreadshirt-backstage-plugin-s3-viewer-node
+  title: "@spreadshirt/backstage-plugin-s3-viewer-node"
+  description: Node.js library for the s3-viewer plugin
+  tags:
+    - node-library
+    - repo-backstage-plugin-s3
+  annotations:
+    github.com/project-slug: spreadshirt/backstage-plugin-s3
+    backstage.io/source-location: url:https://github.com/spreadshirt/backstage-plugin-s3/tree/HEAD/plugins/s3-viewer-node
+    backstage-plugins.io/role: node-library
+    backstage-plugins.io/package-version: 0.5.0
+  links:
+    - url: https://github.com/spreadshirt/backstage-plugin-s3
+      title: GitHub repository
+      icon: github
+spec:
+  type: node-library
+  lifecycle: unknown
+  owner: spreadshirt

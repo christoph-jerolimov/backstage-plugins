@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-azure-devops
+  title: "@backstage-community/plugin-azure-devops"
+  description: Frontend plugin that displays Azure DevOps pipelines, repos, pull requests, git tags, and README content on entity pages.
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/azure-devops/plugins/azure-devops
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.34.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

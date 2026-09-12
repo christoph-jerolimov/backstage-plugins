@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: k-phoen-backstage-plugin-opsgenie
+  title: "@k-phoen/backstage-plugin-opsgenie"
+  description: Frontend plugin that displays Opsgenie alerts, incidents, on-call schedules, and incident analytics within Backstage.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-opsgenie
+  annotations:
+    github.com/project-slug: K-Phoen/backstage-plugin-opsgenie
+    backstage.io/source-location: url:https://github.com/K-Phoen/backstage-plugin-opsgenie/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.6.6
+  links:
+    - url: https://github.com/K-Phoen/backstage-plugin-opsgenie
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: k-phoen

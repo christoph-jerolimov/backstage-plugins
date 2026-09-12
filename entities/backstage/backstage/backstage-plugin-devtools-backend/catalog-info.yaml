@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-devtools-backend
+  title: "@backstage/plugin-devtools-backend"
+  description: Backend plugin providing the data endpoints consumed by the DevTools frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/devtools-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.5.21-next.1
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

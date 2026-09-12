@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-notifications-common
+  title: "@backstage/plugin-notifications-common"
+  description: Common functionalities for the notifications plugin
+  tags:
+    - common-library
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/notifications-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 0.2.4-next.0
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: backstage

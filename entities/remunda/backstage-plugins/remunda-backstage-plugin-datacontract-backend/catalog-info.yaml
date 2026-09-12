@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: remunda-backstage-plugin-datacontract-backend
+  title: "@remunda/backstage-plugin-datacontract-backend"
+  description: Backstage backend module adding a catalog processor for DataContract API entities.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: remunda/backstage-plugins
+    backstage.io/source-location: url:https://github.com/remunda/backstage-plugins/tree/HEAD/plugins/datacontract-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/remunda/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/remunda/backstage-plugins/tree/main/plugins/datacontract-backend
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: remunda

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: coder-plugin-auth-backend-module-coder-provider
+  title: "@coder/plugin-auth-backend-module-coder-provider"
+  description: Backstage authentication backend module for Coder OAuth2 provider
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: coder/backstage-plugins
+    backstage.io/source-location: url:https://github.com/coder/backstage-plugins/tree/HEAD/plugins/auth-backend-module-coder-provider
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.0.0
+  links:
+    - url: https://github.com/coder/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: coder

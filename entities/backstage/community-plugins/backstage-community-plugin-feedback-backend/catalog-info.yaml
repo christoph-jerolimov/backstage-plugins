@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-feedback-backend
+  title: "@backstage-community/plugin-feedback-backend"
+  description: Backend REST API for storing feedback and creating associated Jira tickets, used by the feedback frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/feedback/plugins/feedback-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 2.2.3
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

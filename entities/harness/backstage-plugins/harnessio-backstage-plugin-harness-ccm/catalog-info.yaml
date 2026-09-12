@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: harnessio-backstage-plugin-harness-ccm
+  title: "@harnessio/backstage-plugin-harness-ccm"
+  description: Frontend plugin that displays Harness Cloud Cost Management data on entity pages via the Harness API.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: harness/backstage-plugins
+    backstage.io/source-location: url:https://github.com/harness/backstage-plugins/tree/HEAD/plugins/harness-ccm
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.4
+  links:
+    - url: https://github.com/harness/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: harness

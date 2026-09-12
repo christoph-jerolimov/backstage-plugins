@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tduniec-backstage-plugin-time-saver-backend
+  title: "@tduniec/backstage-plugin-time-saver-backend"
+  description: This plugin provides an implementation of charts and statistics related to your time savings that are coming from usage of your templates. Plugins is built from frontend and backend part. Backend plugin is responsible for scheduled stats parsing process and data storage.
+  tags:
+    - backend-plugin
+    - repo-backstage-timesaver-plugin
+  annotations:
+    github.com/project-slug: tduniec/backstage-timesaver-plugin
+    backstage.io/source-location: url:https://github.com/tduniec/backstage-timesaver-plugin/tree/HEAD/plugins/time-saver-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 4.1.3
+  links:
+    - url: https://github.com/tduniec/backstage-timesaver-plugin
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/tduniec/backstage-timesaver-plugin#readme
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: tduniec

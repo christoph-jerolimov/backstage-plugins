@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terasky-backstage-plugin-gitops-manifest-updater
+  title: "@terasky/backstage-plugin-gitops-manifest-updater"
+  description: The Kubernetes GitOps manifest updater plugin for Backstage
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: TeraSky-OSS/backstage-plugins
+    backstage.io/source-location: url:https://github.com/TeraSky-OSS/backstage-plugins/tree/HEAD/plugins/gitops-manifest-updater
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 2.11.0
+  links:
+    - url: https://github.com/TeraSky-OSS/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://www.terasky.com
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: terasky-oss

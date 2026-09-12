@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-splunk-on-call
+  title: "@backstage-community/plugin-splunk-on-call"
+  description: A Backstage plugin that integrates towards Splunk On-Call
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/splunk/plugins/splunk-on-call
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.26.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

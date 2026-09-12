@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: drodil-backstage-plugin-qeta-backend
+  title: "@drodil/backstage-plugin-qeta-backend"
+  description: Backstage.io Q&A plugin backend
+  tags:
+    - backend-plugin
+    - repo-backstage-plugin-qeta
+  annotations:
+    github.com/project-slug: drodil/backstage-plugin-qeta
+    backstage.io/source-location: url:https://github.com/drodil/backstage-plugin-qeta/tree/HEAD/plugins/qeta-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 4.0.5
+  links:
+    - url: https://github.com/drodil/backstage-plugin-qeta
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: drodil

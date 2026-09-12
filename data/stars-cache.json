@@ -1,0 +1,1145 @@
+{
+  "AxisCommunications/backstage-plugins": {
+    "stars": 44,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "Coderrob/backstage-plugin-scaffolder-backend-module-webex": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "DataDog/datadog-backstage-plugins": {
+    "stars": 8,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "Digitalist-Open-Cloud/Backstage-Plugin-Harbor": {
+    "stars": 4,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "Dynatrace/backstage-plugin": {
+    "stars": 37,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "ForgedApps/backstage-catalog-webhook-plugin": {
+    "stars": 5,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "Infosys/daily-weather-plugin": {
+    "stars": 2,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "Infosys/openfga-plugin-backstage": {
+    "stars": 3,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "K-Phoen/backstage-plugin-announcements": {
+    "stars": 56,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "K-Phoen/backstage-plugin-confluence": {
+    "stars": 61,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "K-Phoen/backstage-plugin-grafana": {
+    "stars": 61,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "K-Phoen/backstage-plugin-opsgenie": {
+    "stars": 36,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "KusionStack/kusion-backstage-plugin": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "OkayHQ/backstage-plugin": {
+    "stars": 22,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "OpsLevel/backstage-plugin": {
+    "stars": 17,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "PagerDuty/backstage-plugins": {
+    "stars": 5,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "Parfuemerie-Douglas/scaffolder-backend-module-azure-pipelines": {
+    "stars": 23,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "Parfuemerie-Douglas/scaffolder-backend-module-azure-repositories": {
+    "stars": 14,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "Parsifal-M/backstage-dev-quotes": {
+    "stars": 10,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "Parsifal-M/backstage-opa-plugins": {
+    "stars": 65,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "Parsifal-M/backstage-open-feedback": {
+    "stars": 18,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "Prateek-Wayne/backstage-plugins": {
+    "stars": 2,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "RSC-Labs/backstage-changelog-plugin": {
+    "stars": 13,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "RSC-Labs/backstage-highlights-plugin": {
+    "stars": 4,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "RedHatInsights/backstage-plugin-advanced-cluster-security": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "RedHatInsights/backstage-plugin-kafka-info": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "RedHatInsights/backstage-plugin-metrics-and-monitoring": {
+    "stars": 1,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "RedHatInsights/backstage-plugin-openshift": {
+    "stars": 1,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "RedHatInsights/backstage-plugin-security": {
+    "stars": 1,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "RedHatInsights/backstage-plugin-visual-qontract": {
+    "stars": 1,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "RedHatInsights/backstage-plugin-web-rca": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "Scalr/scalr-backstage-plugin": {
+    "stars": 2,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "StatusNeo/backstage-plugin-github": {
+    "stars": 21,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "TRIMM/plugin-changelog": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "TRIMM/plugin-dependencytrack": {
+    "stars": 21,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "Vity01/backstage-jfrog-artifactory-libs": {
+    "stars": 2,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "Vity01/backstage-xkcd": {
+    "stars": 23,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "Work-m8/backstage-docker-plugin": {
+    "stars": 3,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "alefcarlos/plusultra-dotnet-backstage-plugins": {
+    "stars": 15,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "allegro/backstage-plugins": {
+    "stars": 5,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "ansible/backstage-plugins-ansible": {
+    "stars": 7,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "arunhari82/backstage-plugin-dynamic-readme-backend": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "awslabs/backstage-plugins-for-aws": {
+    "stars": 159,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "bbckr/backstage-plugins": {
+    "stars": 1,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "benwilcock/backstage-plugin-backchat": {
+    "stars": 70,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "blakeromano/backstage-plugins": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "buildkite/backstage-plugin": {
+    "stars": 4,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "cloud-carbon-footprint/ccf-backstage-plugin": {
+    "stars": 47,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "cnoe-io/plugin-apache-spark": {
+    "stars": 1,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "cnoe-io/plugin-argo-workflows": {
+    "stars": 21,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "cnoe-io/plugin-scaffolder-actions-frontend": {
+    "stars": 2,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "coder/backstage-plugins": {
+    "stars": 67,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "container-registry/backstage-plugin-harbor": {
+    "stars": 20,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "dapr-sandbox/dapr-backstage": {
+    "stars": 5,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "deepan10/backstage-plugins": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "deutschebank/backstage-plugins": {
+    "stars": 8,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "devexcom/backstage-plugins": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "drodil/backstage-plugin-qeta": {
+    "stars": 116,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "dweber019/backstage-plugins": {
+    "stars": 47,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "electrolux-oss/infrawallet": {
+    "stars": 122,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "emerchalegre/backstage-plugins": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "emma-community/emma-backstage-plugins": {
+    "stars": 1,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "enfuse/asae-backstage-plugin": {
+    "stars": 5,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "get-dx/backstage-plugin": {
+    "stars": 13,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "globallogicuki/globallogic-backstage-plugins": {
+    "stars": 10,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "gluobe/backstage-plugin-hetzner-backend": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "gluobe/backstage-plugin-hetzner-catalog": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "harness/backstage-plugins": {
+    "stars": 39,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "hashicorp-forge/backstage-plugin-hcp-consul": {
+    "stars": 4,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "headlamp-k8s/backstage-plugin": {
+    "stars": 6,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "hpatoio/backstage-plugin-language-info": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "humanitec/humanitec-backstage-plugins": {
+    "stars": 2,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "ianboltonorg/backstage-mta-plugins": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "ibm-apiconnect/backstage": {
+    "stars": 2,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "immobiliare/backstage-plugin-gitlab": {
+    "stars": 132,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "immobiliare/backstage-plugin-ldap-auth": {
+    "stars": 40,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "incident-io/backstage-plugins": {
+    "stars": 5,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "jfvilas/kubelog": {
+    "stars": 7,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "joatmon08/backstage-plugin-terraform": {
+    "stars": 17,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "jquad-group/backstage-jquad": {
+    "stars": 18,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "keptn-sandbox/backstage-plugin-keptn": {
+    "stars": 9,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "knative-extensions/backstage-plugins": {
+    "stars": 5,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "komodorio/backstage-plugin-komodor": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "krishnakv/openfga-backstage-plugin": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "kyverno/backstage-policy-reporter-plugin": {
+    "stars": 17,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "liatrio/backstage-dora-plugin": {
+    "stars": 51,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "litmuschaos/backstage-plugin": {
+    "stars": 4,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "lozanotux/backstage-lightspeed-ai-plugin": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "marcus-crane/plugin-cicd-statistics-travisci": {
+    "stars": 2,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "mbongeb/backstage": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "modethirteen/backstage-algolia": {
+    "stars": 3,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "nephio-project/kpt-backstage-plugins": {
+    "stars": 4,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "nobl9/nobl9-backstage-plugin": {
+    "stars": 21,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "openchoreo/backstage-plugins": {
+    "stars": 13,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "parseablehq/backstage-plugin": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "philips-software/philips-backstage-plugins": {
+    "stars": 16,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "platacard/backstage-plugins": {
+    "stars": 2,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "postman-solutions-eng/backstage-postman-plugin": {
+    "stars": 14,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "proberaum/backstage-plugins": {
+    "stars": 3,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "procore-oss/backstage-plugin-announcements": {
+    "stars": 30,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "purple-technology/backstage-aws-cloudformation-plugin": {
+    "stars": 6,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "redhat-appstudio/tssc-backstage-plugins": {
+    "stars": 1,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "remunda/backstage-plugins": {
+    "stars": 1,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "rootlyhq/backstage-plugin-entity-processor": {
+    "stars": 1,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "rothenbergt/backstage-roadmap-plugin": {
+    "stars": 11,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "sammbetts/backstage-plugin-service-health": {
+    "stars": 5,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "sammbetts/backstage-plugin-status-page": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "sbordeyne/backstage-plugins": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "seatgeek/backstage-plugins": {
+    "stars": 40,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "secustor/backstage-plugins": {
+    "stars": 15,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "segmentio/segment-backstage-plugins": {
+    "stars": 2,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "songhui-ryu/backstage-plugin-ibm-auth": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "songhui-ryu/backstage-plugin-rhacs": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "spreadshirt/backstage-plugin-s3": {
+    "stars": 31,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "stateful/backstage-plugins": {
+    "stars": 1,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "strong-network/backstage-sds-plugins": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "sysdiglabs/backstage-plugin-sysdig": {
+    "stars": 4,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "tduniec/backstage-template-reporting-plugin": {
+    "stars": 1,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "tduniec/backstage-timesaver-plugin": {
+    "stars": 25,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "telereso/backstage-plugins": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "telia-oss/scaffolder-backend-module-copier": {
+    "stars": 10,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "twocodersbrewing/brewed-plugins": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "veecode-platform/platform-backstage-plugins": {
+    "stars": 19,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "veecode-platform/spacelift-backstage-plugins": {
+    "stars": 0,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "weaveworks/weaveworks-backstage": {
+    "stars": 36,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "web-seven/backstage-plugins": {
+    "stars": 2,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  },
+  "zalopay-oss/backstage-grpc-playground": {
+    "stars": 39,
+    "forks": null,
+    "openIssues": null,
+    "archived": null,
+    "pushedAt": null,
+    "fetchedAt": "2026-09-11T15:53:10.066Z",
+    "source": "webfetch-bootstrap"
+  }
+}

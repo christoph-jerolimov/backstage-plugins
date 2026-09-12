@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aws-amazon-ecs-plugin-for-backstage
+  title: "@aws/amazon-ecs-plugin-for-backstage"
+  description: Frontend plugin displaying Amazon ECS service and task information in Backstage.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins-for-aws
+  annotations:
+    github.com/project-slug: awslabs/backstage-plugins-for-aws
+    backstage.io/source-location: url:https://github.com/awslabs/backstage-plugins-for-aws/tree/HEAD/plugins/ecs/frontend
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.7.0
+  links:
+    - url: https://github.com/awslabs/backstage-plugins-for-aws
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: awslabs

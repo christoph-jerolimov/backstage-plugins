@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sammbetts-backstage-plugin-service-health-backend
+  title: "@sammbetts/backstage-plugin-service-health-backend"
+  description: Backend that fetches third-party service status and incident data and can send Slack notifications for new incidents.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugin-service-health
+  annotations:
+    github.com/project-slug: sammbetts/backstage-plugin-service-health
+    backstage.io/source-location: url:https://github.com/sammbetts/backstage-plugin-service-health/tree/HEAD/plugins/service-health-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.14
+  links:
+    - url: https://github.com/sammbetts/backstage-plugin-service-health
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: sammbetts

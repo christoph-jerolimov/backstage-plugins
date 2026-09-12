@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: komodor-backstage-plugin-komodor-frontend
+  title: "@komodor/backstage-plugin-komodor-frontend"
+  description: Frontend plugin that shows Komodor Kubernetes service health and risk data on entity pages.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-komodor
+  annotations:
+    github.com/project-slug: komodorio/backstage-plugin-komodor
+    backstage.io/source-location: url:https://github.com/komodorio/backstage-plugin-komodor/tree/HEAD/plugins/komodor-frontend
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.1
+  links:
+    - url: https://github.com/komodorio/backstage-plugin-komodor
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: komodorio

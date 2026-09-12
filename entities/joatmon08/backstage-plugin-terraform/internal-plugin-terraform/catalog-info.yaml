@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: internal-plugin-terraform
+  title: "@internal/plugin-terraform"
+  description: Frontend plugin, scaffolded with the Backstage CLI, that adds a Terraform page to Backstage.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-terraform
+  annotations:
+    github.com/project-slug: joatmon08/backstage-plugin-terraform
+    backstage.io/source-location: url:https://github.com/joatmon08/backstage-plugin-terraform/tree/HEAD/plugins/terraform
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/joatmon08/backstage-plugin-terraform
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: joatmon08

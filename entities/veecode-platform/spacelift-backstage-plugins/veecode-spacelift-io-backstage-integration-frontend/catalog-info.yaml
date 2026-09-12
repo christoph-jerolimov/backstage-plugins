@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: veecode-spacelift-io-backstage-integration-frontend
+  title: "@veecode/spacelift-io-backstage-integration-frontend"
+  description: Backstage plugin for integrating Spacelift.io with Backstage
+  tags:
+    - frontend-plugin
+    - repo-spacelift-backstage-plugins
+  annotations:
+    github.com/project-slug: veecode-platform/spacelift-backstage-plugins
+    backstage.io/source-location: url:https://github.com/veecode-platform/spacelift-backstage-plugins/tree/HEAD/packages/spacelift-io-frontend
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/note: Repository appears to be derived from another Spacelift/Backstage plugin implementation; upstream relationship unconfirmed.
+    backstage-plugins.io/package-version: 1.0.4-beta
+  links:
+    - url: https://github.com/veecode-platform/spacelift-backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://platform.vee.codes
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: veecode-platform

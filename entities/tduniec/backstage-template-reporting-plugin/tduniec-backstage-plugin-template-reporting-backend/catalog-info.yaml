@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tduniec-backstage-plugin-template-reporting-backend
+  title: "@tduniec/backstage-plugin-template-reporting-backend"
+  description: Provides with functionality to generate customisable reports from Scaffolder template executions
+  tags:
+    - backend-plugin
+    - repo-backstage-template-reporting-plugin
+  annotations:
+    github.com/project-slug: tduniec/backstage-template-reporting-plugin
+    backstage.io/source-location: url:https://github.com/tduniec/backstage-template-reporting-plugin/tree/HEAD/plugins/template-reporting-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.2.6
+  links:
+    - url: https://github.com/tduniec/backstage-template-reporting-plugin
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/tduniec/backstage-template-reporting-plugin#readme
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: tduniec

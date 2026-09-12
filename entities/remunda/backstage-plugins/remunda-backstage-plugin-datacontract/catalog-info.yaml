@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: remunda-backstage-plugin-datacontract
+  title: "@remunda/backstage-plugin-datacontract"
+  description: Backstage frontend plugin to render and manage DataContract API entities.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: remunda/backstage-plugins
+    backstage.io/source-location: url:https://github.com/remunda/backstage-plugins/tree/HEAD/plugins/datacontract
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.1
+  links:
+    - url: https://github.com/remunda/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/remunda/backstage-plugins/tree/main/plugins/datacontract
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: remunda

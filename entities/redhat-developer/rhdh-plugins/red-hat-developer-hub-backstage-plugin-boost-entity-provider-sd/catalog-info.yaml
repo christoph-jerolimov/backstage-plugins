@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: red-hat-developer-hub-backstage-plugin-boost-entity-provider-sd
+  title: "@red-hat-developer-hub/backstage-plugin-boost-entity-provider-sdk"
+  description: SDK for AI asset entity providers — shared types, annotation constants, validation utilities, and adapter interfaces
+  tags:
+    - node-library
+    - repo-rhdh-plugins
+  annotations:
+    github.com/project-slug: redhat-developer/rhdh-plugins
+    backstage.io/source-location: url:https://github.com/redhat-developer/rhdh-plugins/tree/HEAD/workspaces/boost/plugins/boost-entity-provider-sdk
+    backstage-plugins.io/role: node-library
+    backstage-plugins.io/package-version: 0.3.2
+  links:
+    - url: https://github.com/redhat-developer/rhdh-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://red.ht/rhdh
+      title: Homepage
+spec:
+  type: node-library
+  lifecycle: unknown
+  owner: redhat-developer

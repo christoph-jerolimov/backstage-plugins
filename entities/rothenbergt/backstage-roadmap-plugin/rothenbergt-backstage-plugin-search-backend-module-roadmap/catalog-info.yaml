@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rothenbergt-backstage-plugin-search-backend-module-roadmap
+  title: "@rothenbergt/backstage-plugin-search-backend-module-roadmap"
+  description: Search backend module that indexes roadmap features in Backstage search
+  tags:
+    - backend-plugin-module
+    - repo-backstage-roadmap-plugin
+  annotations:
+    github.com/project-slug: rothenbergt/backstage-roadmap-plugin
+    backstage.io/source-location: url:https://github.com/rothenbergt/backstage-roadmap-plugin/tree/HEAD/plugins/search-backend-module-roadmap
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.2.1
+  links:
+    - url: https://github.com/rothenbergt/backstage-roadmap-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: rothenbergt

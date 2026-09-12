@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dweber019-backstage-plugin-endoflife
+  title: "@dweber019/backstage-plugin-endoflife"
+  description: Frontend plugin that shows end-of-life data for entities from endoflife.date or custom data sources.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: dweber019/backstage-plugins
+    backstage.io/source-location: url:https://github.com/dweber019/backstage-plugins/tree/HEAD/plugins/endoflife
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.2
+  links:
+    - url: https://github.com/dweber019/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/dweber019/backstage-plugins/tree/main/plugins/endoflife
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: dweber019

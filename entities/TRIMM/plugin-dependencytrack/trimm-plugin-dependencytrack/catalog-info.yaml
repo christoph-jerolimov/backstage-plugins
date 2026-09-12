@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: trimm-plugin-dependencytrack
+  title: "@trimm/plugin-dependencytrack"
+  description: Frontend plugin displaying OWASP Dependency-Track vulnerability findings and summaries on catalog entities.
+  tags:
+    - frontend-plugin
+    - repo-plugin-dependencytrack
+  annotations:
+    github.com/project-slug: TRIMM/plugin-dependencytrack
+    backstage.io/source-location: url:https://github.com/TRIMM/plugin-dependencytrack/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.4.0
+  links:
+    - url: https://github.com/TRIMM/plugin-dependencytrack
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: trimm

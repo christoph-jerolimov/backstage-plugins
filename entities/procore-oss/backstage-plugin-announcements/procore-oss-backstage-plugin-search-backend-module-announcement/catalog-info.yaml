@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: procore-oss-backstage-plugin-search-backend-module-announcement
+  title: "@procore-oss/backstage-plugin-search-backend-module-announcements"
+  description: The announcements backend module for the search plugin.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugin-announcements
+  annotations:
+    github.com/project-slug: procore-oss/backstage-plugin-announcements
+    backstage.io/source-location: url:https://github.com/procore-oss/backstage-plugin-announcements/tree/HEAD/plugins/search-backend-module-announcements
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 1.0.0
+  links:
+    - url: https://github.com/procore-oss/backstage-plugin-announcements
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: procore-oss

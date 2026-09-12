@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible-backstage-plugin-catalog-backend-module-rhaap
+  title: "@ansible/backstage-plugin-catalog-backend-module-rhaap"
+  description: The rhaap backend module for the catalog plugin.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins-ansible
+  annotations:
+    github.com/project-slug: ansible/backstage-plugins-ansible
+    backstage.io/source-location: url:https://github.com/ansible/backstage-plugins-ansible/tree/HEAD/plugins/catalog-backend-module-rhaap
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 2.2.7
+  links:
+    - url: https://github.com/ansible/backstage-plugins-ansible
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: ansible

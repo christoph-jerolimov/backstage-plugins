@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spreadshirt-backstage-plugin-s3-viewer
+  title: "@spreadshirt/backstage-plugin-s3-viewer"
+  description: Frontend plugin providing a file-explorer-style page for browsing, previewing, and downloading objects in AWS S3 buckets.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-s3
+  annotations:
+    github.com/project-slug: spreadshirt/backstage-plugin-s3
+    backstage.io/source-location: url:https://github.com/spreadshirt/backstage-plugin-s3/tree/HEAD/plugins/s3-viewer
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.10.1
+  links:
+    - url: https://github.com/spreadshirt/backstage-plugin-s3
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: spreadshirt

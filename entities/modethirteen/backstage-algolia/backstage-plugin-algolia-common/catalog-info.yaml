@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-algolia-common
+  title: backstage-plugin-algolia-common
+  description: Common functionality for backstage-algolia plugins
+  tags:
+    - common-library
+    - repo-backstage-algolia
+  annotations:
+    github.com/project-slug: modethirteen/backstage-algolia
+    backstage.io/source-location: url:https://github.com/modethirteen/backstage-algolia/tree/HEAD/plugins/backstage-plugin-algolia-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 0.1.2
+  links:
+    - url: https://github.com/modethirteen/backstage-algolia
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: modethirteen

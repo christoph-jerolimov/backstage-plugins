@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: seatgeek-backstage-plugin-catalog-backend-module-okta
+  title: "@seatgeek/backstage-plugin-catalog-backend-module-okta"
+  description: Backend module that ingests users and groups from the Okta API into the Backstage catalog.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: seatgeek/backstage-plugins
+    backstage.io/source-location: url:https://github.com/seatgeek/backstage-plugins/tree/HEAD/plugins/catalog-backend-module-okta
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.0.0-semantically-released
+  links:
+    - url: https://github.com/seatgeek/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: seatgeek

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-notifications-backend
+  title: "@backstage/plugin-notifications-backend"
+  description: Backend plugin that stores and serves notifications sent by other plugins or external services via a REST API.
+  tags:
+    - backend-plugin
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/notifications-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.6.9-next.1
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

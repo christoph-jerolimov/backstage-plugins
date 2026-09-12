@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dweber019-backstage-plugin-accentuate-backend
+  title: "@dweber019/backstage-plugin-accentuate-backend"
+  description: Backend plugin that merges database-stored entity overrides with ingested catalog entities and exposes a management API.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: dweber019/backstage-plugins
+    backstage.io/source-location: url:https://github.com/dweber019/backstage-plugins/tree/HEAD/plugins/accentuate-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 1.1.2
+  links:
+    - url: https://github.com/dweber019/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/dweber019/backstage-plugins/tree/main/plugins/accentuate-backend
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: dweber019

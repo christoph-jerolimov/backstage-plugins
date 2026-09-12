@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: postman-solutions-postman-backstage-plugin
+  title: "@postman-solutions/postman-backstage-plugin"
+  description: Frontend plugin linking catalog APIs to their Postman collections, published APIs, and monitors, and importing tagged Postman APIs into the catalog.
+  tags:
+    - frontend-plugin
+    - repo-backstage-postman-plugin
+  annotations:
+    github.com/project-slug: postman-solutions-eng/backstage-postman-plugin
+    backstage.io/source-location: url:https://github.com/postman-solutions-eng/backstage-postman-plugin/tree/HEAD/packages/postman
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.1.0
+  links:
+    - url: https://github.com/postman-solutions-eng/backstage-postman-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: postman-solutions-eng

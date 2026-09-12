@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: seatgeek-backstage-plugin-scaffolder-backend-module-hcl
+  title: "@seatgeek/backstage-plugin-scaffolder-backend-module-hcl"
+  description: Backend module providing scaffolder actions for merging HCL (HashiCorp Configuration Language) files.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: seatgeek/backstage-plugins
+    backstage.io/source-location: url:https://github.com/seatgeek/backstage-plugins/tree/HEAD/plugins/scaffolder-backend-module-hcl
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.0.0-semantically-released
+  links:
+    - url: https://github.com/seatgeek/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: seatgeek

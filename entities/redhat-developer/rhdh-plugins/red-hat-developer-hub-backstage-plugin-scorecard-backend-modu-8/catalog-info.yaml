@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: red-hat-developer-hub-backstage-plugin-scorecard-backend-modu-8
+  title: "@red-hat-developer-hub/backstage-plugin-scorecard-backend-module-openssf"
+  description: The openssf backend module for the scorecard plugin.
+  tags:
+    - backend-plugin-module
+    - repo-rhdh-plugins
+  annotations:
+    github.com/project-slug: redhat-developer/rhdh-plugins
+    backstage.io/source-location: url:https://github.com/redhat-developer/rhdh-plugins/tree/HEAD/workspaces/scorecard/plugins/scorecard-backend-module-openssf
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 1.0.2
+  links:
+    - url: https://github.com/redhat-developer/rhdh-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: redhat-developer

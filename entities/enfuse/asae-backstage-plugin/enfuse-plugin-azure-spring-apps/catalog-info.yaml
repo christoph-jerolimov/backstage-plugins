@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: enfuse-plugin-azure-spring-apps
+  title: "@enfuse/plugin-azure-spring-apps"
+  description: Frontend plugin that displays status, apps, buildpacks, and configuration for an Azure Spring Apps cluster.
+  tags:
+    - frontend-plugin
+    - repo-asae-backstage-plugin
+  annotations:
+    github.com/project-slug: enfuse/asae-backstage-plugin
+    backstage.io/source-location: url:https://github.com/enfuse/asae-backstage-plugin/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 2.0.4
+  links:
+    - url: https://github.com/enfuse/asae-backstage-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: enfuse

@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-permission-react
+  title: "@backstage/plugin-permission-react"
+  description: Web library of components and hooks for implementing permission checks in Backstage frontend plugins.
+  tags:
+    - web-library
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/permission-react
+    backstage-plugins.io/role: web-library
+    backstage-plugins.io/package-version: 0.5.5-next.1
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: web-library
+  lifecycle: unknown
+  owner: backstage

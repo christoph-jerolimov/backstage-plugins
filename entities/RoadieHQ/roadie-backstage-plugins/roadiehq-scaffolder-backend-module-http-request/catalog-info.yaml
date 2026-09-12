@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadiehq-scaffolder-backend-module-http-request
+  title: "@roadiehq/scaffolder-backend-module-http-request"
+  description: Scaffolder backend module with an action for making authenticated HTTP requests to Backstage APIs.
+  tags:
+    - backend-plugin-module
+    - repo-roadie-backstage-plugins
+  annotations:
+    github.com/project-slug: RoadieHQ/roadie-backstage-plugins
+    backstage.io/source-location: url:https://github.com/RoadieHQ/roadie-backstage-plugins/tree/HEAD/plugins/scaffolder-actions/scaffolder-backend-module-http-request
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 5.8.0
+  links:
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: roadiehq

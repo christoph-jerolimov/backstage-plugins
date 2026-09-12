@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: k-phoen-backstage-plugin-announcements-backend
+  title: "@k-phoen/backstage-plugin-announcements-backend"
+  description: Backend plugin that stores and serves announcements, integrating with the search and permission plugins.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugin-announcements
+  annotations:
+    github.com/project-slug: K-Phoen/backstage-plugin-announcements
+    backstage.io/source-location: url:https://github.com/K-Phoen/backstage-plugin-announcements/tree/HEAD/plugins/announcements-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/note: "Superseded: this plugin was migrated into backstage/community-plugins as @backstage-community/plugin-announcements."
+    backstage-plugins.io/package-version: 0.3.0
+  links:
+    - url: https://github.com/K-Phoen/backstage-plugin-announcements
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: k-phoen

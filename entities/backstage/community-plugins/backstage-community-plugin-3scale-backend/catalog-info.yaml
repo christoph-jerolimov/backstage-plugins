@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-3scale-backend
+  title: "@backstage-community/plugin-3scale-backend"
+  description: Backend module that synchronizes 3scale API data into the Backstage software catalog.
+  tags:
+    - backend-plugin-module
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/3scale/plugins/3scale-backend
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 3.17.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: backstage

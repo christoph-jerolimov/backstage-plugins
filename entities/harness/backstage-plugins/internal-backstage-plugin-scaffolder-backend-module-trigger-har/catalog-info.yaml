@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: internal-backstage-plugin-scaffolder-backend-module-trigger-har
+  title: "@internal/backstage-plugin-scaffolder-backend-module-trigger-harness-pipelines"
+  description: The trigger-harness-pipelines module for @backstage/plugin-scaffolder-backend
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: harness/backstage-plugins
+    backstage.io/source-location: url:https://github.com/harness/backstage-plugins/tree/HEAD/plugins/scaffolder-backend-module-trigger-harness-pipelines
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/harness/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: harness

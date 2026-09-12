@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-analytics-provider-segment
+  title: "@backstage-community/plugin-analytics-provider-segment"
+  description: Frontend plugin implementing the Backstage Analytics API to send usage events to Segment.
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/analytics/plugins/analytics-provider-segment
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.31.1
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

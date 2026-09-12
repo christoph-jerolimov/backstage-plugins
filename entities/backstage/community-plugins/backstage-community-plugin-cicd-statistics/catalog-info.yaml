@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-cicd-statistics
+  title: "@backstage-community/plugin-cicd-statistics"
+  description: A frontend plugin visualizing CI/CD pipeline statistics (build time)
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/cicd-statistics/plugins/cicd-statistics
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.20.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

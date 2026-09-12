@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadiehq-plugin-scaffolder-frontend-module-http-request-field
+  title: "@roadiehq/plugin-scaffolder-frontend-module-http-request-field"
+  description: Scaffolder frontend module providing a custom field that fetches API data and renders it as a select dropdown.
+  tags:
+    - frontend-plugin-module
+    - repo-roadie-backstage-plugins
+  annotations:
+    github.com/project-slug: RoadieHQ/roadie-backstage-plugins
+    backstage.io/source-location: url:https://github.com/RoadieHQ/roadie-backstage-plugins/tree/HEAD/plugins/scaffolder-field-extensions/scaffolder-frontend-module-http-request-field
+    backstage-plugins.io/role: frontend-plugin-module
+    backstage-plugins.io/package-version: 2.3.0
+  links:
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin-module
+  lifecycle: unknown
+  owner: roadiehq

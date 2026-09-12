@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terasky-backstage-plugin-scaleops-frontend
+  title: "@terasky/backstage-plugin-scaleops-frontend"
+  description: Frontend plugin that displays ScaleOps cost savings data for Kubernetes entities and links to the ScaleOps dashboard.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: TeraSky-OSS/backstage-plugins
+    backstage.io/source-location: url:https://github.com/TeraSky-OSS/backstage-plugins/tree/HEAD/plugins/scaleops-frontend
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 2.8.0
+  links:
+    - url: https://github.com/TeraSky-OSS/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://terasky.com
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: terasky-oss

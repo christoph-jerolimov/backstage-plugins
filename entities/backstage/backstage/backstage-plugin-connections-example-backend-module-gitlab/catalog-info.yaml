@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-connections-example-backend-module-gitlab
+  title: "@backstage/plugin-connections-example-backend-module-gitlab"
+  description: Example backend module scaffolded by the Backstage CLI for extending the connections-example-backend plugin with GitLab support.
+  tags:
+    - backend-plugin-module
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/connections-example-backend-module-gitlab
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.1.4-next.1
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: backstage

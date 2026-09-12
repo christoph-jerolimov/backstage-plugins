@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: statefulhq-backstage-plugin-stateful
+  title: "@statefulhq/backstage-plugin-stateful"
+  description: Example frontend plugin scaffolded via the Backstage CLI for the Stateful integration.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: stateful/backstage-plugins
+    backstage.io/source-location: url:https://github.com/stateful/backstage-plugins/tree/HEAD/plugins/stateful
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.2.1
+  links:
+    - url: https://github.com/stateful/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: stateful

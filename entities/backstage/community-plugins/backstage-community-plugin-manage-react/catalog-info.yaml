@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-manage-react
+  title: "@backstage-community/plugin-manage-react"
+  description: Manage plugin - react package
+  tags:
+    - web-library
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/manage/plugins/manage-react
+    backstage-plugins.io/role: web-library
+    backstage-plugins.io/package-version: 2.2.1
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: web-library
+  lifecycle: unknown
+  owner: backstage

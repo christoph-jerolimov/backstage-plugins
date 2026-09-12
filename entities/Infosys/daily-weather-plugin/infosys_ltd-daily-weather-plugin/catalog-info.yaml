@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: infosys_ltd-daily-weather-plugin
+  title: "@infosys_ltd/daily-weather-plugin"
+  description: The Daily Weather Plugin for Backstage provides real-time weather information for a specified location using the Weatherstack API.
+  tags:
+    - frontend-plugin
+    - repo-daily-weather-plugin
+  annotations:
+    github.com/project-slug: Infosys/daily-weather-plugin
+    backstage.io/source-location: url:https://github.com/Infosys/daily-weather-plugin/tree/HEAD/plugins/weather
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.1.1
+  links:
+    - url: https://github.com/Infosys/daily-weather-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: infosys

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: philips-software-backstage-plugin-search-confluence-backend
+  title: "@philips-software/backstage-plugin-search-confluence-backend"
+  description: Backend plugin that indexes Confluence spaces as a collator for Backstage search.
+  tags:
+    - backend-plugin
+    - repo-philips-backstage-plugins
+  annotations:
+    github.com/project-slug: philips-software/philips-backstage-plugins
+    backstage.io/source-location: url:https://github.com/philips-software/philips-backstage-plugins/tree/HEAD/workspaces/confluence/plugins/search-confluence-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 2.5.3
+  links:
+    - url: https://github.com/philips-software/philips-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: philips-software

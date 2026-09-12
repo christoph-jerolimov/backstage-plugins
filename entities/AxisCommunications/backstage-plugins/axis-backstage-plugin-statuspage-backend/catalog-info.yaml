@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: axis-backstage-plugin-statuspage-backend
+  title: "@axis-backstage/plugin-statuspage-backend"
+  description: Backend plugin that retrieves component status information from the Statuspage.io API for the Statuspage frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: AxisCommunications/backstage-plugins
+    backstage.io/source-location: url:https://github.com/AxisCommunications/backstage-plugins/tree/HEAD/plugins/statuspage-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.10.6
+  links:
+    - url: https://github.com/AxisCommunications/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: axiscommunications

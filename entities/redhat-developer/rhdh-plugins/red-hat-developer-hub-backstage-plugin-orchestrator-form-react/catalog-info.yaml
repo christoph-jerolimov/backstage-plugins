@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: red-hat-developer-hub-backstage-plugin-orchestrator-form-react
+  title: "@red-hat-developer-hub/backstage-plugin-orchestrator-form-react"
+  description: Web library for the orchestrator-form plugin
+  tags:
+    - web-library
+    - repo-rhdh-plugins
+  annotations:
+    github.com/project-slug: redhat-developer/rhdh-plugins
+    backstage.io/source-location: url:https://github.com/redhat-developer/rhdh-plugins/tree/HEAD/workspaces/orchestrator/plugins/orchestrator-form-react
+    backstage-plugins.io/role: web-library
+    backstage-plugins.io/package-version: 2.12.1
+  links:
+    - url: https://github.com/redhat-developer/rhdh-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: web-library
+  lifecycle: unknown
+  owner: redhat-developer

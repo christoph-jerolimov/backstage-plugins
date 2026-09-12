@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-search-backend-module-stack-overflow-collator
+  title: "@backstage/plugin-search-backend-module-stack-overflow-collator"
+  description: A module for the search backend that exports stack overflow modules
+  tags:
+    - backend-plugin-module
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/search-backend-module-stack-overflow-collator
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.3.24-next.1
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: backstage

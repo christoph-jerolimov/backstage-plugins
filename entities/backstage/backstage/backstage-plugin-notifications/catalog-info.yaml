@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-notifications
+  title: "@backstage/plugin-notifications"
+  description: Frontend plugin that displays notifications received by the current user in the Backstage UI.
+  tags:
+    - frontend-plugin
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/notifications
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.5.21-next.2
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

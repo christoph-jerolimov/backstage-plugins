@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: procore-oss-backstage-plugin-announcements-react
+  title: "@procore-oss/backstage-plugin-announcements-react"
+  description: Web library for the announcements plugin
+  tags:
+    - web-library
+    - repo-backstage-plugin-announcements
+  annotations:
+    github.com/project-slug: procore-oss/backstage-plugin-announcements
+    backstage.io/source-location: url:https://github.com/procore-oss/backstage-plugin-announcements/tree/HEAD/plugins/announcements-react
+    backstage-plugins.io/role: web-library
+    backstage-plugins.io/package-version: 1.0.0
+  links:
+    - url: https://github.com/procore-oss/backstage-plugin-announcements
+      title: GitHub repository
+      icon: github
+spec:
+  type: web-library
+  lifecycle: unknown
+  owner: procore-oss

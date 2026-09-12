@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadiehq-backstage-plugin-argo-cd-node
+  title: "@roadiehq/backstage-plugin-argo-cd-node"
+  description: Node library providing the shared ArgoCD service reference and TypeScript types for other backend plugins.
+  tags:
+    - node-library
+    - repo-roadie-backstage-plugins
+  annotations:
+    github.com/project-slug: RoadieHQ/roadie-backstage-plugins
+    backstage.io/source-location: url:https://github.com/RoadieHQ/roadie-backstage-plugins/tree/HEAD/plugins/backend/backstage-plugin-argo-cd-node
+    backstage-plugins.io/role: node-library
+    backstage-plugins.io/package-version: 2.0.0
+  links:
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: node-library
+  lifecycle: unknown
+  owner: roadiehq

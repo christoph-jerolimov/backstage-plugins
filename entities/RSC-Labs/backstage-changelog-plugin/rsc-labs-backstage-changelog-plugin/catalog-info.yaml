@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rsc-labs-backstage-changelog-plugin
+  title: "@rsc-labs/backstage-changelog-plugin"
+  description: Frontend plugin that displays a project changelog, following the Keep a Changelog format by default, as an entity card or tab.
+  tags:
+    - frontend-plugin
+    - repo-backstage-changelog-plugin
+  annotations:
+    github.com/project-slug: RSC-Labs/backstage-changelog-plugin
+    backstage.io/source-location: url:https://github.com/RSC-Labs/backstage-changelog-plugin/tree/HEAD/plugins/backstage-changelog-plugin
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.5.0
+  links:
+    - url: https://github.com/RSC-Labs/backstage-changelog-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: rsc-labs

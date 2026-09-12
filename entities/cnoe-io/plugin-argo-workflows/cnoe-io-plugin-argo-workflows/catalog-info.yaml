@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cnoe-io-plugin-argo-workflows
+  title: "@cnoe-io/plugin-argo-workflows"
+  description: Frontend plugin that displays Argo Workflows matching an entity's Kubernetes annotations on its entity page.
+  tags:
+    - frontend-plugin
+    - repo-plugin-argo-workflows
+  annotations:
+    github.com/project-slug: cnoe-io/plugin-argo-workflows
+    backstage.io/source-location: url:https://github.com/cnoe-io/plugin-argo-workflows/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.1
+  links:
+    - url: https://github.com/cnoe-io/plugin-argo-workflows
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: cnoe-io

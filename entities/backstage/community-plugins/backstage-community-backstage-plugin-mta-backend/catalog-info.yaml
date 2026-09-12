@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-backstage-plugin-mta-backend
+  title: "@backstage-community/backstage-plugin-mta-backend"
+  description: Backend plugin, generated from the Backstage CLI template, providing server-side support for the MTA (Migration Toolkit for Applications) plugin.
+  tags:
+    - backend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/mta/plugins/mta-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.5.3
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

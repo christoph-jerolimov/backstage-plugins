@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: humanitec-backstage-plugin-scaffolder-backend-module
+  title: "@humanitec/backstage-plugin-scaffolder-backend-module"
+  description: Scaffolder backend module adding a Humanitec action to create Humanitec apps with workloads from software templates.
+  tags:
+    - backend-plugin-module
+    - repo-humanitec-backstage-plugins
+  annotations:
+    github.com/project-slug: humanitec/humanitec-backstage-plugins
+    backstage.io/source-location: url:https://github.com/humanitec/humanitec-backstage-plugins/tree/HEAD/plugins/humanitec-backend-scaffolder-module
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.5.6
+  links:
+    - url: https://github.com/humanitec/humanitec-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: humanitec

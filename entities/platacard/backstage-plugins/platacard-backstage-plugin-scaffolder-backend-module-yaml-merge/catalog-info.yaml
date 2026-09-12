@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: platacard-backstage-plugin-scaffolder-backend-module-yaml-merge
+  title: "@platacard/backstage-plugin-scaffolder-backend-module-yaml-merge-actions"
+  description: The yaml-merge-actions backend module for the scaffolder plugin.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: platacard/backstage-plugins
+    backstage.io/source-location: url:https://github.com/platacard/backstage-plugins/tree/HEAD/plugins/scaffolder-backend-module-yaml-merge-actions
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.6.1
+  links:
+    - url: https://github.com/platacard/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: platacard

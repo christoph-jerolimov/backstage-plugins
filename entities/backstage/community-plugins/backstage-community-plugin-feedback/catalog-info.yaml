@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-feedback
+  title: "@backstage-community/plugin-feedback"
+  description: Frontend plugin for gathering and managing user feedback on catalog entities, including creating associated Jira tickets.
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/feedback/plugins/feedback
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.8.8
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

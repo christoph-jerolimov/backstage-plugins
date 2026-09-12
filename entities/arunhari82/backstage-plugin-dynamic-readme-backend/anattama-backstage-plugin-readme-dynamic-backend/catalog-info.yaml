@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anattama-backstage-plugin-readme-dynamic-backend
+  title: "@anattama/backstage-plugin-readme-dynamic-backend"
+  description: Dynamic backend plugin, built with the Backstage CLI, for serving README content.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugin-dynamic-readme-backend
+  annotations:
+    github.com/project-slug: arunhari82/backstage-plugin-dynamic-readme-backend
+    backstage.io/source-location: url:https://github.com/arunhari82/backstage-plugin-dynamic-readme-backend/tree/HEAD
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.3
+  links:
+    - url: https://github.com/arunhari82/backstage-plugin-dynamic-readme-backend
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: arunhari82

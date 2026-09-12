@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-blackduck-backend
+  title: backstage-plugin-blackduck-backend
+  description: Backend plugin providing BlackDuck vulnerability and risk profile data to the frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: deepan10/backstage-plugins
+    backstage.io/source-location: url:https://github.com/deepan10/backstage-plugins/tree/HEAD/plugins/blackduck-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/deepan10/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: deepan10

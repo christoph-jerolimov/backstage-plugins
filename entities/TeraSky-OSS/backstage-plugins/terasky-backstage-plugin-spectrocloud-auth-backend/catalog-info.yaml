@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terasky-backstage-plugin-spectrocloud-auth-backend
+  title: "@terasky/backstage-plugin-spectrocloud-auth-backend"
+  description: SpectroCloud OIDC authentication provider module for Backstage auth backend
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: TeraSky-OSS/backstage-plugins
+    backstage.io/source-location: url:https://github.com/TeraSky-OSS/backstage-plugins/tree/HEAD/plugins/spectrocloud-auth-backend
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.9.0
+  links:
+    - url: https://github.com/TeraSky-OSS/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://terasky.com
+      title: Homepage
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: terasky-oss

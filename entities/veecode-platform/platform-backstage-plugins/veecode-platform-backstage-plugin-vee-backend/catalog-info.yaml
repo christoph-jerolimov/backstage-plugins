@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: veecode-platform-backstage-plugin-vee-backend
+  title: "@veecode-platform/backstage-plugin-vee-backend"
+  description: Backend plugin handling communication with AI engines, currently OpenAI, and managing chats and vectors for the Vee frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-platform-backstage-plugins
+  annotations:
+    github.com/project-slug: veecode-platform/platform-backstage-plugins
+    backstage.io/source-location: url:https://github.com/veecode-platform/platform-backstage-plugins/tree/HEAD/plugins/vee-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 1.0.0
+  links:
+    - url: https://github.com/veecode-platform/platform-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: veecode-platform

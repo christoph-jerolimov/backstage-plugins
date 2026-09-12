@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sbordeyne-backstage-plugin-toolbox-module-gotemplate
+  title: "@sbordeyne/backstage-plugin-toolbox-module-gotemplate"
+  description: A Go template playground for the Backstage toolbox, backed by the real Go text/template engine compiled to WebAssembly
+  tags:
+    - frontend-plugin-module
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: sbordeyne/backstage-plugins
+    backstage.io/source-location: url:https://github.com/sbordeyne/backstage-plugins/tree/HEAD/plugins/toolbox-module-gotemplate
+    backstage-plugins.io/role: frontend-plugin-module
+    backstage-plugins.io/package-version: 0.2.0
+  links:
+    - url: https://github.com/sbordeyne/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin-module
+  lifecycle: unknown
+  owner: sbordeyne

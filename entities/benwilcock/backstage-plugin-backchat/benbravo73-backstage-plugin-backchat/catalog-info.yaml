@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: benbravo73-backstage-plugin-backchat
+  title: "@benbravo73/backstage-plugin-backchat"
+  description: A quick and dirty frontend plugin that integrates a GenAI feature into Backstage
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-backchat
+  annotations:
+    github.com/project-slug: benwilcock/backstage-plugin-backchat
+    backstage.io/source-location: url:https://github.com/benwilcock/backstage-plugin-backchat/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.0.5
+  links:
+    - url: https://github.com/benwilcock/backstage-plugin-backchat
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/benwilcock/backstage-plugin-backchat#readme
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: benwilcock

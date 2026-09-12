@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gluo-nv-backstage-plugin-catalog-backend-module-hetzner
+  title: "@gluo-nv/backstage-plugin-catalog-backend-module-hetzner"
+  description: Backstage catalog module for Hetzner Cloud integration.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugin-hetzner-catalog
+  annotations:
+    github.com/project-slug: gluobe/backstage-plugin-hetzner-catalog
+    backstage.io/source-location: url:https://github.com/gluobe/backstage-plugin-hetzner-catalog/tree/HEAD
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.1.1
+  links:
+    - url: https://github.com/gluobe/backstage-plugin-hetzner-catalog
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: gluobe

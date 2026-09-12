@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: drodil-backstage-plugin-qeta-common
+  title: "@drodil/backstage-plugin-qeta-common"
+  description: Backstage.io Q&A plugin common
+  tags:
+    - common-library
+    - repo-backstage-plugin-qeta
+  annotations:
+    github.com/project-slug: drodil/backstage-plugin-qeta
+    backstage.io/source-location: url:https://github.com/drodil/backstage-plugin-qeta/tree/HEAD/plugins/qeta-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 4.0.5
+  links:
+    - url: https://github.com/drodil/backstage-plugin-qeta
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: drodil

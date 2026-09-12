@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bbckr-backstage-plugin-scaffolder-backend-module-git
+  title: "@bbckr/backstage-plugin-scaffolder-backend-module-git"
+  description: The git module for @backstage/plugin-scaffolder-backend
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: bbckr/backstage-plugins
+    backstage.io/source-location: url:https://github.com/bbckr/backstage-plugins/tree/HEAD/plugins/scaffolder-backend-module-git
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.0.0-semantically-released
+  links:
+    - url: https://github.com/bbckr/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/bbckr/backstage-plugins/tree/main/plugins/scaffolder-backend-module-git
+      title: Homepage
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: bbckr

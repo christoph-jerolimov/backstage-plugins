@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-argo-workflows-backend
+  title: "@backstage-community/plugin-argo-workflows-backend"
+  description: Backend plugin for the argo-workflows plugin
+  tags:
+    - backend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/argo-workflows/plugins/argo-workflows-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.2.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

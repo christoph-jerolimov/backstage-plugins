@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-xkcd
+  title: backstage-plugin-xkcd
+  description: Frontend plugin that displays XKCD comics, with an optional navigation bar to browse past comics.
+  tags:
+    - frontend-plugin
+    - repo-backstage-xkcd
+  annotations:
+    github.com/project-slug: Vity01/backstage-xkcd
+    backstage.io/source-location: url:https://github.com/Vity01/backstage-xkcd/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.1.7
+  links:
+    - url: https://github.com/Vity01/backstage-xkcd
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/Vity01/backstage-xkcd/
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: vity01

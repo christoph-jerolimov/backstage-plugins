@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parsifal-m-backstage-plugin-open-feedback
+  title: "@parsifal-m/backstage-plugin-open-feedback"
+  description: Frontend plugin with a page, modal, and form for collecting and viewing user feedback in Backstage.
+  tags:
+    - frontend-plugin
+    - repo-backstage-open-feedback
+  annotations:
+    github.com/project-slug: Parsifal-M/backstage-open-feedback
+    backstage.io/source-location: url:https://github.com/Parsifal-M/backstage-open-feedback/tree/HEAD/plugins/open-feedback
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.0.2
+  links:
+    - url: https://github.com/Parsifal-M/backstage-open-feedback
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: parsifal-m

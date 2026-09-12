@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-jenkins-backend
+  title: "@backstage-community/plugin-jenkins-backend"
+  description: A Backstage backend plugin that integrates towards Jenkins
+  tags:
+    - backend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/jenkins/plugins/jenkins-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.31.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

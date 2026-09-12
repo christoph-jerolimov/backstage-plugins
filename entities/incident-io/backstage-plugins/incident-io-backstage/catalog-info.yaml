@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: incident-io-backstage
+  title: "@incident-io/backstage"
+  description: Frontend plugin that displays ongoing and historic incident.io incidents for a Backstage component and links to create new incidents.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: incident-io/backstage-plugins
+    backstage.io/source-location: url:https://github.com/incident-io/backstage-plugins/tree/HEAD/incident
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.2.1
+  links:
+    - url: https://github.com/incident-io/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: incident-io

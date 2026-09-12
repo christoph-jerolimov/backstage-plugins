@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parfuemerie-douglas-scaffolder-backend-module-azure-repositorie
+  title: "@parfuemerie-douglas/scaffolder-backend-module-azure-repositories"
+  description: A collection of Backstage scaffolder backend modules for Azure repositories.
+  tags:
+    - backend-plugin-module
+    - repo-scaffolder-backend-module-azure-repositories
+  annotations:
+    github.com/project-slug: Parfuemerie-Douglas/scaffolder-backend-module-azure-repositories
+    backstage.io/source-location: url:https://github.com/Parfuemerie-Douglas/scaffolder-backend-module-azure-repositories/tree/HEAD
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.3.0
+  links:
+    - url: https://github.com/Parfuemerie-Douglas/scaffolder-backend-module-azure-repositories
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/Parfuemerie-Douglas/scaffolder-backend-module-azure-repositories#readme
+      title: Homepage
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: parfuemerie-douglas

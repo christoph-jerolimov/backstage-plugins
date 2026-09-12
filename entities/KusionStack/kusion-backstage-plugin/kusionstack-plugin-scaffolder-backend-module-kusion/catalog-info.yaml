@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kusionstack-plugin-scaffolder-backend-module-kusion
+  title: "@kusionstack/plugin-scaffolder-backend-module-kusion"
+  description: Scaffolder backend module adding an action to create and manage Kusion backends from Backstage templates.
+  tags:
+    - backend-plugin-module
+    - repo-kusion-backstage-plugin
+  annotations:
+    github.com/project-slug: KusionStack/kusion-backstage-plugin
+    backstage.io/source-location: url:https://github.com/KusionStack/kusion-backstage-plugin/tree/HEAD/plugins/scaffolder-backend-module-kusion
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/KusionStack/kusion-backstage-plugin
+      title: GitHub repository
+      icon: github
+    - url: https://kusionstack.io
+      title: Homepage
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: kusionstack

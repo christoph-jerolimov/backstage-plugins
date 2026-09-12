@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: proberaum-backstage-plugin-config-viewer
+  title: "@proberaum/backstage-plugin-config-viewer"
+  description: Frontend plugin that lets admins view the full frontend and backend Backstage configuration.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: proberaum/backstage-plugins
+    backstage.io/source-location: url:https://github.com/proberaum/backstage-plugins/tree/HEAD/workspaces/config-viewer/plugins/config-viewer
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.13.0
+  links:
+    - url: https://github.com/proberaum/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: proberaum

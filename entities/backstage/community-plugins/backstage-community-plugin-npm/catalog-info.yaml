@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-npm
+  title: "@backstage-community/plugin-npm"
+  description: A Backstage plugin that shows meta info and latest versions from a npm registry
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/npm/plugins/npm
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.25.1
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/npm/plugins/npm
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dweber019-backstage-plugin-accentuate-common
+  title: "@dweber019/backstage-plugin-accentuate-common"
+  description: Common functionalities for the Accentuate plugin
+  tags:
+    - common-library
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: dweber019/backstage-plugins
+    backstage.io/source-location: url:https://github.com/dweber019/backstage-plugins/tree/HEAD/plugins/accentuate-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 0.1.2
+  links:
+    - url: https://github.com/dweber019/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/dweber019/backstage-plugins/tree/main/plugins/accentuate
+      title: Homepage
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: dweber019

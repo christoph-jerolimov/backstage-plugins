@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: humanitec-backstage-plugin-backend
+  title: "@humanitec/backstage-plugin-backend"
+  description: Backend plugin that proxies requests to the Humanitec API for the Humanitec frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-humanitec-backstage-plugins
+  annotations:
+    github.com/project-slug: humanitec/humanitec-backstage-plugins
+    backstage.io/source-location: url:https://github.com/humanitec/humanitec-backstage-plugins/tree/HEAD/plugins/humanitec-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.8.6
+  links:
+    - url: https://github.com/humanitec/humanitec-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: humanitec

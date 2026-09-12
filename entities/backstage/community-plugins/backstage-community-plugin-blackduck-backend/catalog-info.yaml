@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-blackduck-backend
+  title: "@backstage-community/plugin-blackduck-backend"
+  description: Backend plugin that supplies Black Duck security data, with permission framework support, to the Black Duck frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/blackduck/plugins/blackduck-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.13.1
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

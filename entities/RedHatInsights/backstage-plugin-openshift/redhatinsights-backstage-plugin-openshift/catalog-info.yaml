@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: redhatinsights-backstage-plugin-openshift
+  title: "@redhatinsights/backstage-plugin-openshift"
+  description: Frontend plugin, scaffolded with the Backstage CLI, that adds an OpenShift deployments page to Backstage.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-openshift
+  annotations:
+    github.com/project-slug: RedHatInsights/backstage-plugin-openshift
+    backstage.io/source-location: url:https://github.com/RedHatInsights/backstage-plugin-openshift/tree/HEAD/plugins/openshift
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.7
+  links:
+    - url: https://github.com/RedHatInsights/backstage-plugin-openshift
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: redhatinsights

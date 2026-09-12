@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: telereso-backstage-plugin-custom-entities
+  title: "@telereso/backstage-plugin-custom-entities"
+  description: Frontend plugin providing a UI to create and manage custom catalog entities like users and groups outside of SCM.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: telereso/backstage-plugins
+    backstage.io/source-location: url:https://github.com/telereso/backstage-plugins/tree/HEAD/plugins/custom-entities
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/telereso/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: telereso

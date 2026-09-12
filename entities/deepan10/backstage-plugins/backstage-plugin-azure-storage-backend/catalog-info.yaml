@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-azure-storage-backend
+  title: backstage-plugin-azure-storage-backend
+  description: Backend plugin providing the API used by the Azure Storage explorer frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: deepan10/backstage-plugins
+    backstage.io/source-location: url:https://github.com/deepan10/backstage-plugins/tree/HEAD/plugins/azure-storage-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.1
+  links:
+    - url: https://github.com/deepan10/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: deepan10

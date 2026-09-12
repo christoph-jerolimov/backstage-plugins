@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: emma-community-backstage-plugin-emma
+  title: "@emma-community/backstage-plugin-emma"
+  description: Frontend plugin providing UI components, including heat map visualizations, for the emma application within Backstage.
+  tags:
+    - frontend-plugin
+    - repo-emma-backstage-plugins
+  annotations:
+    github.com/project-slug: emma-community/emma-backstage-plugins
+    backstage.io/source-location: url:https://github.com/emma-community/emma-backstage-plugins/tree/HEAD/plugins/emma
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.1.9
+  links:
+    - url: https://github.com/emma-community/emma-backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://emma.ms
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: emma-community

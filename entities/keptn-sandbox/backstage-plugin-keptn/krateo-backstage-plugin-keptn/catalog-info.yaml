@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: krateo-backstage-plugin-keptn
+  title: "@krateo/backstage-plugin-keptn"
+  description: Frontend plugin displaying Keptn project and service cards and a content tab on entity pages.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-keptn
+  annotations:
+    github.com/project-slug: keptn-sandbox/backstage-plugin-keptn
+    backstage.io/source-location: url:https://github.com/keptn-sandbox/backstage-plugin-keptn/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.1
+  links:
+    - url: https://github.com/keptn-sandbox/backstage-plugin-keptn
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: keptn-sandbox

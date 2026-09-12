@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sbordeyne-backstage-plugin-should-i-deploy-today
+  title: "@sbordeyne/backstage-plugin-should-i-deploy-today"
+  description: Backstage home page widget answering whether today is a good day to deploy, from the weekday, the time of day and the public holidays of your locale.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: sbordeyne/backstage-plugins
+    backstage.io/source-location: url:https://github.com/sbordeyne/backstage-plugins/tree/HEAD/plugins/should-i-deploy-today
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.2.0
+  links:
+    - url: https://github.com/sbordeyne/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://sbordeyne.github.io/backstage-plugins/dev/plugins/should-i-deploy-today/
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: sbordeyne

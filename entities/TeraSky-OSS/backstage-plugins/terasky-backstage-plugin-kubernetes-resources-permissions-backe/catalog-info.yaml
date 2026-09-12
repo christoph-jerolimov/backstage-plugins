@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terasky-backstage-plugin-kubernetes-resources-permissions-backe
+  title: "@terasky/backstage-plugin-kubernetes-resources-permissions-backend"
+  description: Backend plugin enforcing permission and access control policies for the Kubernetes resources graph visualization.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: TeraSky-OSS/backstage-plugins
+    backstage.io/source-location: url:https://github.com/TeraSky-OSS/backstage-plugins/tree/HEAD/plugins/kubernetes-resources-permissions-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.14.0
+  links:
+    - url: https://github.com/TeraSky-OSS/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://terasky.com
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: terasky-oss

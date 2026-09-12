@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: allegro-backstage-plugin-chat-bot-backend
+  title: "@allegro/backstage-plugin-chat-bot-backend"
+  description: Backstage ChatBot back end plugin
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: allegro/backstage-plugins
+    backstage.io/source-location: url:https://github.com/allegro/backstage-plugins/tree/HEAD/plugins/chat-bot/chat-bot-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.1
+  links:
+    - url: https://github.com/allegro/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: allegro

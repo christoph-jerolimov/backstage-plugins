@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: plugin-aws-ecr-scan
+  title: plugin-aws-ecr-scan
+  description: Frontend plugin scaffold for displaying AWS Elastic Container Registry (ECR) image scan results.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: blakeromano/backstage-plugins
+    backstage.io/source-location: url:https://github.com/blakeromano/backstage-plugins/tree/HEAD/plugins/aws-ecr-scan
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/blakeromano/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: blakeromano

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: redhatinsights-backstage-plugin-acs
+  title: "@redhatinsights/backstage-plugin-acs"
+  description: Frontend plugin that integrates Red Hat Advanced Cluster Security data into the Backstage catalog interface.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-advanced-cluster-security
+  annotations:
+    github.com/project-slug: RedHatInsights/backstage-plugin-advanced-cluster-security
+    backstage.io/source-location: url:https://github.com/RedHatInsights/backstage-plugin-advanced-cluster-security/tree/HEAD/plugins/acs
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.1
+  links:
+    - url: https://github.com/RedHatInsights/backstage-plugin-advanced-cluster-security
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: redhatinsights

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-catalog-unprocessed-entities-common
+  title: "@backstage/plugin-catalog-unprocessed-entities-common"
+  description: Common functionalities for the catalog-unprocessed-entities plugin
+  tags:
+    - common-library
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/catalog-unprocessed-entities-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 0.0.17-next.0
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: backstage

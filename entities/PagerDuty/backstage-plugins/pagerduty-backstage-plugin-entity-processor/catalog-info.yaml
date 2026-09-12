@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pagerduty-backstage-plugin-entity-processor
+  title: "@pagerduty/backstage-plugin-entity-processor"
+  description: Backend module that maps existing PagerDuty services to Backstage entities without manual config edits.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: PagerDuty/backstage-plugins
+    backstage.io/source-location: url:https://github.com/PagerDuty/backstage-plugins/tree/HEAD/plugins/backstage-plugin-entity-processor
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.4.0
+  links:
+    - url: https://github.com/PagerDuty/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://pagerduty.github.io/backstage-plugin-docs/index.html
+      title: Homepage
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: pagerduty

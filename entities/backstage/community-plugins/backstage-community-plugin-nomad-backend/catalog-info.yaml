@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-nomad-backend
+  title: "@backstage-community/plugin-nomad-backend"
+  description: Backend that queries a Nomad cluster API for job and allocation data used by the Nomad frontend plugin.
+  tags:
+    - backend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/nomad/plugins/nomad-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.23.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

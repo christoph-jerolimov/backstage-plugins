@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: openchoreo-backstage-plugin-catalog-backend-module
+  title: "@openchoreo/backstage-plugin-catalog-backend-module"
+  description: The openchoreo backend module for the catalog plugin.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: openchoreo/backstage-plugins
+    backstage.io/source-location: url:https://github.com/openchoreo/backstage-plugins/tree/HEAD/plugins/catalog-backend-module-openchoreo
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 1.2.0
+  links:
+    - url: https://github.com/openchoreo/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: openchoreo

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-acs
+  title: "@backstage-community/plugin-acs"
+  description: Frontend plugin that displays Red Hat Advanced Cluster Security vulnerability and risk data on entity pages.
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/acs/plugins/acs
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.2.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

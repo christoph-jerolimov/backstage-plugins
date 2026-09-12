@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sbordeyne-backstage-plugin-bruno
+  title: "@sbordeyne/backstage-plugin-bruno"
+  description: Backstage frontend plugin surfacing Bruno collection runs on the entity that owns them, with a pass/fail history chart and per-request results.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: sbordeyne/backstage-plugins
+    backstage.io/source-location: url:https://github.com/sbordeyne/backstage-plugins/tree/HEAD/plugins/bruno
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.2.0
+  links:
+    - url: https://github.com/sbordeyne/backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://sbordeyne.github.io/backstage-plugins/plugins/bruno/
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: sbordeyne

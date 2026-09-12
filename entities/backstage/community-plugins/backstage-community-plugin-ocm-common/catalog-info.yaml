@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-ocm-common
+  title: "@backstage-community/plugin-ocm-common"
+  description: Common functionalities for the Open Cluster Management plugin
+  tags:
+    - common-library
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/ocm/plugins/ocm-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 5.21.1
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: backstage

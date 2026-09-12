@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cloud-carbon-footprint-backstage-plugin-backend
+  title: "@cloud-carbon-footprint/backstage-plugin-backend"
+  description: The Backstage back-end plugin for Cloud Carbon Footprint.
+  tags:
+    - backend-plugin
+    - repo-ccf-backstage-plugin
+  annotations:
+    github.com/project-slug: cloud-carbon-footprint/ccf-backstage-plugin
+    backstage.io/source-location: url:https://github.com/cloud-carbon-footprint/ccf-backstage-plugin/tree/HEAD/plugins/backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.2.1
+  links:
+    - url: https://github.com/cloud-carbon-footprint/ccf-backstage-plugin
+      title: GitHub repository
+      icon: github
+    - url: https://www.cloudcarbonfootprint.org/
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: cloud-carbon-footprint

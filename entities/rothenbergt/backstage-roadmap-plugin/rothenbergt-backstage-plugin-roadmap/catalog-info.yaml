@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rothenbergt-backstage-plugin-roadmap
+  title: "@rothenbergt/backstage-plugin-roadmap"
+  description: Backstage Roadmap plugin frontend
+  tags:
+    - frontend-plugin
+    - repo-backstage-roadmap-plugin
+  annotations:
+    github.com/project-slug: rothenbergt/backstage-roadmap-plugin
+    backstage.io/source-location: url:https://github.com/rothenbergt/backstage-roadmap-plugin/tree/HEAD/plugins/roadmap
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 2.3.0
+  links:
+    - url: https://github.com/rothenbergt/backstage-roadmap-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: rothenbergt

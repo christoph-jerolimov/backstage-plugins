@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-events-node
+  title: "@backstage/plugin-events-node"
+  description: The plugin-events-node module for @backstage/plugin-events-backend
+  tags:
+    - node-library
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/events-node
+    backstage-plugins.io/role: node-library
+    backstage-plugins.io/package-version: 0.4.26-next.0
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: node-library
+  lifecycle: unknown
+  owner: backstage

@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: red-hat-developer-hub-backstage-plugin-extensions
+  title: red-hat-developer-hub-backstage-plugin-extensions
+  description: Frontend plugin providing shared extension components for Red Hat Developer Hub.
+  tags:
+    - frontend-plugin
+    - repo-kuadrant-backstage-plugin
+  annotations:
+    github.com/project-slug: Kuadrant/kuadrant-backstage-plugin
+    backstage.io/source-location: url:https://github.com/Kuadrant/kuadrant-backstage-plugin/tree/HEAD/dynamic-plugins/wrappers/red-hat-developer-hub-backstage-plugin-extensions
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.17.1
+  links:
+    - url: https://github.com/Kuadrant/kuadrant-backstage-plugin
+      title: GitHub repository
+      icon: github
+    - url: https://red.ht/rhdh
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: kuadrant

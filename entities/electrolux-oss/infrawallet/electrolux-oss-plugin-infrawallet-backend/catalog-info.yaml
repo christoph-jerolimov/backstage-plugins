@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: electrolux-oss-plugin-infrawallet-backend
+  title: "@electrolux-oss/plugin-infrawallet-backend"
+  description: Backend plugin that fetches and caches cloud cost data from AWS, Azure, and GCP for the InfraWallet frontend.
+  tags:
+    - backend-plugin
+    - repo-infrawallet
+  annotations:
+    github.com/project-slug: electrolux-oss/infrawallet
+    backstage.io/source-location: url:https://github.com/electrolux-oss/infrawallet/tree/HEAD/plugins/infrawallet-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 1.3.0
+  links:
+    - url: https://github.com/electrolux-oss/infrawallet
+      title: GitHub repository
+      icon: github
+    - url: https://opensource.electrolux.one
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: electrolux-oss

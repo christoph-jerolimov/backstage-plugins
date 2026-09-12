@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: oasis9217-backstage-plugin-rhacs-backend
+  title: "@oasis9217/backstage-plugin-rhacs-backend"
+  description: Backstage plugin for Red Hat Advanced Cluster Security
+  tags:
+    - backend-plugin
+    - repo-backstage-plugin-rhacs
+  annotations:
+    github.com/project-slug: songhui-ryu/backstage-plugin-rhacs
+    backstage.io/source-location: url:https://github.com/songhui-ryu/backstage-plugin-rhacs/tree/HEAD/packages/rhacs-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.0.1
+  links:
+    - url: https://github.com/songhui-ryu/backstage-plugin-rhacs
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: songhui-ryu

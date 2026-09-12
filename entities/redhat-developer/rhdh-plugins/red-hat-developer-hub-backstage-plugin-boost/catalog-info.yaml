@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: red-hat-developer-hub-backstage-plugin-boost
+  title: "@red-hat-developer-hub/backstage-plugin-boost"
+  description: Frontend plugin for the Boost AI platform — AI Catalog discovery and entity-page extensions for Red Hat Developer Hub.
+  tags:
+    - frontend-plugin
+    - repo-rhdh-plugins
+  annotations:
+    github.com/project-slug: redhat-developer/rhdh-plugins
+    backstage.io/source-location: url:https://github.com/redhat-developer/rhdh-plugins/tree/HEAD/workspaces/boost/plugins/boost
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.5.4
+  links:
+    - url: https://github.com/redhat-developer/rhdh-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://red.ht/rhdh
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: redhat-developer

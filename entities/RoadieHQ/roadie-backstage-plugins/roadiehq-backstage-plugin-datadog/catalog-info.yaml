@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadiehq-backstage-plugin-datadog
+  title: "@roadiehq/backstage-plugin-datadog"
+  description: Frontend plugin that embeds Datadog graphs and dashboards into entity pages.
+  tags:
+    - frontend-plugin
+    - repo-roadie-backstage-plugins
+  annotations:
+    github.com/project-slug: RoadieHQ/roadie-backstage-plugins
+    backstage.io/source-location: url:https://github.com/RoadieHQ/roadie-backstage-plugins/tree/HEAD/plugins/frontend/backstage-plugin-datadog
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 2.7.2
+  links:
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: roadiehq

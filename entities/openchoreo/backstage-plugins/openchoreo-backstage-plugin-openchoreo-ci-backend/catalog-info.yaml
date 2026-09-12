@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: openchoreo-backstage-plugin-openchoreo-ci-backend
+  title: "@openchoreo/backstage-plugin-openchoreo-ci-backend"
+  description: Backend providing APIs to fetch workflow runs, trigger builds, manage build configuration, and retrieve build logs for OpenChoreo CI.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: openchoreo/backstage-plugins
+    backstage.io/source-location: url:https://github.com/openchoreo/backstage-plugins/tree/HEAD/plugins/openchoreo-ci-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 1.2.0
+  links:
+    - url: https://github.com/openchoreo/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: openchoreo

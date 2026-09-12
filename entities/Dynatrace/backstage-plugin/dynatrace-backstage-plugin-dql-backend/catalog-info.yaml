@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dynatrace-backstage-plugin-dql-backend
+  title: "@dynatrace/backstage-plugin-dql-backend"
+  description: Backend plugin that executes DQL queries against Dynatrace and serves live results to the frontend DQL plugin.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugin
+  annotations:
+    github.com/project-slug: Dynatrace/backstage-plugin
+    backstage.io/source-location: url:https://github.com/Dynatrace/backstage-plugin/tree/HEAD/plugins/dql-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 2.8.0
+  links:
+    - url: https://github.com/Dynatrace/backstage-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: dynatrace

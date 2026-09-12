@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadiehq-rag-ai
+  title: "@roadiehq/rag-ai"
+  description: Frontend plugin providing a chat modal that answers catalog questions using a RAG AI backend and configured LLMs.
+  tags:
+    - frontend-plugin
+    - repo-roadie-backstage-plugins
+  annotations:
+    github.com/project-slug: RoadieHQ/roadie-backstage-plugins
+    backstage.io/source-location: url:https://github.com/RoadieHQ/roadie-backstage-plugins/tree/HEAD/plugins/frontend/rag-ai
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 1.3.0
+  links:
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: roadiehq

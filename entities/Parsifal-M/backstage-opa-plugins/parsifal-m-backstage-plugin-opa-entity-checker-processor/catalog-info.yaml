@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parsifal-m-backstage-plugin-opa-entity-checker-processor
+  title: "@parsifal-m/backstage-plugin-opa-entity-checker-processor"
+  description: The opa-entity-checker backend module for the catalog plugin.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-opa-plugins
+  annotations:
+    github.com/project-slug: Parsifal-M/backstage-opa-plugins
+    backstage.io/source-location: url:https://github.com/Parsifal-M/backstage-opa-plugins/tree/HEAD/plugins/backstage-plugin-opa-entity-checker-processor
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 2.0.2
+  links:
+    - url: https://github.com/Parsifal-M/backstage-opa-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: parsifal-m

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: headlamp-k8s-backstage-plugin-headlamp-backend
+  title: "@headlamp-k8s/backstage-plugin-headlamp-backend"
+  description: Backend plugin that starts and manages a Headlamp server instance using the configured Kubernetes context.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugin
+  annotations:
+    github.com/project-slug: headlamp-k8s/backstage-plugin
+    backstage.io/source-location: url:https://github.com/headlamp-k8s/backstage-plugin/tree/HEAD/headlamp-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.0-beta-5
+  links:
+    - url: https://github.com/headlamp-k8s/backstage-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: headlamp-k8s

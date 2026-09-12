@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-quay-backend
+  title: "@backstage-community/plugin-quay-backend"
+  description: Backend plugin that queries the Quay.io API, supporting permission settings and OAuth2 authentication.
+  tags:
+    - backend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/quay/plugins/quay-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 1.18.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: backstage

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-grpc-playground
+  title: backstage-grpc-playground
+  description: A frontend plugin for Backstage supporting gRPC playground
+  tags:
+    - frontend-plugin
+    - repo-backstage-grpc-playground
+  annotations:
+    github.com/project-slug: zalopay-oss/backstage-grpc-playground
+    backstage.io/source-location: url:https://github.com/zalopay-oss/backstage-grpc-playground/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.3.0
+  links:
+    - url: https://github.com/zalopay-oss/backstage-grpc-playground
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: zalopay-oss

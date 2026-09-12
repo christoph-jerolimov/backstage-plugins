@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: globallogicuki-backstage-plugin-skills-marketplace-backend
+  title: "@globallogicuki/backstage-plugin-skills-marketplace-backend"
+  description: "Backend for the Skills Marketplace plugin: reads Claude Code marketplace repos via Backstage integrations, including private repos."
+  tags:
+    - backend-plugin
+    - repo-globallogic-backstage-plugins
+  annotations:
+    github.com/project-slug: globallogicuki/globallogic-backstage-plugins
+    backstage.io/source-location: url:https://github.com/globallogicuki/globallogic-backstage-plugins/tree/HEAD/plugins/skills-marketplace-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.2.0
+  links:
+    - url: https://github.com/globallogicuki/globallogic-backstage-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://github.com/globallogicuki/globallogic-backstage-plugins/tree/main/plugins/skills-marketplace-backend
+      title: Homepage
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: globallogicuki

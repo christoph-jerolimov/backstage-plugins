@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: philips-software-backstage-plugin-search-confluence-frontend
+  title: "@philips-software/backstage-plugin-search-confluence-frontend"
+  description: Frontend plugin that adds Confluence documents as a searchable result type in Backstage search.
+  tags:
+    - frontend-plugin
+    - repo-philips-backstage-plugins
+  annotations:
+    github.com/project-slug: philips-software/philips-backstage-plugins
+    backstage.io/source-location: url:https://github.com/philips-software/philips-backstage-plugins/tree/HEAD/workspaces/confluence/plugins/search-confluence-frontend
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 2.5.0
+  links:
+    - url: https://github.com/philips-software/philips-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: philips-software

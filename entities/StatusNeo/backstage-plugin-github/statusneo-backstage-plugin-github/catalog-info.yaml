@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: statusneo-backstage-plugin-github
+  title: "@statusneo/backstage-plugin-github"
+  description: Frontend plugin that adds GitHub pull request and GitHub Actions cards to Backstage entity pages.
+  tags:
+    - frontend-plugin
+    - repo-backstage-plugin-github
+  annotations:
+    github.com/project-slug: StatusNeo/backstage-plugin-github
+    backstage.io/source-location: url:https://github.com/StatusNeo/backstage-plugin-github/tree/HEAD
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.2.6
+  links:
+    - url: https://github.com/StatusNeo/backstage-plugin-github
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: statusneo

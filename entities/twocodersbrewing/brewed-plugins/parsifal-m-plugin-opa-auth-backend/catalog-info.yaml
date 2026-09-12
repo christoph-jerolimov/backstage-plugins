@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parsifal-m-plugin-opa-auth-backend
+  title: "@parsifal-m/plugin-opa-auth-backend"
+  description: Backend plugin scaffolded via the Backstage CLI for integrating Open Policy Agent authorization with Backstage.
+  tags:
+    - backend-plugin
+    - repo-brewed-plugins
+  annotations:
+    github.com/project-slug: twocodersbrewing/brewed-plugins
+    backstage.io/source-location: url:https://github.com/twocodersbrewing/brewed-plugins/tree/HEAD/plugins/opa-auth-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.0.1
+  links:
+    - url: https://github.com/twocodersbrewing/brewed-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: twocodersbrewing

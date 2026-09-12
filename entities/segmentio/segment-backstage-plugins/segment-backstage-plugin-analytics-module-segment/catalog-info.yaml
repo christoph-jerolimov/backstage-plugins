@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: segment-backstage-plugin-analytics-module-segment
+  title: "@segment/backstage-plugin-analytics-module-segment"
+  description: Backstage analytics module plugin for Segment
+  tags:
+    - frontend-plugin-module
+    - repo-segment-backstage-plugins
+  annotations:
+    github.com/project-slug: segmentio/segment-backstage-plugins
+    backstage.io/source-location: url:https://github.com/segmentio/segment-backstage-plugins/tree/HEAD/plugins/analytics-module-segment
+    backstage-plugins.io/role: frontend-plugin-module
+    backstage-plugins.io/package-version: 0.5.0
+  links:
+    - url: https://github.com/segmentio/segment-backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin-module
+  lifecycle: unknown
+  owner: segmentio

@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-dynatrace
+  title: "@backstage-community/plugin-dynatrace"
+  description: Frontend plugin showing Dynatrace problems and entity monitoring data via the Backstage proxy.
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/dynatrace/plugins/dynatrace
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 10.23.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

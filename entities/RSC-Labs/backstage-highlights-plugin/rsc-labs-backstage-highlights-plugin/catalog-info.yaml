@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rsc-labs-backstage-highlights-plugin
+  title: "@rsc-labs/backstage-highlights-plugin"
+  description: Frontend plugin showing a configurable summary bar of key information pulled from multiple sources on an entity page.
+  tags:
+    - frontend-plugin
+    - repo-backstage-highlights-plugin
+  annotations:
+    github.com/project-slug: RSC-Labs/backstage-highlights-plugin
+    backstage.io/source-location: url:https://github.com/RSC-Labs/backstage-highlights-plugin/tree/HEAD/plugins/backstage-highlights-plugin
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.3.0
+  links:
+    - url: https://github.com/RSC-Labs/backstage-highlights-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: rsc-labs

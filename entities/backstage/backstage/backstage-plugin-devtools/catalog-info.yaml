@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-devtools
+  title: "@backstage/plugin-devtools"
+  description: Frontend plugin showing Backstage instance info, configuration, and scheduled tasks for troubleshooting and review.
+  tags:
+    - frontend-plugin
+    - repo-backstage
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/HEAD/plugins/devtools
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.1.43-next.2
+  links:
+    - url: https://github.com/backstage/backstage
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

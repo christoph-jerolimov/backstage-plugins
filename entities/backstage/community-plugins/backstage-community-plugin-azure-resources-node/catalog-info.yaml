@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-azure-resources-node
+  title: "@backstage-community/plugin-azure-resources-node"
+  description: Node.js library for the azure-resources plugin
+  tags:
+    - node-library
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/azure-resources/plugins/azure-resources-node
+    backstage-plugins.io/role: node-library
+    backstage-plugins.io/package-version: 0.14.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: node-library
+  lifecycle: unknown
+  owner: backstage

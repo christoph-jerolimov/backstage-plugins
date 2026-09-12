@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-search-backend-module-confluence-col
+  title: "@backstage-community/plugin-search-backend-module-confluence-collator"
+  description: The confluence-collator backend module for the search plugin.
+  tags:
+    - backend-plugin-module
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/confluence/plugins/search-backend-module-confluence-collator
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 0.17.2
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+    - url: https://backstage.io
+      title: Homepage
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: backstage

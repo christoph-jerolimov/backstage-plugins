@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parsifal-m-plugin-permission-backend-module-opa-wrapper
+  title: "@parsifal-m/plugin-permission-backend-module-opa-wrapper"
+  description: A Backstage backend module that integrates Open Policy Agent (OPA) with the Backstage Permission Framework for policy-based authorization.
+  tags:
+    - backend-plugin-module
+    - repo-backstage-opa-plugins
+  annotations:
+    github.com/project-slug: Parsifal-M/backstage-opa-plugins
+    backstage.io/source-location: url:https://github.com/Parsifal-M/backstage-opa-plugins/tree/HEAD/plugins/permission-backend-module-opa-wrapper
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 2.0.3
+  links:
+    - url: https://github.com/Parsifal-M/backstage-opa-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: parsifal-m

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: postman-solutions-postman-backstage-backend-plugin
+  title: "@postman-solutions/postman-backstage-backend-plugin"
+  description: Backend plugin providing endpoints and an entity provider for Postman API metadata, collections, monitors, tags, users, and workspaces.
+  tags:
+    - backend-plugin
+    - repo-backstage-postman-plugin
+  annotations:
+    github.com/project-slug: postman-solutions-eng/backstage-postman-plugin
+    backstage.io/source-location: url:https://github.com/postman-solutions-eng/backstage-postman-plugin/tree/HEAD/packages/postman-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 1.1.0
+  links:
+    - url: https://github.com/postman-solutions-eng/backstage-postman-plugin
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: postman-solutions-eng

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-tech-insights-maturity
+  title: "@backstage-community/plugin-tech-insights-maturity"
+  description: Frontend plugin that ranks components into maturity levels (Stone/Bronze/Silver/Gold) based on Tech Insights checks.
+  tags:
+    - frontend-plugin
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/tech-insights/plugins/tech-insights-maturity
+    backstage-plugins.io/role: frontend-plugin
+    backstage-plugins.io/package-version: 0.10.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: frontend-plugin
+  lifecycle: unknown
+  owner: backstage

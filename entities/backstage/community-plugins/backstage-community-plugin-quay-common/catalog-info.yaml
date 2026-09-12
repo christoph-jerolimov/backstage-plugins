@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-community-plugin-quay-common
+  title: "@backstage-community/plugin-quay-common"
+  description: Common library of shared utilities used by the Quay frontend and backend plugins.
+  tags:
+    - common-library
+    - repo-community-plugins
+  annotations:
+    github.com/project-slug: backstage/community-plugins
+    backstage.io/source-location: url:https://github.com/backstage/community-plugins/tree/HEAD/workspaces/quay/plugins/quay-common
+    backstage-plugins.io/role: common-library
+    backstage-plugins.io/package-version: 1.23.0
+  links:
+    - url: https://github.com/backstage/community-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: common-library
+  lifecycle: unknown
+  owner: backstage

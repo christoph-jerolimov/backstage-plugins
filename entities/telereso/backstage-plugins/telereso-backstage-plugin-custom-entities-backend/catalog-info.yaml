@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: telereso-backstage-plugin-custom-entities-backend
+  title: "@telereso/backstage-plugin-custom-entities-backend"
+  description: Backend plugin that stores custom catalog entities and serves them to the catalog via local or Google Cloud Storage providers.
+  tags:
+    - backend-plugin
+    - repo-backstage-plugins
+  annotations:
+    github.com/project-slug: telereso/backstage-plugins
+    backstage.io/source-location: url:https://github.com/telereso/backstage-plugins/tree/HEAD/plugins/custom-entities-backend
+    backstage-plugins.io/role: backend-plugin
+    backstage-plugins.io/package-version: 0.1.0
+  links:
+    - url: https://github.com/telereso/backstage-plugins
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin
+  lifecycle: unknown
+  owner: telereso

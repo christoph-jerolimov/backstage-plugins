@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: infosys_ltd-backstage-plugin-permission-backend-module-openfga
+  title: "@infosys_ltd/backstage-plugin-permission-backend-module-openfga-policy"
+  description: The openfga-policy backend module for the permission plugin.
+  tags:
+    - backend-plugin-module
+    - repo-openfga-plugin-backstage
+  annotations:
+    github.com/project-slug: Infosys/openfga-plugin-backstage
+    backstage.io/source-location: url:https://github.com/Infosys/openfga-plugin-backstage/tree/HEAD/plugins/permission-backend-module-openfga-policy
+    backstage-plugins.io/role: backend-plugin-module
+    backstage-plugins.io/package-version: 1.1.3
+  links:
+    - url: https://github.com/Infosys/openfga-plugin-backstage
+      title: GitHub repository
+      icon: github
+spec:
+  type: backend-plugin-module
+  lifecycle: unknown
+  owner: infosys
