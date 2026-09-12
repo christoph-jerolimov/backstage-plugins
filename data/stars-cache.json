@@ -1141,5 +1141,13 @@
     "pushedAt": null,
     "fetchedAt": "2026-09-11T15:53:10.066Z",
     "source": "webfetch-bootstrap"
+  },
+  "jessebye/backstage-plugin-buildkite-metrics": {
+    "stars": 3,
+    "forks": 0,
+    "openIssues": 0,
+    "archived": false,
+    "pushedAt": "2021-03-19T18:36:14Z",
+    "fetchedAt": "2026-09-12T18:38:44.674Z"
   }
 }

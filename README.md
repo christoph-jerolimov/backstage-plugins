@@ -83,7 +83,7 @@ clones every source repository, so it isn't wired into the three scripts above.
 ## All cataloged plugins
 
 <!-- PLUGIN_TABLE_START -->
-_1080 packages across 134 repositories. Generated 2026-09-11 by `scripts/generate-csv.mjs` / `scripts/update-readme.mjs` from [`data/entities.json`](data/entities.json). 420 entries have a GitHub star count (see `scripts/fetch-stats.mjs` — by design it only fetches stats for repos contributing 30 or fewer cataloged plugins). The full machine-readable table is [`data/plugins.csv`](data/plugins.csv)._
+_1080 packages across 134 repositories. Generated 2026-09-12 by `scripts/generate-csv.mjs` / `scripts/update-readme.mjs` from [`data/entities.json`](data/entities.json). 421 entries have a GitHub star count (see `scripts/fetch-stats.mjs` — by design it only fetches stats for repos contributing 30 or fewer cataloged plugins). The full machine-readable table is [`data/plugins.csv`](data/plugins.csv)._
 
 | Name | Description | Role | Repository | Stars |
 |---|---|---|---|---|
@@ -654,7 +654,7 @@ _1080 packages across 134 repositories. Generated 2026-09-11 by `scripts/generat
 | @infosys_ltd/backstage-plugin-openfga-common | Common functionalities for the openfga plugin | `common-library` | [Infosys/openfga-plugin-backstage](https://github.com/Infosys/openfga-plugin-backstage) | 3 |
 | @infosys_ltd/backstage-plugin-permission-backend-module-openfga-policy | The openfga-policy backend module for the permission plugin. | `backend-plugin-module` | [Infosys/openfga-plugin-backstage](https://github.com/Infosys/openfga-plugin-backstage) | 3 |
 | @infosys_ltd/openfga-plugin-backstage | This plugin wraps around the Backstage Permission Framework and uses the OPENFGA client to evaluate policies. | `frontend-plugin` | [Infosys/openfga-plugin-backstage](https://github.com/Infosys/openfga-plugin-backstage) | 3 |
-| plugin-buildkite-metrics | Frontend plugin that adds a card displaying Buildkite pipeline metrics to a Backstage entity page. | `frontend-plugin` | [jessebye/backstage-plugin-buildkite-metrics](https://github.com/jessebye/backstage-plugin-buildkite-metrics) |  |
+| plugin-buildkite-metrics | Frontend plugin that adds a card displaying Buildkite pipeline metrics to a Backstage entity page. | `frontend-plugin` | [jessebye/backstage-plugin-buildkite-metrics](https://github.com/jessebye/backstage-plugin-buildkite-metrics) | 3 |
 | @jfvilas/plugin-kubelog | Frontend plugin for viewing Kubernetes logs in Backstage | `frontend-plugin` | [jfvilas/kubelog](https://github.com/jfvilas/kubelog) | 7 |
 | @internal/plugin-scaffolder-terraform-backend | Backend scaffolder module adding a custom action to create Terraform Cloud/Enterprise workspaces from Backstage templates. | `backend-plugin` | [joatmon08/backstage-plugin-terraform](https://github.com/joatmon08/backstage-plugin-terraform) | 17 |
 | @internal/plugin-scaffolder-vault-backend | Backend scaffolder module adding custom actions to authenticate with HashiCorp Vault and fetch Terraform tokens from Backstage templates. | `backend-plugin` | [joatmon08/backstage-plugin-terraform](https://github.com/joatmon08/backstage-plugin-terraform) | 17 |
