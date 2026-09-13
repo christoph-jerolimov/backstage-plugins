@@ -83,7 +83,7 @@ clones every source repository, so it isn't wired into the three scripts above.
 ## All cataloged plugins
 
 <!-- PLUGIN_TABLE_START -->
-_1080 packages across 134 repositories. Generated 2026-09-12 by `scripts/generate-csv.mjs` / `scripts/update-readme.mjs` from [`data/entities.json`](data/entities.json). 421 entries have a GitHub star count (see `scripts/fetch-stats.mjs` — by design it only fetches stats for repos contributing 30 or fewer cataloged plugins). The full machine-readable table is [`data/plugins.csv`](data/plugins.csv)._
+_1080 packages across 134 repositories. Generated 2026-09-13 by `scripts/generate-csv.mjs` / `scripts/update-readme.mjs` from [`data/entities.json`](data/entities.json). 421 entries have a GitHub star count (see `scripts/fetch-stats.mjs` — by design it only fetches stats for repos contributing 30 or fewer cataloged plugins). The full machine-readable table is [`data/plugins.csv`](data/plugins.csv)._
 
 | Name | Description | Role | Repository | Stars |
 |---|---|---|---|---|
